@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function About() {
   return (
@@ -54,9 +55,11 @@ export default function About() {
           Cycle Accounting and Reporting Standard“ verifiziert.
         </p>
         <div className="flex justify-center mt-8">
-          <button className="hover:shadow-md hover:shadow-gray-400 transition-all bg-primary px-6 py-2 text-white rounded-full">
-            Jetzt starten
-          </button>
+          <Link to="/register">
+            <button className="hover:shadow-md hover:shadow-gray-400 transition-all bg-primary px-6 py-2 text-white rounded-full">
+              Jetzt starten
+            </button>
+          </Link>
         </div>
       </div>
     </div>

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function SaleProcess() {
   return (
@@ -57,9 +58,11 @@ export default function SaleProcess() {
             </div>
           </div>
           <div className="flex justify-center mt-10">
-            <button className="hover:shadow-md hover:shadow-gray-400 transition-all bg-primary px-6 py-2 text-white rounded-full">
-              Jetzt starten
-            </button>
+            <Link to="/register">
+              <button className="hover:shadow-md hover:shadow-gray-400 transition-all bg-primary px-6 py-2 text-white rounded-full">
+                Jetzt starten
+              </button>
+            </Link>
           </div>
         </div>
       </div>

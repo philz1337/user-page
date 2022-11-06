@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function Banner() {
   return (
     <div className="w-full flex flex-col items-center justify-center lg:mt-20">
@@ -22,10 +24,14 @@ export default function Banner() {
         </div>
       </div>
       <div className="w-10/12 lg:w-9/12 flex items-center">
-        <button className="bg-primary hover:shadow-md hover:shadow-gray-400 transition-all w-40 px-4 text-sm py-2 text-white rounded-full">
-          Jetzt verkaufen
-        </button>
-        <p className="text-xs lg:text-sm ml-3">Über 6.000 zufriedene <br /> Kunden  die uns weiterempfehlen</p>
+        <Link to="/register">
+          <button className="hover:shadow-md w-44 hover:shadow-gray-400 transition-all bg-primary text-center py-2 text-white rounded-full">
+            Jetzt verkaufen
+          </button>
+        </Link>
+        <p className="text-xs lg:text-sm ml-3">
+          Über 6.000 zufriedene <br /> Kunden die uns weiterempfehlen
+        </p>
       </div>
     </div>
   );
