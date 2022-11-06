@@ -64,6 +64,8 @@ export default function Register() {
           </button>
         </div>
       </div>
+      <br />
+      <br />
       <Footer/>
     </div>
   );
