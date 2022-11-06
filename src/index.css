@@ -7,3 +7,9 @@
 * {
     font-family: 'Poppins', sans-serif;
 }
+
+@layer{
+    .navOption{
+        @apply p-3 px-4 hover:bg-gray-100 w-full rounded-md cursor-pointer
+    }
+}

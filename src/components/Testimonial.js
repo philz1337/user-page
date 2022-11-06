@@ -1,5 +1,6 @@
+import { CheckBadgeIcon } from "@heroicons/react/20/solid";
 import React from "react";
-import { FaCheckCircle, FaStar } from "react-icons/fa";
+import { FaStar } from "react-icons/fa";
 
 export default function Testimonial() {
   return (
@@ -11,9 +12,12 @@ export default function Testimonial() {
         <div className="grid lg:grid-cols-2 gap-4 mt-8 lg:gap-10 w-full">
           <div>
             <div className="p-5 rounded-2xl bg-white">
-              <div className="flex items-center">
-                <Stars />
-                <FaCheckCircle className="text-sky-500 ml-3" />
+              <div className="flex w-full items-center justify-between">
+                <div className="flex items-center">
+                  <Stars />
+                  <CheckBadgeIcon className="text-sky-500 h-5 w-5 ml-3" />
+                </div>
+                <img src="/img/googleIcon.png" className="w-4" alt="" />
               </div>
               <p className="text-sm mt-3">
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit.
@@ -34,9 +38,12 @@ export default function Testimonial() {
           </div>
           <div>
             <div className="p-5 rounded-2xl bg-white">
-              <div className="flex items-center">
-                <Stars />
-                <FaCheckCircle className="text-sky-500 ml-3" />
+              <div className="flex w-full items-center justify-between">
+                <div className="flex items-center">
+                  <Stars />
+                  <CheckBadgeIcon className="text-sky-500 h-5 w-5 ml-3" />
+                </div>
+                <img src="/img/googleIcon.png" className="w-4" alt="" />
               </div>
               <p className="text-sm mt-3">
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit.
@@ -63,12 +70,12 @@ export default function Testimonial() {
 
 function Stars() {
   return (
-    <div className="flex space-x-1">
-      <FaStar className="text-yellow-500" />
-      <FaStar className="text-yellow-500" />
-      <FaStar className="text-yellow-500" />
-      <FaStar className="text-yellow-500" />
-      <FaStar className="text-yellow-500" />
+    <div className="flex space-x-1 text-[#e46f06]">
+      <FaStar />
+      <FaStar />
+      <FaStar />
+      <FaStar />
+      <FaStar />
     </div>
   );
 }

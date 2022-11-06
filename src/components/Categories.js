@@ -3,7 +3,7 @@ import React from "react";
 export default function Categories() {
   return (
     <div className="w-full flex items-center justify-center mt-16">
-      <div className="lg:w-9/12 w-full bg-secondary p-12 grid grid-cols-2 lg:grid-cols-3 gap-10">
+      <div className="lg:w-9/12 w-full bg-secondary p-8 grid grid-cols-2 lg:grid-cols-3 gap-8">
         <div>
           <div className="flex items-center font-medium text-lg">
             <img src="/img/Arhive.png" className="lg:h-10 h-9 mr-2" alt="" />

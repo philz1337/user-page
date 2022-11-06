@@ -3,6 +3,7 @@ import About from "../components/About";
 import Banner from "../components/Banner";
 import Categories from "../components/Categories";
 import Conditions from "../components/Conditions";
+import FAQs from "../components/FAQs";
 import Footer from "../components/Footer";
 import Nav from "../components/Nav";
 import SaleProcess from "../components/SaleProcess";
@@ -19,6 +20,7 @@ export default function Home() {
       <WhatWeBuy/>
       <About/>
       <Testimonial/>
+      <FAQs/>
       <Conditions/>
       <Footer/>
     </div>

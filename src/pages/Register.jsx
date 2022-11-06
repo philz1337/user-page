@@ -12,7 +12,7 @@ export default function Register() {
         <h1 className="text-xl font-semibold">Dein erster Artikel</h1>
         <p className="mt-4 text-sm font-medium text-gray-600">Foto hochladen</p>
         <input
-          type="text"
+          type="file"
           placeholder="File"
           className="w-full p-3 bg-gray-100 outline-none mt-1 rounded-md"
         />

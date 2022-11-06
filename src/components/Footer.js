@@ -2,11 +2,12 @@ import React from "react";
 
 export default function Footer() {
   return (
-    <div className="w-full flex items-center justify-center p-10 lg:p-16 mt-20 bg-gray-900 text-white">
-      <div className="lg:w-9/12 w-full grid lg:grid-cols-4">
+    <div className="w-full flex items-center justify-center p-10 lg:p-16 bg-gray-900 text-white">
+      <div className="lg:w-9/12 w-full grid grid-cols-2 lg:grid-cols-4">
         <div>
           <h1 className="font-semibold text-2xl lg:text-3xl text-green-500  ">okasi.</h1>
         </div>
+        <div className="lg:hidden"></div>
         <div className="space-y-2 lg:mt-0 mt-7">
           <p className="cursor-pointer hover:text-green-500">Startseite</p>
           <p className="cursor-pointer hover:text-green-500">Ablauf</p>
@@ -14,7 +15,7 @@ export default function Footer() {
           <p className="cursor-pointer hover:text-green-500">Bedingungen</p>
           <p className="cursor-pointer hover:text-green-500">Über Uns</p>
         </div>
-        <div className="space-y-2">
+        <div className="space-y-2 mt-7 lg:mt-0">
           <p className="cursor-pointer hover:text-green-500">Datenschutz</p>
           <p className="cursor-pointer hover:text-green-500">Impressum</p>
           <p className="cursor-pointer hover:text-green-500">AGB</p>

@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 export default function SaleProcess() {
   return (
-    <div className="w-full flex items-center justify-center mt-16">
+    <div id="saleProcess" className="w-full flex items-center justify-center mt-16">
       <div className="lg:w-9/12 w-10/12 flex flex-col items-center">
         <h1 className="text-2xl lg:text-3xl font-medium text-center">
           So läuft der Verkauf ab
@@ -17,9 +17,9 @@ export default function SaleProcess() {
               </p>
             </div>
             <div className="flex justify-end">
-              <img
+            <img
                 src="/img/CameraIcon.png"
-                className="ml-3 mt-3 h-24 w-24"
+                className="ml-3 mt-6 h-32 w-32"
                 alt=""
               />
             </div>
@@ -35,7 +35,7 @@ export default function SaleProcess() {
             <div className="flex justify-end">
               <img
                 src="/img/BoxIcon.png"
-                className="ml-3 mt-3 h-24 w-24"
+                className="ml-3 mt-6 h-32 w-32"
                 alt=""
               />
             </div>
@@ -52,7 +52,7 @@ export default function SaleProcess() {
             <div className="flex justify-end">
               <img
                 src="/img/CardIcon.png"
-                className="ml-3 mt-3 h-24 w-24"
+                className="ml-3 mt-6 h-32 w-32"
                 alt=""
               />
             </div>

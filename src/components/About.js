@@ -31,9 +31,11 @@ export default function About() {
               Der Ausgleich ist nach dem „Greenhouse Gas Protocol – Product Life
               Cycle Accounting and Reporting Standard“ verifiziert.
             </p>
-            <button className="hover:shadow-md hover:shadow-gray-400 transition-all bg-primary px-6 py-2 text-white rounded-full mt-7">
-              Jetzt starten
-            </button>
+            <Link to="/register">
+              <button className="hover:shadow-md hover:shadow-gray-400 transition-all bg-primary px-6 py-2 text-white rounded-full mt-7">
+                Jetzt starten
+              </button>
+            </Link>
           </div>
         </div>
         <div>
