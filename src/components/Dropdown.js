@@ -6,10 +6,18 @@ import { Link, scroller } from "react-scroll";
 
 export default function Dropdown() {
   const navigate = useNavigate();
-  const onScrollTeam = () => {
+  const onScrollBuy = () => {
     navigate("/");
     setTimeout(() => {
-      scroller.scrollTo("team", {
+      scroller.scrollTo("whatWeBuy", {
+        smooth: "easeInOutQuint",
+      });
+    }, 10);
+  };
+  const onScrollProcess = () => {
+    navigate("/");
+    setTimeout(() => {
+      scroller.scrollTo("saleProcess", {
         smooth: "easeInOutQuint",
       });
     }, 10);
@@ -37,14 +45,11 @@ export default function Dropdown() {
             <NavLink to="/" className="navOption" href="#">
               Home
             </NavLink>
-            <Link to="saleProcess" smooth className="navOption">
+            <Link onClick={onScrollProcess} smooth className="navOption">
               Ablaiuf
             </Link>
-            <Link to="team" smooth className="navOption">
+            <Link onClick={onScrollBuy} smooth className="navOption">
               Was wir ankaufen
-            </Link>
-            <Link onClick={onScrollTeam} smooth className="navOption">
-              Team
             </Link>
             <NavLink to="/register" className="navOption" href="#">
               Register

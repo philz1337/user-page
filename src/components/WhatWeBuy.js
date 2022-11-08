@@ -2,7 +2,7 @@ import React from "react";
 
 export default function WhatWeBuy() {
   return (
-    <div id="team" className="w-full flex items-center justify-center mt-20">
+    <div id="whatWeBuy" className="w-full flex items-center justify-center mt-20">
       <div className="lg:w-9/12 w-full p-10 lg:p-16 bg-secondary">
         <h1 className="text-center font-semibold text-2xl lg:text-3xl">
           Was wir ankaufen
