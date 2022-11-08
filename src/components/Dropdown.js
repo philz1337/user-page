@@ -1,10 +1,20 @@
 import { Fragment } from "react";
 import { Menu, Transition } from "@headlessui/react";
-import { NavLink } from "react-router-dom";
+import { NavLink, useNavigate } from "react-router-dom";
 import { Bars3Icon } from "@heroicons/react/20/solid";
-import { Link } from "react-scroll";
+import { Link, scroller } from "react-scroll";
 
 export default function Dropdown() {
+  const navigate = useNavigate();
+  const onScrollTeam = () => {
+    navigate("/");
+    setTimeout(() => {
+      scroller.scrollTo("team", {
+        smooth: "easeInOutQuint",
+      });
+    }, 10);
+  };
+
   return (
     <Menu as="div" className="relative inline-block text-left">
       <div className="flex items-center justify-center">
@@ -24,10 +34,21 @@ export default function Dropdown() {
       >
         <Menu.Items className="absolute right-0 z-50 mt-2 origin-top-right rounded-md shadow-xl shadow-gray-300 bg-white">
           <div className="p-3 flex flex-col items-center h-full w-60 z-50 bg-white">
-            <NavLink to="/" className="navOption" href="#">Home</NavLink>
-            <Link to="saleProcess" smooth className="navOption">Ablaiuf</Link>
-            <Link to="whatWeBuy" smooth className="navOption">Was wir ankaufen</Link>
-            <NavLink to="/register" className="navOption" href="#">Register</NavLink>
+            <NavLink to="/" className="navOption" href="#">
+              Home
+            </NavLink>
+            <Link to="saleProcess" smooth className="navOption">
+              Ablaiuf
+            </Link>
+            <Link to="team" smooth className="navOption">
+              Was wir ankaufen
+            </Link>
+            <Link onClick={onScrollTeam} smooth className="navOption">
+              Team
+            </Link>
+            <NavLink to="/register" className="navOption" href="#">
+              Register
+            </NavLink>
           </div>
         </Menu.Items>
       </Transition>
