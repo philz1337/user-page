@@ -3,7 +3,7 @@ import Dropdown from "./Dropdown";
 
 export default function Nav() {
   return (
-    <div className="py-7 lg:p-4 w-full flex justify-center bg-white sticky top-0 left-0">
+    <div className="py-7 lg:p-4 w-full flex justify-center bg-white sticky top-0 left-0 z-50">
       <div className="grid grid-cols-2 w-10/12 lg:w-9/12">
         <div className="flex items-center">
           <Link to="/">
