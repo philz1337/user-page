@@ -1,7 +1,16 @@
-import Footer from "../components/Footer";
-import Nav from "../components/Nav";
+import Footer from "../components/Footer"
+import Nav from "../components/Nav"
+
+import React, { useState, useRef } from "react"
 
 export default function Register() {
+  const [file, setFile] = useState([])
+  const inputFile = useRef(null)
+
+  const handleChange = (e) => {
+    setFile([...file, e.target.files[0]])
+  }
+
   return (
     <div className="flex flex-col items-center">
       <Nav />
@@ -11,11 +20,19 @@ export default function Register() {
       <div className="lg:w-4/12 lg:border p-10 rounded-2xl">
         <h1 className="text-xl font-semibold">Dein erster Artikel</h1>
         <p className="mt-4 text-sm font-medium text-gray-600">Foto hochladen</p>
+        <button
+          onClick={() => inputFile.current.click()}
+          className="hover:shadow-md hover:shadow-gray-400 transition-all bg-primary py-30 rounded-full text-white mr-10"
+        >
+          <img src="/img/picture.png" className="h-20 w-20" alt="" />
+        </button>
         <input
           type="file"
-          placeholder="File"
-          className="w-full p-3 bg-gray-100 outline-none mt-1 rounded-md"
+          onChange={handleChange}
+          ref={inputFile}
+          style={{ display: "none" }}
         />
+
         <p className="mt-4 text-sm font-medium text-gray-600">Marke</p>
         <input
           type="text"
@@ -66,7 +83,7 @@ export default function Register() {
       </div>
       <br />
       <br />
-      <Footer/>
+      <Footer />
     </div>
-  );
+  )
 }

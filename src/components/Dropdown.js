@@ -1,27 +1,27 @@
-import { Fragment } from "react";
-import { Menu, Transition } from "@headlessui/react";
-import { NavLink, useNavigate } from "react-router-dom";
-import { Bars3Icon } from "@heroicons/react/20/solid";
-import { Link, scroller } from "react-scroll";
+import { Fragment } from "react"
+import { Menu, Transition } from "@headlessui/react"
+import { NavLink, useNavigate } from "react-router-dom"
+import { Bars3Icon } from "@heroicons/react/20/solid"
+import { Link, scroller } from "react-scroll"
 
 export default function Dropdown() {
-  const navigate = useNavigate();
+  const navigate = useNavigate()
   const onScrollBuy = () => {
-    navigate("/");
+    navigate("/")
     setTimeout(() => {
       scroller.scrollTo("whatWeBuy", {
         smooth: "easeInOutQuint",
-      });
-    }, 10);
-  };
+      })
+    }, 10)
+  }
   const onScrollProcess = () => {
-    navigate("/");
+    navigate("/")
     setTimeout(() => {
       scroller.scrollTo("saleProcess", {
         smooth: "easeInOutQuint",
-      });
-    }, 10);
-  };
+      })
+    }, 10)
+  }
 
   return (
     <Menu as="div" className="relative inline-block text-left">
@@ -43,20 +43,20 @@ export default function Dropdown() {
         <Menu.Items className="absolute right-0 z-50 mt-2 origin-top-right rounded-md shadow-xl shadow-gray-300 bg-white">
           <div className="p-3 flex flex-col items-center h-full w-60 z-50 bg-white">
             <NavLink to="/" className="navOption" href="#">
-              Home
+              Startseite
             </NavLink>
             <Link onClick={onScrollProcess} smooth className="navOption">
-              Ablaiuf
+              Ablauf
             </Link>
             <Link onClick={onScrollBuy} smooth className="navOption">
-              Was wir ankaufen
+              Kategorien
             </Link>
             <NavLink to="/register" className="navOption" href="#">
-              Register
+              Verkaufen
             </NavLink>
           </div>
         </Menu.Items>
       </Transition>
     </Menu>
-  );
+  )
 }

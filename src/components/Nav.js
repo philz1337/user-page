@@ -1,5 +1,5 @@
-import { Link } from "react-router-dom";
-import Dropdown from "./Dropdown";
+import { Link } from "react-router-dom"
+import Dropdown from "./Dropdown"
 
 export default function Nav() {
   return (
@@ -7,7 +7,7 @@ export default function Nav() {
       <div className="grid grid-cols-2 w-10/12 lg:w-9/12">
         <div className="flex items-center">
           <Link to="/">
-            <h1 className="text-3xl font-bold text-green-600">
+            <h1 className="text-3xl font-medium text-green-600">
               okasi<span className="text-black">.</span>
             </h1>
           </Link>
@@ -22,5 +22,5 @@ export default function Nav() {
         </div>
       </div>
     </div>
-  );
+  )
 }
