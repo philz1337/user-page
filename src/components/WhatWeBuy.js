@@ -1,8 +1,11 @@
-import React from "react";
+import React from "react"
 
 export default function WhatWeBuy() {
   return (
-    <div id="whatWeBuy" className="w-full flex items-center justify-center mt-20">
+    <div
+      id="whatWeBuy"
+      className="w-full flex items-center justify-center mt-20"
+    >
       <div className="lg:w-9/12 w-full p-10 lg:p-16 bg-secondary">
         <h1 className="text-center font-semibold text-2xl lg:text-3xl">
           Was wir ankaufen
@@ -11,7 +14,7 @@ export default function WhatWeBuy() {
           <Item
             title="Kleidung"
             img="/img/siiapb-1 1.png"
-            des="Hemden, Pullover, T-Shirts, Blusen, Jacken etc."
+            des="Hemden, Pullover, T-Shirts, Blusen, Jacken, Schuhe, Stiefel etc."
           />
           <Item
             title="Technik"
@@ -41,7 +44,7 @@ export default function WhatWeBuy() {
         </div>
       </div>
     </div>
-  );
+  )
 }
 
 function Item({ title, img, des }) {
@@ -51,5 +54,5 @@ function Item({ title, img, des }) {
       <img src={img} className="rounded-2xl my-2" alt="" />
       <p className="mt-2 text-sm font-medium">{des}</p>
     </div>
-  );
+  )
 }

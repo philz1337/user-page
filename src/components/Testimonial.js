@@ -1,6 +1,6 @@
-import { CheckBadgeIcon } from "@heroicons/react/20/solid";
-import React from "react";
-import { FaStar } from "react-icons/fa";
+import { CheckBadgeIcon } from "@heroicons/react/20/solid"
+import React from "react"
+import { FaStar } from "react-icons/fa"
 
 export default function Testimonial() {
   return (
@@ -20,19 +20,18 @@ export default function Testimonial() {
                 <img src="/img/googleIcon.png" className="w-4" alt="" />
               </div>
               <p className="text-sm mt-3">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Laborum ullam quia consequuntur? Minima qui neque expedita at
-                error ab facilis nihil nostrum accusantium nulla distinctio
-                dolorem, totam voluptas dolore obcaecati!{" "}
+                Okasi ist sehr fair macht super Angebote ist ein tolles
+                Unternehmen. Habe schon viele Sachen verkauft und war immer
+                positiv überrascht. Ist schnell und unkompliziert. Super Arbeit{" "}
               </p>
             </div>
             <div className="mt-4 flex items-center">
-              <img src="/img/Ellipse 119.png" className="h-12" alt="" />
+              <img src="/img/Yvonne.png" className="h-12" alt="" />
               <div className="ml-3">
                 <p className="font-semibold text-sm text-[#427FED]">
-                  John Doye
+                  Yvonne Bystri
                 </p>
-                <p className="text-xs text-gray-500">5 months ago</p>
+                <p className="text-xs text-gray-500">vor 2 Wochen</p>
               </div>
             </div>
           </div>
@@ -46,26 +45,24 @@ export default function Testimonial() {
                 <img src="/img/googleIcon.png" className="w-4" alt="" />
               </div>
               <p className="text-sm mt-3">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Laborum ullam quia consequuntur? Minima qui neque expedita at
-                error ab facilis nihil nostrum accusantium nulla distinctio
-                dolorem, totam voluptas dolore obcaecati!{" "}
+                Selbsterklärende Vorgehensweise, schnelle Antwortzeit,
+                unkomplizierter Prozess{" "}
               </p>
             </div>
             <div className="mt-4 flex items-center">
-              <img src="/img/Ellipse 120.png" className="h-12" alt="" />
+              <img src="/img/Klaus.png" className="h-12" alt="" />
               <div className="ml-3">
                 <p className="font-semibold text-sm text-[#427FED]">
-                  John Doye
+                  Klaus Scholten
                 </p>
-                <p className="text-xs text-gray-500">5 months ago</p>
+                <p className="text-xs text-gray-500">vor 3 Wochen</p>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-  );
+  )
 }
 
 function Stars() {
@@ -77,5 +74,5 @@ function Stars() {
       <FaStar />
       <FaStar />
     </div>
-  );
+  )
 }
