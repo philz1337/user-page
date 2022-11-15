@@ -1,3 +1,6 @@
 export { default as Home } from "./Home"
 export { default as Verkaufen } from "./Verkaufen"
 export { default as Datenschutz } from "./Datenschutz"
+export { default as Impressum } from "./Impressum"
+export { default as AGB } from "./AGB"
+export { default as Kontakt } from "./Kontakt"

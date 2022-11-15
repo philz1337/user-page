@@ -68,6 +68,15 @@ export default function Footer() {
           </p>
           <p>
             <NavLink
+              to="/kontakt"
+              className="cursor-pointer hover:text-green-500"
+              href="#"
+            >
+              Kontakt
+            </NavLink>
+          </p>
+          <p>
+            <NavLink
               to="/verkaufen"
               className="cursor-pointer hover:text-green-500"
               href="#"
@@ -87,8 +96,27 @@ export default function Footer() {
               Datenschutz
             </NavLink>
           </p>
-          <p className="cursor-pointer hover:text-green-500">Impressum</p>
-          <p className="cursor-pointer hover:text-green-500">AGB</p>
+          <p>
+            {" "}
+            <NavLink
+              to="/impressum"
+              className="cursor-pointer hover:text-green-500"
+              href="#"
+            >
+              Impressum
+            </NavLink>
+          </p>
+
+          <p>
+            {" "}
+            <NavLink
+              to="/agb"
+              className="cursor-pointer hover:text-green-500"
+              href="#"
+            >
+              AGB
+            </NavLink>
+          </p>
         </div>
         <div>
           <h1 className="text-xl text-gray-400 lg:mt-0 mt-7">
