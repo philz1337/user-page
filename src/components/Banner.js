@@ -13,7 +13,7 @@ export default function Banner() {
             <p className="text-lg mt-5 font-medium">
               Wir kaufen was du nichtmehr brauchst direkt zum Festpreis
             </p>
-            <p className="flex mt-3">
+            <p className="flex mt-3 text-sm">
               <img src="/img/Carbs.png" className="mr-2 h-7 w-7" alt="" />
               Die gesamte Logistik wird CO2 kompensiert
             </p>
