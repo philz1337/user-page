@@ -51,7 +51,7 @@ export default function Dropdown() {
             <Link onClick={onScrollBuy} smooth className="navOption">
               Kategorien
             </Link>
-            <NavLink to="/register" className="navOption" href="#">
+            <NavLink to="/verkaufen" className="navOption" href="#">
               Verkaufen
             </NavLink>
           </div>

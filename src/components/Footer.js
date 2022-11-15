@@ -68,7 +68,7 @@ export default function Footer() {
           </p>
           <p>
             <NavLink
-              to="/register"
+              to="/verkaufen"
               className="cursor-pointer hover:text-green-500"
               href="#"
             >
@@ -77,7 +77,16 @@ export default function Footer() {
           </p>
         </div>
         <div className="space-y-2 mt-7 lg:mt-0">
-          <p className="cursor-pointer hover:text-green-500">Datenschutz</p>
+          <p>
+            {" "}
+            <NavLink
+              to="/datenschutz"
+              className="cursor-pointer hover:text-green-500"
+              href="#"
+            >
+              Datenschutz
+            </NavLink>
+          </p>
           <p className="cursor-pointer hover:text-green-500">Impressum</p>
           <p className="cursor-pointer hover:text-green-500">AGB</p>
         </div>

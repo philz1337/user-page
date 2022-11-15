@@ -3,7 +3,7 @@ import Nav from "../components/Nav"
 
 import React, { useState, useRef } from "react"
 
-export default function Register() {
+export default function Verkaufen() {
   const [file, setFile] = useState([])
   const inputFile = useRef(null)
 

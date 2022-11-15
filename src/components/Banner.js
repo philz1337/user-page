@@ -24,7 +24,7 @@ export default function Banner() {
         </div>
       </div>
       <div className="w-10/12 lg:w-9/12 flex items-center">
-        <Link to="/register">
+        <Link to="/verkaufen">
           <button className="hover:shadow-md w-44 hover:shadow-gray-400 transition-all bg-primary text-center py-2 text-white rounded-full">
             Jetzt verkaufen
           </button>
