@@ -1,9 +1,12 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React from "react"
+import { Link } from "react-router-dom"
 
 export default function SaleProcess() {
   return (
-    <div id="saleProcess" className="w-full flex items-center justify-center mt-16">
+    <div
+      id="saleProcess"
+      className="w-full flex items-center justify-center mt-16"
+    >
       <div className="lg:w-9/12 w-10/12 flex flex-col items-center">
         <h1 className="text-2xl lg:text-3xl font-medium text-center">
           So läuft der Verkauf ab
@@ -17,9 +20,9 @@ export default function SaleProcess() {
               </p>
             </div>
             <div className="flex justify-end">
-            <img
-                src="/img/CameraIcon.png"
-                className="ml-3 mt-6 h-32 w-32"
+              <img
+                src="/img/foto-machen.png"
+                className="ml-3 mt-6 h-30 w-30"
                 alt=""
               />
             </div>
@@ -34,8 +37,8 @@ export default function SaleProcess() {
             </div>
             <div className="flex justify-end">
               <img
-                src="/img/BoxIcon.png"
-                className="ml-3 mt-6 h-32 w-32"
+                src="/img/einsenden.png"
+                className="ml-3 mt-6 h-30 w-30"
                 alt=""
               />
             </div>
@@ -51,8 +54,8 @@ export default function SaleProcess() {
             </div>
             <div className="flex justify-end">
               <img
-                src="/img/CardIcon.png"
-                className="ml-3 mt-6 h-32 w-32"
+                src="/img/geld-erhalten.png"
+                className="ml-3 mt-6 h-30 w-30"
                 alt=""
               />
             </div>
@@ -60,12 +63,12 @@ export default function SaleProcess() {
           <div className="flex justify-center mt-10">
             <Link to="/register">
               <button className="hover:shadow-md hover:shadow-gray-400 transition-all bg-primary px-6 py-2 text-white rounded-full">
-                Jetzt starten
+                Jetzt Verkauf starten
               </button>
             </Link>
           </div>
         </div>
       </div>
     </div>
-  );
+  )
 }
