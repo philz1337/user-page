@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link } from "react-router-dom"
 
 export default function Banner() {
   return (
@@ -19,8 +19,8 @@ export default function Banner() {
             </p>
           </div>
         </div>
-        <div className="mt-10 lg:mt-0">
-          <img src="/img/bannerImg.png" alt="" />
+        <div className="mt-0 lg:mt-0">
+          <img src="/img/befreie-dich.png" alt="" />
         </div>
       </div>
       <div className="w-10/12 lg:w-9/12 flex items-center">
@@ -34,5 +34,5 @@ export default function Banner() {
         </p>
       </div>
     </div>
-  );
+  )
 }
