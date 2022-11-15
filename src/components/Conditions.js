@@ -1,4 +1,4 @@
-import React from "react";
+import React from "react"
 
 export default function Conditions() {
   return (
@@ -11,11 +11,12 @@ export default function Conditions() {
           <div>
             <div className="flex items-center font-medium text-lg">
               <img src="/img/Arhive.png" className="lg:h-10 h-9 mr-2" alt="" />
-              Mindestwert
+              Markenartikel
             </div>
             <p className="text-sm mt-3">
-              Das der Ankauf für uns noch sinnvoll ist sollte der Artikelwert
-              höher sein als zweimal Portokosten.
+              Wir kaufen nur Artikel mit Marke oder einer hohen Qualität an. Der
+              Wert deines Artikels sollte etwa zweimal Portokosten entsprechen
+              um dafür bei uns einen Preis zu erhalten.
             </p>
           </div>
           <div>
@@ -42,5 +43,5 @@ export default function Conditions() {
         </div>
       </div>
     </div>
-  );
+  )
 }
