@@ -1,5 +1,7 @@
 import { Link } from "react-router-dom"
 
+import { ReactComponent as LogoWorld } from "./world.svg"
+
 export default function Banner() {
   return (
     <div className="w-full flex flex-col items-center justify-center lg:mt-20">
@@ -14,7 +16,7 @@ export default function Banner() {
               Wir kaufen was du nichtmehr brauchst direkt zum Festpreis
             </p>
             <p className="flex mt-3 text-sm">
-              <img src="/img/Carbs.png" className="mr-2 h-7 w-7" alt="" />
+              <LogoWorld stroke="#03A84E" />
               Die gesamte Logistik wird CO2 kompensiert
             </p>
           </div>

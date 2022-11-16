@@ -1,5 +1,9 @@
 import React from "react"
 
+import { ReactComponent as IconMarken } from "./brand.svg"
+import { ReactComponent as IconZustand } from "./condition.svg"
+import { ReactComponent as IconFunktion } from "./function.svg"
+
 export default function Conditions() {
   return (
     <div className="w-full flex items-center justify-center flex-col mt-20 bg-secondary">
@@ -10,8 +14,8 @@ export default function Conditions() {
         <div className="grid mt-10 lg:grid-cols-3 gap-10">
           <div>
             <div className="flex items-center font-medium text-lg">
-              <img src="/img/Arhive.png" className="lg:h-10 h-9 mr-2" alt="" />
-              Markenartikel
+              <IconMarken className="w-10 h-10" />
+              <div className="pl-2">Markenartikel</div>
             </div>
             <p className="text-sm mt-3">
               Wir kaufen nur Artikel mit Marke oder einer hohen Qualität an. Der
@@ -21,8 +25,8 @@ export default function Conditions() {
           </div>
           <div>
             <div className="flex items-center font-medium text-lg">
-              <img src="/img/Arhive.png" className="h-10 mr-2" alt="" />
-              Sehr guter Zustand
+              <IconZustand className="w-10 h-10" />
+              <div className="pl-2">Sehr guter Zustand</div>
             </div>
             <p className="text-sm mt-3">
               Der Artikel muss sauber und mindestens in einem sehr guten Zustand
@@ -32,8 +36,8 @@ export default function Conditions() {
           </div>
           <div>
             <div className="flex items-center font-medium text-lg">
-              <img src="/img/Arhive.png" className="h-10 mr-2" alt="" />
-              Voll funktionsfähig
+              <IconFunktion className="w-10 h-10" />
+              <div className="pl-2">Voll funktionsfähig</div>
             </div>
             <p className="text-sm mt-3">
               Alles sollte natürlich einwandfrei funktionieren und vollständig
