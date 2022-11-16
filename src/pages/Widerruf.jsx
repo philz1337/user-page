@@ -9,7 +9,7 @@ export default function Widerruf() {
         Widerruf
       </h1>
 
-      <div className="w-10/12 gap-5 lg:gap-10 mt-10 mb-20">
+      <div className="w-10/12 lg:w-9/12 gap-5 lg:gap-10 mt-10 mb-20">
         <p>
           Wenn Sie Verbraucher sind (also eine natürliche Person, die die
           Bestellung zu einem Zweck abgibt, der weder Ihrer gewerblichen oder

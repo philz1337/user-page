@@ -9,7 +9,7 @@ export default function Datenschutz() {
         Datenschutzerklärung
       </h1>
 
-      <div className="w-10/12 gap-5 lg:gap-10 mt-10">
+      <div className="w-10/12 lg:w-9/12 gap-5 lg:gap-10 mt-10">
         <p>
           Wir haben diese Datenschutzerkl&auml;rung (Fassung
           16.03.2021-111678638) verfasst, um Ihnen gem&auml;&szlig; der Vorgaben

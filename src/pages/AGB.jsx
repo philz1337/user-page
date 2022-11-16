@@ -9,7 +9,7 @@ export default function AGB() {
         Allgemeine Geschäftsbedinungen
       </h1>
 
-      <div className="w-10/12 gap-5 lg:gap-10 mt-10 mb-20">
+      <div className="w-10/12 lg:w-9/12 gap-5 lg:gap-10 mt-10 mb-20">
         <h4>
           <b>ALLGEMEINE GESCHÄFTSBEDINGUNGEN</b>
         </h4>
