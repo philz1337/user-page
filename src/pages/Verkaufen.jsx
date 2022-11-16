@@ -53,24 +53,24 @@ export default function Verkaufen() {
                       <button
                         onClick={onImageUpload}
                         {...dragProps}
-                        className="hover:shadow-md hover:shadow-gray-400 transition-all bg-primary rounded-2xl text-white grid place-items-center h-24 w-24"
+                        className="hover:shadow-md hover:shadow-gray-400 transition-all bg-primary rounded-2xl text-white grid place-items-center h-32 w-32"
                       >
                         <IconPlus className="h-16 w-16" alt="" />
                       </button>
                     )}
                     {imageList[0] && (
-                      <div className="relative h-24 w-24">
+                      <div className="relative h-32 w-32 border-2 hover:shadow-md hover:shadow-gray-400 hover:border-primary bg-gray-100 rounded-2xl">
                         <img
                           src={imageList[0]["data_url"]}
                           alt=""
-                          className="w-full h-full object-contain absolute -z-10 "
+                          className="w-full h-full object-contain absolute z-10 "
                         />
                         <div className="grid place-content-end p-0.5">
                           <button
                             onClick={() => onImageRemove(0)}
-                            className="hover:shadow-md hover:shadow-gray-400 transition-all bg-primary rounded-lg text-white grid place-items-center h-6 w-6 "
+                            className="hover:shadow-md hover:shadow-gray-400 transition-all bg-gray-100 rounded-full text-gray-600 grid place-items-center h-6 w-6 z-20"
                           >
-                            <IconX className="h-5 w-5" alt="" />
+                            <IconX className="h-5 w-5 " alt="" />
                           </button>
                         </div>
                       </div>
