@@ -26,8 +26,8 @@ export default function Footer() {
   }
 
   return (
-    <div className="w-full flex items-center justify-center p-10 lg:p-16 bg-gray-900 text-white">
-      <div className="lg:w-9/12 w-full grid grid-cols-2 lg:grid-cols-4">
+    <div className="w-full flex items-center justify-center bg-gray-900 text-white">
+      <div className="w-10/12 lg:w-9/12 w-full grid grid-cols-2 pt-10 pb-10 lg:pt-16 lg:pb-16 lg:grid-cols-4">
         <div>
           <h1 className="font-medium text-2xl lg:text-3xl text-green-500  ">
             okasi<span className="text-white">.</span>

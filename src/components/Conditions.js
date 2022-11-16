@@ -7,7 +7,7 @@ import { ReactComponent as IconFunktion } from "./function.svg"
 export default function Conditions() {
   return (
     <div className="w-full flex items-center justify-center flex-col mt-20 bg-secondary">
-      <div className="lg:w-9/12 w-full p-10 py-16 lg:p-16">
+      <div className="w-10/12 lg:w-9/12 w-full pt-10 pb-10 py-16 lg:pt-16 lg:pb-16">
         <h1 className="text-2xl lg:text-3xl font-medium text-center">
           Bedingungen für den Ankauf
         </h1>

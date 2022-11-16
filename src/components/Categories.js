@@ -7,7 +7,7 @@ import { ReactComponent as Free } from "./free.svg"
 export default function Categories() {
   return (
     <div className="w-full flex items-center justify-center mt-16 bg-secondary">
-      <div className="lg:w-9/12 w-full  p-8 grid grid-cols-2 lg:grid-cols-3 gap-8">
+      <div className="w-10/12 lg:w-9/12 pt-8 pb-8 grid grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-16">
         <div>
           <div className="flex items-center font-medium text-lg">
             <Cats className="w-10 h-10" />

@@ -6,7 +6,7 @@ export default function WhatWeBuy() {
       id="whatWeBuy"
       className="w-full flex items-center justify-center mt-20 bg-secondary"
     >
-      <div className="lg:w-9/12 w-full p-10 lg:p-16">
+      <div className="w-10/12 lg:w-9/12 w-full pt-10 pb-10 lg:pt-16 lg:pb-16">
         <h1 className="text-center font-semibold text-2xl lg:text-3xl">
           Was wir ankaufen
         </h1>

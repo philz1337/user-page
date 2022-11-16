@@ -5,8 +5,8 @@ import { ReactComponent as LogoWorld } from "./world.svg"
 export default function Banner() {
   return (
     <div className="w-full flex flex-col items-center justify-center lg:mt-20">
-      <div className="w-10/12 lg:w-9/12 flex flex-col-reverse lg:grid lg:gap-16 lg:grid-cols-2">
-        <div className="flex flex-col justify-between mt-10 lg:mt-0">
+      <div className="w-10/12 lg:w-9/12 flex flex-col-reverse lg:grid lg:gap-16 lg:grid-cols-2 ">
+        <div className="flex flex-col justify-center mt-10 lg:mt-0 ">
           <h1 className="font-medium text-4xl lg:text-6xl">
             <span className="text-primary">Befreie dich</span> von ungenutzten
             Dingen

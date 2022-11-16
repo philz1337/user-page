@@ -9,7 +9,7 @@ export default function FAQs() {
       <h1 className="text-2xl lg:text-3xl font-semibold text-center">
         Häufige Fragen
       </h1>
-      <div className="w-10/12 mt-5 lg:w-5/12 flex flex-col items-center">
+      <div className="w-10/12 mt-5 lg:w-9/12 flex flex-col items-center">
         {options.map((item, key) => {
           return (
             <Menu
