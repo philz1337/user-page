@@ -14,10 +14,22 @@ export default function Categories() {
             <div className="pl-2">Sehr viele Kategorien</div>
           </div>
           <p className="text-sm mt-3">
-            Wir kaufen fast alles: Kleidung, Technik, Haushaltsartikel, Beauty,
-            Deko, Fashion, Schuhe, und vieles mehr.
+            Wir kaufen alles auf einmal: Kleidung, Technik, Haushaltsartikel,
+            Beauty, Deko, Fashion, Schuhe, und vieles mehr.
           </p>
         </div>
+
+        <div className="lg:hidden">
+          <div className="flex items-center font-medium text-lg">
+            <Easy className="w-10 h-10" />
+            <div className="pl-2">Einfach & kostenlos</div>
+          </div>
+          <p className="text-sm mt-3">
+            Festpreisangebot innerhalb von 24 Stunden. Der gesamte Ankaufservice
+            ist 100% kostenfrei.
+          </p>
+        </div>
+
         <div className="hidden lg:block">
           <div className="flex items-center font-medium text-lg">
             <Easy className="w-10 h-10" />
@@ -28,7 +40,8 @@ export default function Categories() {
             einverstanden bist. Einfacher geht es nicht :)
           </p>
         </div>
-        <div className="">
+
+        <div className="hidden lg:block">
           <div className="flex items-center font-medium text-lg">
             <Free className="w-10 h-10" />
             <div className="pl-2">100% kostenlos</div>

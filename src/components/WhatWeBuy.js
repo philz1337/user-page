@@ -52,7 +52,7 @@ function Item({ title, img, des }) {
     <div className="flex flex-col items-center text-center">
       <h1 className="text-xl font-semibold">{title}</h1>
       <img src={img} className="rounded-2xl my-2" alt="" />
-      <p className="mt-2 text-sm font-medium">{des}</p>
+      <p className="mt-2 text-sm">{des}</p>
     </div>
   )
 }

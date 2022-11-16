@@ -9,7 +9,7 @@ export default function Impressum() {
         Impressum
       </h1>
 
-      <div className="w-10/12 gap-5 lg:gap-10 mt-10 mb-20">
+      <div className="w-10/12 lg:w-9/12 gap-5 lg:gap-10 mt-10 mb-20">
         <p>
           Okasi Inh. Philipp Berben
           <p>Liebfrauenstraße 80</p>

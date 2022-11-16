@@ -9,7 +9,7 @@ export default function About() {
       </h1>
       <div className="lg:w-9/12 w-10/12 gap-5 lg:gap-10 grid grid-cols-processPhone lg:grid-cols-process mt-8">
         <div>
-          <p className="text-sm font-medium lg:text-base">
+          <p className="text-sm lg:text-base">
             {" "}
             “Als Vater und in einer Vollzeit Stelle habe ich nie die Zeit & Lust
             gefunden meine ungenutzten Dinge zu verkaufen. Dadurch ist die Idee
@@ -18,12 +18,12 @@ export default function About() {
             <span className="italic"> -Philipp Berben, Gründer von Okasi</span>
           </p>
           <div className="hidden lg:block">
-            <p className="mt-5 text-sm font-medium lg:text-base">
+            <p className="mt-5 text-sm lg:text-base">
               2022 ist Okasi enstanden, wir sind somit noch ein kleines Start-Up
               mit drei Mitarbeitern. Wir sind überzeugt von der Nachhaltigkeit
               unserer extrem einfachen Verkaufslösung.
             </p>
-            <p className="mt-5 text-sm font-medium lg:text-base">
+            <p className="mt-5 text-sm lg:text-base">
               Der Transport und die Logistik zu uns und zum neuen Kunden wird
               CO2 kompensiert. Dies setzen wir durch die Unterstützung von
               Klimaschutzprojekten wie z.B. Wasserkraft in Honduras und Biomasse
@@ -38,17 +38,17 @@ export default function About() {
             </Link>
           </div>
         </div>
-        <div>
-          <img src="/img/user_quad.png" className="rounded-3xl w-full" alt="" />
+        <div className="flex flex-col items-center">
+          <img src="/img/user_quad.png" className="rounded-3xl w-80" alt="" />
         </div>
       </div>
       <div className="lg:hidden lg:w-9/12 w-10/12">
-        <p className="mt-5 text-sm font-medium lg:text-base">
+        <p className="mt-5 text-sm lg:text-base">
           2022 ist Okasi enstanden, wir sind somit noch ein kleines Start-Up mit
           drei Mitarbeitern. Wir sind überzeugt von der Nachhaltigkeit unserer
           extrem einfachen Verkaufslösung.
         </p>
-        <p className="mt-5 text-sm font-medium lg:text-base">
+        <p className="mt-5 text-sm lg:text-base">
           Der Transport und die Logistik zu uns und zum neuen Kunden wird CO2
           kompensiert. Dies setzen wir durch die Unterstützung von
           Klimaschutzprojekten wie z.B. Wasserkraft in Honduras und Biomasse in

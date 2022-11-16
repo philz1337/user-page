@@ -16,7 +16,7 @@ export default function Banner() {
               Wir kaufen was du nichtmehr brauchst direkt zum Festpreis
             </p>
             <p className="flex mt-3 text-sm">
-              <LogoWorld stroke="#03A84E" />
+              <LogoWorld stroke="#03A84E" className="w-5 h-5 mr-1" />
               Die gesamte Logistik wird CO2 kompensiert
             </p>
           </div>

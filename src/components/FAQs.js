@@ -19,7 +19,7 @@ export default function FAQs() {
             >
               <div>
                 <Menu.Button className="w-full p-3 px-5 flex items-center justify-between border-b">
-                  {item.question}
+                  <div className="w-full">{item.question}</div>
                   <ChevronDownIcon className="h-5" />
                 </Menu.Button>
               </div>

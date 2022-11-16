@@ -14,37 +14,37 @@ export default function SaleProcess() {
         <div className="lg:w-5/12 mt-5">
           <div className="grid grid-cols-2 mb-5">
             <div className="mt-5">
-              <h1 className="text-lg font-semibold">1. Foto machen</h1>
-              <p className="text-sm mt-1 font-medium">
+              <h1 className="text-lg font-semibold">1. Fotografieren</h1>
+              <p className="text-sm mt-1">
                 Es reicht ein Foto und eine Angabe für Marke und ein Stichwort.
               </p>
             </div>
-            <div>
+            <div className="flex flex-col items-center">
               <img src="/img/foto-machen.png" className="w-40" alt="" />
             </div>
           </div>
           <div className="grid grid-cols-2 mb-5">
             <div className="mt-5">
               <h1 className="text-lg font-semibold">2. Einsenden</h1>
-              <p className="text-sm mt-1 font-medium">
+              <p className="text-sm mt-1">
                 Du erhälst innerhalb von 24 Stunden ein Festpreisangebot. Bist
                 du einverstanden, sendest du die Artikel kostenfrei zu uns.
               </p>
             </div>
-            <div>
+            <div className="flex flex-col items-center">
               <img src="/img/einsenden.png" className="w-40 mt-5" alt="" />
             </div>
           </div>
           <div className="grid grid-cols-2 mb-5">
             <div className="mt-5">
               <h1 className="text-lg font-semibold">3. Geld erhalten</h1>
-              <p className="text-sm mt-1 font-medium">
+              <p className="text-sm mt-1">
                 Wir prüfen deine Artikel und zahlen dir den vereinbarten Betrag
                 aus. Entspricht etwas nicht unseren Bedingungen erhälst du es
                 kostenfrei zurück.
               </p>
             </div>
-            <div>
+            <div className="flex flex-col items-center">
               <img src="/img/geld-erhalten.png" className="w-40 mt-5" alt="" />
             </div>
           </div>
