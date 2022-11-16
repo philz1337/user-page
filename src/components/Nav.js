@@ -13,7 +13,7 @@ export default function Nav() {
           </Link>
         </div>
         <div className="flex items-center justify-end">
-          <Link to="/register">
+          <Link to="/verkaufen">
             <button className="hidden lg:block hover:shadow-md hover:shadow-gray-400 transition-all bg-primary px-6 py-2 text-white rounded-full mr-7">
               Jetzt verkaufen
             </button>
