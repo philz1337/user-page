@@ -1,5 +1,4 @@
-import { Fragment } from "react"
-import { Menu, Transition } from "@headlessui/react"
+import { Menu } from "@headlessui/react"
 import { ChevronDownIcon } from "@heroicons/react/20/solid"
 import { options } from "./FAQOptions"
 
@@ -24,23 +23,16 @@ export default function FAQs() {
                 </Menu.Button>
               </div>
 
-              <Transition
-                as={Fragment}
-                enter="transition ease-out duration-1000"
-                enterFrom="transform opacity-0 scale-95"
-                enterTo="transform opacity-100 scale-100"
-                leave="transition ease-in duration-75"
-                leaveFrom="transform opacity-100 scale-100"
-                leaveTo="transform opacity-0 scale-95"
-              >
-                <Menu.Items className="bg-secondary">
-                  <div className="flex flex-col items-center h-full">
-                    <div className="w-full p-5 flex items-center justify-between">
-                      {item.answer}
-                    </div>
+              {/*
+                in das Menu.Item ein static, dann sind alle ausgeklappt. Für Korrekturlesen
+              */}
+              <Menu.Items className="bg-secondary">
+                <div className="flex flex-col items-center h-full">
+                  <div className="w-full p-5 flex items-center justify-between">
+                    {item.answer}
                   </div>
-                </Menu.Items>
-              </Transition>
+                </div>
+              </Menu.Items>
             </Menu>
           )
         })}
