@@ -3,6 +3,8 @@ import Nav from "../components/Nav"
 
 import React, { useState, useRef } from "react"
 
+import { ReactComponent as IconPlus } from "./plus.svg"
+
 export default function Verkaufen() {
   const [file, setFile] = useState([])
   const inputFile = useRef(null)
@@ -15,28 +17,29 @@ export default function Verkaufen() {
     <div className="flex flex-col items-center">
       <Nav />
       <h1 className="text-2xl lg:text-3xl font-semibold text-center mt-5 lg:mb-5">
-        Jetzt Verkaufen
+        Verkaufen
       </h1>
       <div className="lg:w-4/12 lg:border p-10 rounded-2xl">
         <h1 className="text-xl font-semibold">Dein erster Artikel</h1>
-        <p className="mt-4 text-sm font-medium text-gray-600">Foto hochladen</p>
-        <button
-          onClick={() => inputFile.current.click()}
-          className="hover:shadow-md hover:shadow-gray-400 transition-all bg-primary py-30 rounded-full text-white mr-10"
-        >
-          <img src="/img/picture.png" className="h-20 w-20" alt="" />
-        </button>
-        <input
-          type="file"
-          onChange={handleChange}
-          ref={inputFile}
-          style={{ display: "none" }}
-        />
-
+        <p className="mt-4 text-sm font-medium text-gray-600">Foto</p>
+        <div className="grid place-items-center">
+          <button
+            onClick={() => inputFile.current.click()}
+            className="hover:shadow-md hover:shadow-gray-400 transition-all bg-primary rounded-2xl text-white grid place-items-center h-24 w-24"
+          >
+            <IconPlus className="h-16 w-16" alt="" />
+          </button>
+          <input
+            type="file"
+            onChange={handleChange}
+            ref={inputFile}
+            style={{ display: "none" }}
+          />
+        </div>
         <p className="mt-4 text-sm font-medium text-gray-600">Marke</p>
         <input
           type="text"
-          placeholder="Beispiel: Nike"
+          placeholder="Adidas"
           className="w-full p-3 bg-gray-100 outline-none mt-1 rounded-md"
         />
         <p className="mt-4 text-sm font-medium text-gray-600">
@@ -44,34 +47,35 @@ export default function Verkaufen() {
         </p>
         <input
           type="text"
-          placeholder="Beispiel: Sneaker AirMax"
+          placeholder="Winterjacke"
           className="w-full p-3 bg-gray-100 outline-none mt-1 rounded-md"
         />
-        <p className="mt-5 text-lg font-medium">
-          Wohin senden wir das Angebot?
-        </p>
-        <div className="grid grid-cols-2 gap-3 mt-2">
-          <div>
-            <p className="text-sm font-medium text-gray-600">Vorname</p>
-            <input
-              type="text"
-              className="w-full p-3 bg-gray-100 outline-none mt-1 rounded-md"
-            />
+        <div className="pt-10">
+          <p className="mt-5 text-lg font-medium">
+            Wohin senden wir das Angebot?
+          </p>
+          <div className="grid grid-cols-2 gap-3 mt-2">
+            <div>
+              <p className="text-sm font-medium text-gray-600">Vorname</p>
+              <input
+                type="text"
+                className="w-full p-3 bg-gray-100 outline-none mt-1 rounded-md"
+              />
+            </div>
+            <div>
+              <p className="text-sm font-medium text-gray-600">Nachname</p>
+              <input
+                type="text"
+                className="w-full p-3 bg-gray-100 outline-none mt-1 rounded-md"
+              />
+            </div>
           </div>
-          <div>
-            <p className="text-sm font-medium text-gray-600">Nachname</p>
-            <input
-              type="text"
-              className="w-full p-3 bg-gray-100 outline-none mt-1 rounded-md"
-            />
-          </div>
+          <p className="mt-4 text-sm font-medium text-gray-600">E-Mail</p>
+          <input
+            type="text"
+            className="w-full p-3 bg-gray-100 outline-none mt-1 rounded-md"
+          />
         </div>
-        <p className="mt-4 text-sm font-medium text-gray-600">E-Mail</p>
-        <input
-          type="text"
-          placeholder="email"
-          className="w-full p-3 bg-gray-100 outline-none mt-1 rounded-md"
-        />
         <div className="grid grid-cols-2 gap-3 mt-6">
           <button className="hover:shadow-md w-full hover:shadow-gray-400 transition-all bg-primary py-3 text-white rounded-full mr-10">
             Weitere Artikel
