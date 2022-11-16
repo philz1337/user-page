@@ -18,6 +18,7 @@ export default function Datenschutz() {
           Entscheidungsm&ouml;glichkeiten Sie als Besucher dieser Webseite
           haben.
         </p>
+        <br />
 
         <p>
           Datenschutzerkl&auml;rungen klingen f&uuml;r gew&ouml;hnlich sehr
@@ -33,6 +34,7 @@ export default function Datenschutz() {
           Erl&auml;uterungen interessant und informativ und vielleicht ist die
           eine oder andere Information dabei, die Sie noch nicht kannten.
         </p>
+        <br />
 
         <p>
           Wenn trotzdem Fragen bleiben, m&ouml;chten wir Sie bitten den
@@ -40,8 +42,10 @@ export default function Datenschutz() {
           Drittseiten anzusehen, oder uns einfach eine E-Mail zu schreiben.
           Unsere Kontaktdaten finden Sie im Impressum.
         </p>
+        <br />
 
-        <p>Automatische Datenspeicherung</p>
+        <p>Automatische Datenspeicherung </p>
+        <br />
 
         <p>
           Wenn Sie heutzutage Websites besuchen, werden gewisse Informationen
@@ -53,6 +57,7 @@ export default function Datenschutz() {
           Unterseite (wie dieser hier). Mit Domain meinen wir zum Beispiel
           beispiel.de oder musterbeispiel.com.
         </p>
+        <br />
 
         <p>
           Auch w&auml;hrend Sie unsere Website jetzt gerade besuchen, speichert
@@ -61,29 +66,37 @@ export default function Datenschutz() {
           Erstellung von Zugriffsstatistik usw. in der Regel automatisch Daten
           wie
         </p>
+        <br />
 
         <p>
           &bull; die komplette Internetadresse (URL) der aufgerufenen Webseite
           (z. B. https://www.beispielwebsite.de/beispielunterseite.html/)
         </p>
+        <br />
 
-        <p>&bull; Browser und Browserversion (z. B. Chrome 87)</p>
+        <p>&bull; Browser und Browserversion (z. B. Chrome 87) </p>
+        <br />
 
-        <p>&bull; das verwendete Betriebssystem (z. B. Windows 10)</p>
+        <p>&bull; das verwendete Betriebssystem (z. B. Windows 10) </p>
+        <br />
 
         <p>
           &bull; die Adresse (URL) der zuvor besuchten Seite (Referrer URL) (z.
           B. https://www.beispielquellsite.de/vondabinichgekommen.html/)
         </p>
+        <br />
 
         <p>
           &bull; den Hostname und die IP-Adresse des Ger&auml;ts von welchem aus
           zugegriffen wird (z. B. COMPUTERNAME und 194.23.43.121)
         </p>
+        <br />
 
-        <p>&bull; Datum und Uhrzeit</p>
+        <p>&bull; Datum und Uhrzeit </p>
+        <br />
 
-        <p>&bull; in Dateien, den sogenannten Webserver-Logfiles.</p>
+        <p>&bull; in Dateien, den sogenannten Webserver-Logfiles. </p>
+        <br />
 
         <p>
           In der Regel werden diese Dateien zwei Wochen gespeichert und danach
@@ -92,27 +105,33 @@ export default function Datenschutz() {
           Vorliegen von rechtswidrigem Verhalten von Beh&ouml;rden eingesehen
           werden.
         </p>
+        <br />
 
         <p>
           Kurz gesagt: Ihr Besuch wird durch unseren Provider (Firma, die unsere
           Website auf speziellen Computern (Servern) laufen l&auml;sst),
           protokolliert, aber wir geben Ihre Daten nicht weiter!
         </p>
+        <br />
 
-        <p>Cookies</p>
+        <p>Cookies </p>
+        <br />
 
         <p>
           Unsere Webseite verwendet HTTP-Cookies, um nutzerspezifische Daten zu
           speichern.
         </p>
+        <br />
 
         <p>
           Im Folgenden erkl&auml;ren wir, was Cookies sind und warum Sie genutzt
           werden, damit Sie die folgende Datenschutzerkl&auml;rung besser
           verstehen.
         </p>
+        <br />
 
-        <p>Was genau sind Cookies?</p>
+        <p>Was genau sind Cookies? </p>
+        <br />
 
         <p>
           Immer wenn Sie durch das Internet surfen, verwenden Sie einen Browser.
@@ -120,6 +139,7 @@ export default function Datenschutz() {
           Explorer und Microsoft Edge. Die meisten Webseiten speichern kleine
           Text-Dateien in Ihrem Browser. Diese Dateien nennt man Cookies.
         </p>
+        <br />
 
         <p>
           Eines ist nicht von der Hand zu weisen: Cookies sind echt
@@ -133,6 +153,7 @@ export default function Datenschutz() {
           der Definition eines Cookies m&uuml;ssen zus&auml;tzlich ein oder
           mehrere Attribute angegeben werden.
         </p>
+        <br />
 
         <p>
           Cookies speichern gewisse Nutzerdaten von Ihnen, wie beispielsweise
@@ -144,6 +165,7 @@ export default function Datenschutz() {
           jedes Cookie eine eigene Datei, in anderen wie beispielsweise Firefox
           sind alle Cookies in einer einzigen Datei gespeichert.
         </p>
+        <br />
 
         <p>
           Es gibt sowohl Erstanbieter Cookies als auch Drittanbieter-Cookies.
@@ -156,29 +178,40 @@ export default function Datenschutz() {
           andere &#8222;Sch&auml;dlinge&ldquo;. Cookies k&ouml;nnen auch nicht
           auf Informationen Ihres PCs zugreifen.
         </p>
+        <br />
 
-        <p>So k&ouml;nnen zum Beispiel Cookie-Daten aussehen:</p>
+        <p>So k&ouml;nnen zum Beispiel Cookie-Daten aussehen: </p>
+        <br />
 
-        <p>Name: _ga</p>
+        <p>Name: _ga </p>
+        <br />
 
-        <p>Wert: GA1.2.1326744211.152111678638-9</p>
+        <p>Wert: GA1.2.1326744211.152111678638-9 </p>
+        <br />
 
-        <p>Verwendungszweck: Unterscheidung der Webseitenbesucher</p>
+        <p>Verwendungszweck: Unterscheidung der Webseitenbesucher </p>
+        <br />
 
-        <p>Ablaufdatum: nach 2 Jahren</p>
+        <p>Ablaufdatum: nach 2 Jahren </p>
+        <br />
 
         <p>
           Diese Mindestgr&ouml;&szlig;en sollte ein Browser unterst&uuml;tzen
           k&ouml;nnen:
         </p>
+        <br />
 
-        <p>&bull; Mindestens 4096 Bytes pro Cookie</p>
+        <p>&bull; Mindestens 4096 Bytes pro Cookie </p>
+        <br />
 
-        <p>&bull; Mindestens 50 Cookies pro Domain</p>
+        <p>&bull; Mindestens 50 Cookies pro Domain </p>
+        <br />
 
-        <p>&bull; Mindestens 3000 Cookies insgesamt</p>
+        <p>&bull; Mindestens 3000 Cookies insgesamt </p>
+        <br />
 
-        <p>Welche Arten von Cookies gibt es?</p>
+        <p>Welche Arten von Cookies gibt es? </p>
+        <br />
 
         <p>
           Die Frage welche Cookies wir im Speziellen verwenden, h&auml;ngt von
@@ -186,10 +219,13 @@ export default function Datenschutz() {
           Datenschutzerkl&auml;rung gekl&auml;rt. An dieser Stelle m&ouml;chten
           wir kurz auf die verschiedenen Arten von HTTP-Cookies eingehen.
         </p>
+        <br />
 
-        <p>Man kann 4 Arten von Cookies unterscheiden:</p>
+        <p>Man kann 4 Arten von Cookies unterscheiden: </p>
+        <br />
 
-        <p>Unerl&auml;ssliche Cookies</p>
+        <p>Unerl&auml;ssliche Cookies </p>
+        <br />
 
         <p>
           Diese Cookies sind n&ouml;tig, um grundlegende Funktionen der Webseite
@@ -199,8 +235,10 @@ export default function Datenschutz() {
           Warenkorb nicht gel&ouml;scht, selbst wenn der User sein
           Browserfenster schlie&szlig;t.
         </p>
+        <br />
 
-        <p>Zweckm&auml;&szlig;ige Cookies</p>
+        <p>Zweckm&auml;&szlig;ige Cookies </p>
+        <br />
 
         <p>
           Diese Cookies sammeln Infos &uuml;ber das Userverhalten und ob der
@@ -208,22 +246,27 @@ export default function Datenschutz() {
           Cookies auch die Ladezeit und das Verhalten der Webseite bei
           verschiedenen Browsern gemessen.
         </p>
+        <br />
 
-        <p>Zielorientierte Cookies</p>
+        <p>Zielorientierte Cookies </p>
+        <br />
 
         <p>
           Diese Cookies sorgen f&uuml;r eine bessere Nutzerfreundlichkeit.
           Beispielsweise werden eingegebene Standorte, Schriftgr&ouml;&szlig;en
           oder Formulardaten gespeichert.
         </p>
+        <br />
 
-        <p>Werbe-Cookies</p>
+        <p>Werbe-Cookies </p>
+        <br />
 
         <p>
           Diese Cookies werden auch Targeting-Cookies genannt. Sie dienen dazu
           dem User individuell angepasste Werbung zu liefern. Das kann sehr
           praktisch, aber auch sehr nervig sein.
         </p>
+        <br />
 
         <p>
           &Uuml;blicherweise werden Sie beim erstmaligen Besuch einer Webseite
@@ -231,8 +274,10 @@ export default function Datenschutz() {
           nat&uuml;rlich wird diese Entscheidung auch in einem Cookie
           gespeichert.
         </p>
+        <br />
 
-        <p>Wie kann ich Cookies l&ouml;schen?</p>
+        <p>Wie kann ich Cookies l&ouml;schen? </p>
+        <br />
 
         <p>
           Wie und ob Sie Cookies verwenden wollen, entscheiden Sie selbst.
@@ -242,6 +287,7 @@ export default function Datenschutz() {
           k&ouml;nnen Sie Cookies von Drittanbietern blockieren, aber alle
           anderen Cookies zulassen.
         </p>
+        <br />
 
         <p>
           Wenn Sie feststellen m&ouml;chten, welche Cookies in Ihrem Browser
@@ -249,19 +295,25 @@ export default function Datenschutz() {
           l&ouml;schen wollen, k&ouml;nnen Sie dies in Ihren
           Browser-Einstellungen finden:
         </p>
+        <br />
 
-        <p>Chrome: Cookies in Chrome l&ouml;schen, aktivieren und verwalten</p>
+        <p>Chrome: Cookies in Chrome l&ouml;schen, aktivieren und verwalten </p>
+        <br />
 
-        <p>Safari: Verwalten von Cookies und Websitedaten mit Safari</p>
+        <p>Safari: Verwalten von Cookies und Websitedaten mit Safari </p>
+        <br />
 
         <p>
           Firefox: Cookies l&ouml;schen, um Daten zu entfernen, die Websites auf
           Ihrem Computer abgelegt haben
         </p>
+        <br />
 
-        <p>Internet Explorer: L&ouml;schen und Verwalten von Cookies</p>
+        <p>Internet Explorer: L&ouml;schen und Verwalten von Cookies </p>
+        <br />
 
-        <p>Microsoft Edge: L&ouml;schen und Verwalten von Cookies</p>
+        <p>Microsoft Edge: L&ouml;schen und Verwalten von Cookies </p>
+        <br />
 
         <p>
           Falls Sie grunds&auml;tzlich keine Cookies haben wollen, k&ouml;nnen
@@ -273,8 +325,10 @@ export default function Datenschutz() {
           l&ouml;schen Chrome&rdquo; oder &ldquo;Cookies deaktivieren
           Chrome&rdquo; im Falle eines Chrome Browsers.
         </p>
+        <br />
 
-        <p>Wie sieht es mit meinem Datenschutz aus?</p>
+        <p>Wie sieht es mit meinem Datenschutz aus? </p>
+        <br />
 
         <p>
           Seit 2009 gibt es die sogenannten &#8222;Cookie-Richtlinien&ldquo;.
@@ -284,6 +338,7 @@ export default function Datenschutz() {
           Richtlinien. In &Ouml;sterreich erfolgte aber die Umsetzung dieser
           Richtlinie in &sect; 96 Abs. 3 des Telekommunikationsgesetzes (TKG).
         </p>
+        <br />
 
         <p>
           Wenn Sie mehr &uuml;ber Cookies wissen m&ouml;chten und technische
@@ -292,8 +347,10 @@ export default function Datenschutz() {
           Internet Engineering Task Force (IETF) namens &ldquo;HTTP State
           Management Mechanism&rdquo;.
         </p>
+        <br />
 
-        <p>Speicherung pers&ouml;nlicher Daten</p>
+        <p>Speicherung pers&ouml;nlicher Daten </p>
+        <br />
 
         <p>
           Pers&ouml;nliche Daten, die Sie uns auf dieser Website elektronisch
@@ -303,6 +360,7 @@ export default function Datenschutz() {
           Zeitpunkt und der IP-Adresse nur zum jeweils angegebenen Zweck
           verwendet, sicher verwahrt und nicht an Dritte weitergegeben.
         </p>
+        <br />
 
         <p>
           Wir nutzen Ihre pers&ouml;nlichen Daten somit nur f&uuml;r die
@@ -313,6 +371,7 @@ export default function Datenschutz() {
           jedoch nicht ausschlie&szlig;en, dass diese Daten beim Vorliegen von
           rechtswidrigem Verhalten eingesehen werden.
         </p>
+        <br />
 
         <p>
           Wenn Sie uns pers&ouml;nliche Daten per E-Mail schicken &ndash; somit
@@ -321,36 +380,45 @@ export default function Datenschutz() {
           Ihnen, vertrauliche Daten niemals unverschl&uuml;sselt per E-Mail zu
           &uuml;bermitteln.
         </p>
+        <br />
 
-        <p>Rechte laut Datenschutzgrundverordnung</p>
+        <p>Rechte laut Datenschutzgrundverordnung </p>
+        <br />
 
         <p>
           Ihnen stehen laut den Bestimmungen der DSGVO und des
           &ouml;sterreichischen Datenschutzgesetzes (DSG) grunds&auml;tzlich die
           folgende Rechte zu:
         </p>
+        <br />
 
-        <p>&bull; Recht auf Berichtigung (Artikel 16 DSGVO)</p>
+        <p>&bull; Recht auf Berichtigung (Artikel 16 DSGVO) </p>
+        <br />
 
         <p>
           &bull; Recht auf L&ouml;schung (&#8222;Recht auf
           Vergessenwerden&ldquo;) (Artikel 17 DSGVO)
         </p>
+        <br />
 
         <p>
           &bull; Recht auf Einschr&auml;nkung der Verarbeitung (Artikel 18
           DSGVO)
         </p>
+        <br />
 
         <p>
           &bull; Recht auf Benachrichtigung &ndash; Mitteilungspflicht im
           Zusammenhang mit der Berichtigung oder L&ouml;schung personenbezogener
           Daten oder der Einschr&auml;nkung der Verarbeitung (Artikel 19 DSGVO)
         </p>
+        <br />
 
-        <p>&bull; Recht auf Daten&uuml;bertragbarkeit (Artikel 20 DSGVO)</p>
+        <p>&bull; Recht auf Daten&uuml;bertragbarkeit (Artikel 20 DSGVO) </p>
+        <br />
 
-        <p>&bull; Widerspruchsrecht (Artikel 21 DSGVO)</p>
+        <p>&bull; Widerspruchsrecht (Artikel 21 DSGVO) </p>
+        <br />
 
         <p>
           &bull; Recht, nicht einer ausschlie&szlig;lich auf einer
@@ -358,6 +426,7 @@ export default function Datenschutz() {
           &mdash; beruhenden Entscheidung unterworfen zu werden (Artikel 22
           DSGVO)
         </p>
+        <br />
 
         <p>
           Wenn Sie glauben, dass die Verarbeitung Ihrer Daten gegen das
@@ -367,8 +436,10 @@ export default function Datenschutz() {
           &Ouml;sterreich die Datenschutzbeh&ouml;rde ist, deren Webseite Sie
           unter https://www.dsb.gv.at/ finden.
         </p>
+        <br />
 
-        <p>Auswertung des Besucherverhaltens</p>
+        <p>Auswertung des Besucherverhaltens </p>
+        <br />
 
         <p>
           In der folgenden Datenschutzerkl&auml;rung informieren wir Sie
@@ -377,14 +448,17 @@ export default function Datenschutz() {
           anonym und wir k&ouml;nnen von Ihrem Verhalten auf dieser Website
           nicht auf Ihre Person schlie&szlig;en.
         </p>
+        <br />
 
         <p>
           Mehr &uuml;ber M&ouml;glichkeiten dieser Auswertung der Besuchsdaten
           zu widersprechen erfahren Sie in der folgenden
           Datenschutzerkl&auml;rung.
         </p>
+        <br />
 
-        <p>TLS-Verschl&uuml;sselung mit https</p>
+        <p>TLS-Verschl&uuml;sselung mit https </p>
+        <br />
 
         <p>
           TLS, Verschl&uuml;sselung und https klingen sehr technisch und sind es
@@ -393,12 +467,14 @@ export default function Datenschutz() {
           Hypertext-&Uuml;bertragungsprotokoll&ldquo;) um Daten abh&ouml;rsicher
           im Internet zu &uuml;bertragen.
         </p>
+        <br />
 
         <p>
           Das bedeutet, dass die komplette &Uuml;bertragung aller Daten von
           Ihrem Browser zu unserem Webserver abgesichert ist &ndash; niemand
           kann &ldquo;mith&ouml;ren&rdquo;.
         </p>
+        <br />
 
         <p>
           Damit haben wir eine zus&auml;tzliche Sicherheitsschicht
@@ -408,6 +484,7 @@ export default function Datenschutz() {
           Daten&uuml;bertragung im Internet k&ouml;nnen wir den Schutz
           vertraulicher Daten sicherstellen.
         </p>
+        <br />
 
         <p>
           Sie erkennen die Benutzung dieser Absicherung der
@@ -416,6 +493,7 @@ export default function Datenschutz() {
           Verwendung des Schemas https (anstatt http) als Teil unserer
           Internetadresse.
         </p>
+        <br />
 
         <p>
           Wenn Sie mehr zum Thema Verschl&uuml;sselung wissen m&ouml;chten,
@@ -423,8 +501,10 @@ export default function Datenschutz() {
           Secure wiki&rdquo; um gute Links zu weiterf&uuml;hrenden Informationen
           zu erhalten.
         </p>
+        <br />
 
-        <p>Font Awesome Datenschutzerkl&auml;rung</p>
+        <p>Font Awesome Datenschutzerkl&auml;rung </p>
+        <br />
 
         <p>
           Wir verwenden auf unserer Website Font Awesome des amerikanischen
@@ -436,8 +516,10 @@ export default function Datenschutz() {
           dieser Datenschutzerkl&auml;rung gehen wir n&auml;her auf die
           Datenspeicherung und Datenverarbeitung durch diesen Service ein.
         </p>
+        <br />
 
-        <p>Was ist Font Awesome?</p>
+        <p>Was ist Font Awesome? </p>
+        <br />
 
         <p>
           Icons spielen f&uuml;r Websites eine immer wichtigere Rolle. Font
@@ -449,8 +531,10 @@ export default function Datenschutz() {
           laden. Daf&uuml;r mussten wir nur eine kleine Code-Zeile in unsere
           Website einbinden.
         </p>
+        <br />
 
-        <p>Warum verwenden wir Font Awesome auf unserer Website?</p>
+        <p>Warum verwenden wir Font Awesome auf unserer Website? </p>
+        <br />
 
         <p>
           Durch Font Awesome k&ouml;nnen Inhalte auf unserer Website besser
@@ -466,8 +550,10 @@ export default function Datenschutz() {
           helfen uns, die Website f&uuml;r Sie noch &uuml;bersichtlicher,
           frischer und schneller zu machen.
         </p>
+        <br />
 
-        <p>Welche Daten werden von Font Awesome gespeichert?</p>
+        <p>Welche Daten werden von Font Awesome gespeichert? </p>
+        <br />
 
         <p>
           Zum Laden von Icons und Symbolen wird das Font Awesome Content
@@ -476,6 +562,7 @@ export default function Datenschutz() {
           der N&auml;he zu laden. So werden auch, sobald Sie eine unserer Seiten
           aufrufen, die entsprechenden Icons von Font Awesome bereitgestellt.
         </p>
+        <br />
 
         <p>
           Damit die Web-Schriftarten geladen werden k&ouml;nnen, muss Ihr
@@ -486,29 +573,37 @@ export default function Datenschutz() {
           Ihre Browser-Version, Bildschirmaufl&ouml;sung oder der Zeitpunkt der
           ausgerufenen Seite &uuml;bertragen.
         </p>
+        <br />
 
         <p>
           Aus folgenden Gr&uuml;nden werden diese Daten gesammelt und
           gespeichert:
         </p>
+        <br />
 
-        <p>&bull; um Content Delivery Netzwerke zu optimieren</p>
+        <p>&bull; um Content Delivery Netzwerke zu optimieren </p>
+        <br />
 
-        <p>&bull; um technische Fehler zu erkennen und zu beheben</p>
+        <p>&bull; um technische Fehler zu erkennen und zu beheben </p>
+        <br />
 
-        <p>&bull; um CDNs vor Missbrauch und Angriffen zu sch&uuml;tzen</p>
+        <p>&bull; um CDNs vor Missbrauch und Angriffen zu sch&uuml;tzen </p>
+        <br />
 
         <p>
           &bull; um Geb&uuml;hren von Font Awesome Pro-Kunden berechnen zu
           k&ouml;nnen
         </p>
+        <br />
 
-        <p>&bull; um die Beliebtheit von Icons zu erfahren</p>
+        <p>&bull; um die Beliebtheit von Icons zu erfahren </p>
+        <br />
 
         <p>
           &bull; um zu wissen, welchen Computer und welche Software Sie
           verwenden
         </p>
+        <br />
 
         <p>
           Falls Ihr Browser Web-Schriftarten nicht zul&auml;sst, wird
@@ -517,8 +612,10 @@ export default function Datenschutz() {
           der Datenschutzabteilung von Font Awesome in Kontakt und geben Ihnen
           Bescheid, sobald wir n&auml;heres in Erfahrung bringen.
         </p>
+        <br />
 
-        <p>Wie lange und wo werden die Daten gespeichert?</p>
+        <p>Wie lange und wo werden die Daten gespeichert? </p>
+        <br />
 
         <p>
           Font Awesome speichert Daten &uuml;ber die Nutzung des Content
@@ -530,11 +627,13 @@ export default function Datenschutz() {
           auch l&auml;nger gespeichert werden. Personenbezogene Daten sind hier
           nicht enthalten.
         </p>
+        <br />
 
         <p>
           Wie kann ich meine Daten l&ouml;schen bzw. die Datenspeicherung
           verhindern?
         </p>
+        <br />
 
         <p>
           Font Awesome speichert nach aktuellem Stand unseres Wissens keine
@@ -545,6 +644,7 @@ export default function Datenschutz() {
           keine Daten &uuml;bertragen oder gespeichert. In diesem Fall wird
           einfach die Standard-Schrift Ihres Computers verwendet.
         </p>
+        <br />
 
         <p>
           Wenn Sie mehr &uuml;ber Font Awesome und deren Umgang mit Daten
@@ -552,8 +652,10 @@ export default function Datenschutz() {
           unter https://fontawesome.com/privacy und die Hilfeseite unter
           https://fontawesome.com/help.
         </p>
+        <br />
 
-        <p>Google Analytics Datenschutzerkl&auml;rung</p>
+        <p>Google Analytics Datenschutzerkl&auml;rung </p>
+        <br />
 
         <p>
           Wir verwenden auf unserer Website das Analyse-Tracking Tool Google
@@ -570,8 +672,10 @@ export default function Datenschutz() {
           dar&uuml;ber, welche Daten gespeichert werden und wie Sie das
           verhindern k&ouml;nnen.
         </p>
+        <br />
 
-        <p>Was ist Google Analytics?</p>
+        <p>Was ist Google Analytics? </p>
+        <br />
 
         <p>
           Google Analytics ist ein Trackingtool, das der Datenverkehrsanalyse
@@ -582,35 +686,41 @@ export default function Datenschutz() {
           verlassen, werden diese Daten an die Google-Analytics-Server gesendet
           und dort gespeichert.
         </p>
+        <br />
 
         <p>
           Google verarbeitet die Daten und wir bekommen Berichte &uuml;ber Ihr
           Userverhalten. Dabei kann es sich unter anderem um folgende Berichte
           handeln:
         </p>
+        <br />
 
         <p>
           &bull; Zielgruppenberichte: &Uuml;ber Zielgruppenberichte lernen wir
           unsere User besser kennen und wissen genauer, wer sich f&uuml;r unser
           Service interessiert.
         </p>
+        <br />
 
         <p>
           &bull; Anzeigeberichte: Durch Anzeigeberichte k&ouml;nnen wir unsere
           Onlinewerbung leichter analysieren und verbessern.
         </p>
+        <br />
 
         <p>
           &bull; Akquisitionsberichte: Akquisitionsberichte geben uns hilfreiche
           Informationen dar&uuml;ber, wie wir mehr Menschen f&uuml;r unser
           Service begeistern k&ouml;nnen.
         </p>
+        <br />
 
         <p>
           &bull; Verhaltensberichte: Hier erfahren wir, wie Sie mit unserer
           Website interagieren. Wir k&ouml;nnen nachvollziehen welchen Weg Sie
           auf unserer Seite zur&uuml;cklegen und welche Links Sie anklicken.
         </p>
+        <br />
 
         <p>
           &bull; Conversionsberichte: Conversion nennt man einen Vorgang, bei
@@ -621,20 +731,24 @@ export default function Datenschutz() {
           Marketing-Ma&szlig;nahmen bei Ihnen ankommen. So wollen wir unsere
           Conversionrate steigern.
         </p>
+        <br />
 
         <p>
           &bull; Echtzeitberichte: Hier erfahren wir immer sofort, was gerade
           auf unserer Website passiert. Zum Beispiel sehen wir wie viele User
           gerade diesen Text lesen.
         </p>
+        <br />
 
-        <p>Warum verwenden wir Google Analytics auf unserer Webseite?</p>
+        <p>Warum verwenden wir Google Analytics auf unserer Webseite? </p>
+        <br />
 
         <p>
           Unser Ziel mit dieser Website ist klar: Wir wollen Ihnen das
           bestm&ouml;gliche Service bieten. Die Statistiken und Daten von Google
           Analytics helfen uns dieses Ziel zu erreichen.
         </p>
+        <br />
 
         <p>
           Die statistisch ausgewerteten Daten zeigen uns ein klares Bild von den
@@ -650,8 +764,10 @@ export default function Datenschutz() {
           Produkte und Dienstleistungen Menschen zu zeigen, die sich daf&uuml;r
           interessieren.
         </p>
+        <br />
 
-        <p>Welche Daten werden von Google Analytics gespeichert?</p>
+        <p>Welche Daten werden von Google Analytics gespeichert? </p>
+        <br />
 
         <p>
           Google Analytics erstellt mithilfe eines Tracking-Codes eine
@@ -662,6 +778,7 @@ export default function Datenschutz() {
           werden gemeinsam mit dieser User-ID gespeichert. So ist es
           &uuml;berhaupt erst m&ouml;glich pseudonyme Userprofile auszuwerten.
         </p>
+        <br />
 
         <p>
           Um mit Google Analytics unsere Website analysieren zu k&ouml;nnen,
@@ -672,6 +789,7 @@ export default function Datenschutz() {
           Universal Analytics Property erstellen. Je nach verwendeter Property
           werden Daten unterschiedlich lange gespeichert.
         </p>
+        <br />
 
         <p>
           Durch Kennzeichnungen wie Cookies und App-Instanz-IDs werden Ihre
@@ -684,94 +802,126 @@ export default function Datenschutz() {
           genehmigen das. Zu Ausnahmen kann es kommen, wenn es gesetzlich
           erforderlich ist.
         </p>
+        <br />
 
-        <p>Folgende Cookies werden von Google Analytics verwendet:</p>
+        <p>Folgende Cookies werden von Google Analytics verwendet: </p>
+        <br />
 
-        <p>Name: _ga</p>
+        <p>Name: _ga </p>
+        <br />
 
-        <p>Wert: 2.1326744211.152111678638-5</p>
+        <p>Wert: 2.1326744211.152111678638-5 </p>
+        <br />
 
         <p>
           Verwendungszweck: Standardm&auml;&szlig;ig verwendet analytics.js das
           Cookie _ga, um die User-ID zu speichern. Grunds&auml;tzlich dient es
           zur Unterscheidung der Webseitenbesucher.
         </p>
+        <br />
 
-        <p>Ablaufdatum: nach 2 Jahren</p>
+        <p>Ablaufdatum: nach 2 Jahren </p>
+        <br />
 
-        <p>Name: _gid</p>
+        <p>Name: _gid </p>
+        <br />
 
-        <p>Wert: 2.1687193234.152111678638-1</p>
+        <p>Wert: 2.1687193234.152111678638-1 </p>
+        <br />
 
         <p>
           Verwendungszweck: Das Cookie dient auch zur Unterscheidung der
           Webseitenbesucher
         </p>
+        <br />
 
-        <p>Ablaufdatum: nach 24 Stunden</p>
+        <p>Ablaufdatum: nach 24 Stunden </p>
+        <br />
 
-        <p>Name: _gat_gtag_UA_</p>
+        <p>Name: _gat_gtag_UA_ </p>
+        <br />
 
-        <p>Wert: 1</p>
+        <p>Wert: 1 </p>
+        <br />
 
         <p>
           Verwendungszweck: Wird zum Senken der Anforderungsrate verwendet. Wenn
           Google Analytics &uuml;ber den Google Tag Manager bereitgestellt wird,
           erh&auml;lt dieser Cookie den Namen _dc_gtm_ .
         </p>
+        <br />
 
-        <p>Ablaufdatum: nach 1 Minute</p>
+        <p>Ablaufdatum: nach 1 Minute </p>
+        <br />
 
-        <p>Name: AMP_TOKEN</p>
+        <p>Name: AMP_TOKEN </p>
+        <br />
 
-        <p>Wert: keine Angaben</p>
+        <p>Wert: keine Angaben </p>
+        <br />
 
         <p>
           Verwendungszweck: Das Cookie hat einen Token, mit dem eine User ID vom
           AMP-Client-ID-Dienst abgerufen werden kann. Andere m&ouml;gliche Werte
           weisen auf eine Abmeldung, eine Anfrage oder einen Fehler hin.
         </p>
+        <br />
 
-        <p>Ablaufdatum: nach 30 Sekunden bis zu einem Jahr</p>
+        <p>Ablaufdatum: nach 30 Sekunden bis zu einem Jahr </p>
+        <br />
 
-        <p>Name: __utma</p>
+        <p>Name: __utma </p>
+        <br />
 
-        <p>Wert: 1564498958.1564498958.1564498958.1</p>
+        <p>Wert: 1564498958.1564498958.1564498958.1 </p>
+        <br />
 
         <p>
           Verwendungszweck: Mit diesem Cookie kann man Ihr Verhalten auf der
           Website verfolgen und die Leistung messen. Das Cookie wird jedes Mal
           aktualisiert, wenn Informationen an Google Analytics gesendet werden.
         </p>
+        <br />
 
-        <p>Ablaufdatum: nach 2 Jahren</p>
+        <p>Ablaufdatum: nach 2 Jahren </p>
+        <br />
 
-        <p>Name: __utmt</p>
+        <p>Name: __utmt </p>
+        <br />
 
-        <p>Wert: 1</p>
+        <p>Wert: 1 </p>
+        <br />
 
         <p>
           Verwendungszweck: Das Cookie wird wie _gat_gtag_UA_ zum Drosseln der
           Anforderungsrate verwendet.
         </p>
+        <br />
 
-        <p>Ablaufdatum: nach 10 Minuten</p>
+        <p>Ablaufdatum: nach 10 Minuten </p>
+        <br />
 
-        <p>Name: __utmb</p>
+        <p>Name: __utmb </p>
+        <br />
 
-        <p>Wert: 3.10.1564498958</p>
+        <p>Wert: 3.10.1564498958 </p>
+        <br />
 
         <p>
           Verwendungszweck: Dieses Cookie wird verwendet, um neue Sitzungen zu
           bestimmen. Es wird jedes Mal aktualisiert, wenn neue Daten bzw. Infos
           an Google Analytics gesendet werden.
         </p>
+        <br />
 
-        <p>Ablaufdatum: nach 30 Minuten</p>
+        <p>Ablaufdatum: nach 30 Minuten </p>
+        <br />
 
-        <p>Name: __utmc</p>
+        <p>Name: __utmc </p>
+        <br />
 
-        <p>Wert: 167421564</p>
+        <p>Wert: 167421564 </p>
+        <br />
 
         <p>
           Verwendungszweck: Dieses Cookie wird verwendet, um neue Sitzungen
@@ -779,12 +929,16 @@ export default function Datenschutz() {
           ein Session-Cookie und wird nur solange gespeichert, bis Sie den
           Browser wieder schlie&szlig;en.
         </p>
+        <br />
 
-        <p>Ablaufdatum: Nach Schlie&szlig;ung des Browsers</p>
+        <p>Ablaufdatum: Nach Schlie&szlig;ung des Browsers </p>
+        <br />
 
-        <p>Name: __utmz</p>
+        <p>Name: __utmz </p>
+        <br />
 
-        <p>Wert: m|utmccn=(referral)|utmcmd=referral|utmcct=/</p>
+        <p>Wert: m|utmccn=(referral)|utmcmd=referral|utmcct=/ </p>
+        <br />
 
         <p>
           Verwendungszweck: Das Cookie wird verwendet, um die Quelle des
@@ -793,77 +947,93 @@ export default function Datenschutz() {
           gekommen sind. Das kann eine andere Seite bzw. eine Werbeschaltung
           gewesen sein.
         </p>
+        <br />
 
-        <p>Ablaufdatum: nach 6 Monaten</p>
+        <p>Ablaufdatum: nach 6 Monaten </p>
+        <br />
 
-        <p>Name: __utmv</p>
+        <p>Name: __utmv </p>
+        <br />
 
-        <p>Wert: keine Angabe</p>
+        <p>Wert: keine Angabe </p>
+        <br />
 
         <p>
           Verwendungszweck: Das Cookie wird verwendet, um benutzerdefinierte
           Userdaten zu speichern. Es wird immer aktualisiert, wenn Informationen
           an Google Analytics gesendet werden.
         </p>
+        <br />
 
-        <p>Ablaufdatum: nach 2 Jahren</p>
+        <p>Ablaufdatum: nach 2 Jahren </p>
+        <br />
 
         <p>
           Anmerkung: Diese Aufz&auml;hlung kann keinen Anspruch auf
           Vollst&auml;ndigkeit erheben, da Google die Wahl ihrer Cookies immer
           wieder auch ver&auml;ndert.
         </p>
+        <br />
 
         <p>
           Hier zeigen wir Ihnen einen &Uuml;berblick &uuml;ber die wichtigsten
           Daten, die mit Google Analytics erhoben werden:
         </p>
+        <br />
 
         <p>
           Heatmaps: Google legt sogenannte Heatmaps an. &Uuml;ber Heatmaps sieht
           man genau jene Bereiche, die Sie anklicken. So bekommen wir
           Informationen, wo Sie auf unserer Seite &#8222;unterwegs&ldquo; sind.
         </p>
+        <br />
 
         <p>
           Sitzungsdauer: Als Sitzungsdauer bezeichnet Google die Zeit, die Sie
           auf unserer Seite verbringen, ohne die Seite zu verlassen. Wenn Sie 20
           Minuten inaktiv waren, endet die Sitzung automatisch.
         </p>
+        <br />
 
         <p>
           Absprungrate (engl. Bouncerate): Von einem Absprung ist die Rede, wenn
           Sie auf unserer Website nur eine Seite ansehen und dann unsere Website
           wieder verlassen.
         </p>
+        <br />
 
         <p>
           Kontoerstellung: Wenn Sie auf unserer Website ein Konto erstellen bzw.
           eine Bestellung machen, erhebt Google Analytics diese Daten.
         </p>
+        <br />
 
         <p>
           IP-Adresse: Die IP-Adresse wird nur in gek&uuml;rzter Form
           dargestellt, damit keine eindeutige Zuordnung m&ouml;glich ist.
         </p>
+        <br />
 
         <p>
           Standort: &Uuml;ber die IP-Adresse kann das Land und Ihr
           ungef&auml;hrer Standort bestimmt werden. Diesen Vorgang bezeichnet
           man auch als IP- Standortbestimmung.
         </p>
+        <br />
 
         <p>
           Technische Informationen: Zu den technischen Informationen z&auml;hlen
           unter anderem Ihr Browsertyp, Ihr Internetanbieter oder Ihre
           Bildschirmaufl&ouml;sung.
         </p>
+        <br />
 
         <p>
           Herkunftsquelle: Google Analytics beziehungsweise uns interessiert
           nat&uuml;rlich auch &uuml;ber welche Website oder welche Werbung Sie
           auf unsere Seite gekommen sind.
         </p>
+        <br />
 
         <p>
           Weitere Daten sind Kontaktdaten, etwaige Bewertungen, das Abspielen
@@ -873,8 +1043,10 @@ export default function Datenschutz() {
           Vollst&auml;ndigkeitsanspruch und dient nur zu einer allgemeinen
           Orientierung der Datenspeicherung durch Google Analytics.
         </p>
+        <br />
 
-        <p>Wie lange und wo werden die Daten gespeichert?</p>
+        <p>Wie lange und wo werden die Daten gespeichert? </p>
+        <br />
 
         <p>
           Google hat Ihre Server auf der ganzen Welt verteilt. Die meisten
@@ -883,6 +1055,7 @@ export default function Datenschutz() {
           nachlesen wo sich die Google-Rechenzentren befinden:
           https://www.google.com/about/datacenters/inside/locations/?hl=de
         </p>
+        <br />
 
         <p>
           Ihre Daten werden auf verschiedenen physischen Datentr&auml;gern
@@ -893,6 +1066,7 @@ export default function Datenschutz() {
           oder Naturkatastrophen Server lahmlegen, bleibt das Risiko einer
           Dienstunterbrechung bei Google dennoch gering.
         </p>
+        <br />
 
         <p>
           Die Aufbewahrungsdauer der Daten h&auml;ngt von den verwendeten
@@ -902,6 +1076,7 @@ export default function Datenschutz() {
           die M&ouml;glichkeit eine Aufbewahrungsdauer von 2 Monaten oder 14
           Monaten zu w&auml;hlen.
         </p>
+        <br />
 
         <p>
           Bei Universal Analytics-Properties ist bei Google Analytics eine
@@ -911,16 +1086,22 @@ export default function Datenschutz() {
           selbst zu w&auml;hlen. Daf&uuml;r stehen uns f&uuml;nf Varianten zur
           Verf&uuml;gung:
         </p>
+        <br />
 
-        <p>&bull; L&ouml;schung nach 14 Monaten</p>
+        <p>&bull; L&ouml;schung nach 14 Monaten </p>
+        <br />
 
-        <p>&bull; L&ouml;schung nach 26 Monaten</p>
+        <p>&bull; L&ouml;schung nach 26 Monaten </p>
+        <br />
 
-        <p>&bull; L&ouml;schung nach 38 Monaten</p>
+        <p>&bull; L&ouml;schung nach 38 Monaten </p>
+        <br />
 
-        <p>&bull; L&ouml;schung nach 50 Monaten</p>
+        <p>&bull; L&ouml;schung nach 50 Monaten </p>
+        <br />
 
-        <p>&bull; Keine automatische L&ouml;schung</p>
+        <p>&bull; Keine automatische L&ouml;schung </p>
+        <br />
 
         <p>
           Zus&auml;tzlich gibt es auch die Option, dass Daten erst dann
@@ -929,6 +1110,7 @@ export default function Datenschutz() {
           Aufbewahrungsdauer jedes Mal zur&uuml;ckgesetzt, wenn Sie unsere
           Website innerhalb des festgelegten Zeitraums wieder besuchen.
         </p>
+        <br />
 
         <p>
           Wenn der festgelegte Zeitraum abgelaufen ist, werden einmal im Monat
@@ -939,11 +1121,13 @@ export default function Datenschutz() {
           gespeichert. Aggregierte Daten sind eine Zusammenschmelzung von
           Einzeldaten zu einer gr&ouml;&szlig;eren Einheit.
         </p>
+        <br />
 
         <p>
           Wie kann ich meine Daten l&ouml;schen bzw. die Datenspeicherung
           verhindern?
         </p>
+        <br />
 
         <p>
           Nach dem Datenschutzrecht der Europ&auml;ischen Union haben Sie das
@@ -956,25 +1140,32 @@ export default function Datenschutz() {
           installieren. Beachten Sie bitte, dass durch dieses Add-on nur die
           Datenerhebung durch Google Analytics deaktiviert wird.
         </p>
+        <br />
 
         <p>
           Falls Sie grunds&auml;tzlich Cookies (unabh&auml;ngig von Google
           Analytics) deaktivieren, l&ouml;schen oder verwalten wollen, gibt es
           f&uuml;r jeden Browser eine eigene Anleitung:
         </p>
+        <br />
 
-        <p>Chrome: Cookies in Chrome l&ouml;schen, aktivieren und verwalten</p>
+        <p>Chrome: Cookies in Chrome l&ouml;schen, aktivieren und verwalten </p>
+        <br />
 
-        <p>Safari: Verwalten von Cookies und Websitedaten mit Safari</p>
+        <p>Safari: Verwalten von Cookies und Websitedaten mit Safari </p>
+        <br />
 
         <p>
           Firefox: Cookies l&ouml;schen, um Daten zu entfernen, die Websites auf
           Ihrem Computer abgelegt haben
         </p>
+        <br />
 
-        <p>Internet Explorer: L&ouml;schen und Verwalten von Cookies</p>
+        <p>Internet Explorer: L&ouml;schen und Verwalten von Cookies </p>
+        <br />
 
-        <p>Microsoft Edge: L&ouml;schen und Verwalten von Cookies</p>
+        <p>Microsoft Edge: L&ouml;schen und Verwalten von Cookies </p>
+        <br />
 
         <p>
           Google Analytics ist aktiver Teilnehmer beim EU-U.S. Privacy Shield
@@ -988,8 +1179,10 @@ export default function Datenschutz() {
           diese beiden Links: http://www.google.com/analytics/terms/de.html und
           https://support.google.com/analytics/answer/6004245?hl=de.
         </p>
+        <br />
 
-        <p>Google Analytics IP-Anonymisierung</p>
+        <p>Google Analytics IP-Anonymisierung </p>
+        <br />
 
         <p>
           Wir haben auf dieser Webseite die IP-Adressen-Anonymisierung von
@@ -1002,15 +1195,18 @@ export default function Datenschutz() {
           eintreffen und bevor eine Speicherung oder Verarbeitung der Daten
           stattfindet.
         </p>
+        <br />
 
         <p>
           Mehr Informationen zur IP-Anonymisierung finden Sie auf
           https://support.google.com/analytics/answer/2763052?hl=de.
         </p>
+        <br />
 
         <p>
           Google Analytics Berichte zu demografischen Merkmalen und Interessen
         </p>
+        <br />
 
         <p>
           Wir haben in Google Analytics die Funktionen f&uuml;r Werbeberichte
@@ -1021,14 +1217,17 @@ export default function Datenschutz() {
           machen. Mehr &uuml;ber die Werbefunktionen erfahren Sie auf
           https://support.google.com/analytics/answer/3450482?hl=de_AT&amp;utm_id=ad.
         </p>
+        <br />
 
         <p>
           Sie k&ouml;nnen die Nutzung der Aktivit&auml;ten und Informationen
           Ihres Google Kontos unter &ldquo;Einstellungen f&uuml;r Werbung&rdquo;
           auf https://adssettings.google.com/authenticated per Checkbox beenden.
         </p>
+        <br />
 
-        <p>Google Analytics Deaktivierungslink</p>
+        <p>Google Analytics Deaktivierungslink </p>
+        <br />
 
         <p>
           Wenn Sie auf folgenden Deaktivierungslink klicken, k&ouml;nnen Sie
@@ -1037,24 +1236,30 @@ export default function Datenschutz() {
           Inkognito/Privatmodus ihres Browsers, oder die Nutzung eines anderen
           Browsers f&uuml;hrt dazu, dass wieder Daten erhoben werden.
         </p>
+        <br />
 
-        <p>Google Analytics deaktivieren</p>
+        <p>Google Analytics deaktivieren </p>
+        <br />
 
-        <p>Google Analytics Zusatz zur Datenverarbeitung</p>
+        <p>Google Analytics Zusatz zur Datenverarbeitung </p>
+        <br />
 
         <p>
           Wir haben mit Google einen Direktkundenvertrag zur Verwendung von
           Google Analytics abgeschlossen, indem wir den &ldquo;Zusatz zur
           Datenverarbeitung&rdquo; in Google Analytics akzeptiert haben.
         </p>
+        <br />
 
         <p>
           Mehr &uuml;ber den Zusatz zur Datenverarbeitung f&uuml;r Google
           Analytics finden Sie hier:
           https://support.google.com/analytics/answer/3379636?hl=de&amp;utm_id=ad
         </p>
+        <br />
 
-        <p>Google Analytics Google-Signale Datenschutzerkl&auml;rung</p>
+        <p>Google Analytics Google-Signale Datenschutzerkl&auml;rung </p>
+        <br />
 
         <p>
           Wir haben in Google Analytics die Google-Signale aktiviert. So werden
@@ -1064,6 +1269,7 @@ export default function Datenschutz() {
           zusammengefasste und anonymisierte Daten von Ihnen zu erhalten, sofern
           Sie personalisierte Anzeigen in Ihrem Google-Konto erlaubt haben.
         </p>
+        <br />
 
         <p>
           Das besondere daran ist, dass es sich dabei um ein
@@ -1079,6 +1285,7 @@ export default function Datenschutz() {
           dass wir Ihnen auch auf anderen Webseiten unser Angebot zeigen
           k&ouml;nnen.
         </p>
+        <br />
 
         <p>
           In Google Analytics werden zudem durch die Google-Signale weitere
@@ -1092,6 +1299,7 @@ export default function Datenschutz() {
           All diese Merkmal helfen Google Analytics Personengruppen bzw.
           Zielgruppen zu definieren.
         </p>
+        <br />
 
         <p>
           Die Berichte helfen uns auch Ihr Verhalten, Ihre W&uuml;nsche und
@@ -1104,8 +1312,10 @@ export default function Datenschutz() {
           um Daten einzelner Personen. In Ihrem Google-Konto k&ouml;nnen Sie
           diese Daten verwalten bzw. auch l&ouml;schen.
         </p>
+        <br />
 
-        <p>Newsletter Datenschutzerkl&auml;rung</p>
+        <p>Newsletter Datenschutzerkl&auml;rung </p>
+        <br />
 
         <p>
           Wenn Sie sich f&uuml;r unseren Newsletter eintragen &uuml;bermitteln
@@ -1114,6 +1324,7 @@ export default function Datenschutz() {
           Newsletter gespeicherten Daten nutzen wir ausschlie&szlig;lich
           f&uuml;r unseren Newsletter und geben diese nicht weiter.
         </p>
+        <br />
 
         <p>
           Sollten Sie sich vom Newsletter abmelden &ndash; Sie finden den Link
@@ -1121,8 +1332,10 @@ export default function Datenschutz() {
           wir alle Daten die mit der Anmeldung zum Newsletter gespeichert
           wurden.
         </p>
+        <br />
 
-        <p>MailChimp Datenschutzerkl&auml;rung</p>
+        <p>MailChimp Datenschutzerkl&auml;rung </p>
+        <br />
 
         <p>
           Wie viele andere Webseiten verwenden auch wir auf unserer Website die
@@ -1136,8 +1349,10 @@ export default function Datenschutz() {
           n&auml;her auf dieses E-Mail-Marketing-Service ein und informieren Sie
           &uuml;ber die wichtigsten datenschutzrelevanten Aspekte.
         </p>
+        <br />
 
-        <p>Was ist MailChimp?</p>
+        <p>Was ist MailChimp? </p>
+        <br />
 
         <p>
           MailChimp ist ein cloudbasiertes Newsletter-Management-Service.
@@ -1148,6 +1363,7 @@ export default function Datenschutz() {
           externen Server. Diese Art eine Software zu nutzen, wird auch SaaS
           (Software as a Service) genannt.
         </p>
+        <br />
 
         <p>
           Mit MailChimp k&ouml;nnen wir aus einer breiten Palette an
@@ -1158,8 +1374,10 @@ export default function Datenschutz() {
           vordefinierter Zeit und H&auml;ufigkeit) und Follow-Up Kampagnen
           durchf&uuml;hren.
         </p>
+        <br />
 
-        <p>Warum verwenden wir MailChimp auf unserer Webseite?</p>
+        <p>Warum verwenden wir MailChimp auf unserer Webseite? </p>
+        <br />
 
         <p>
           Grunds&auml;tzlich nutzen wir einen Newsletter-Dienst, damit wir mit
@@ -1177,6 +1395,7 @@ export default function Datenschutz() {
           einem anderen mobilen Endger&auml;ten) leserlich und sch&ouml;n
           angezeigt.
         </p>
+        <br />
 
         <p>
           Durch Tools wie beispielsweise den A/B-Test oder den umfangreichen
@@ -1184,6 +1403,7 @@ export default function Datenschutz() {
           Newsletter bei Ihnen ankommen. So k&ouml;nnen wir gegebenenfalls
           reagieren und unser Angebot oder unsere Dienstleistungen verbessern.
         </p>
+        <br />
 
         <p>
           Ein weiterer Vorteil ist das &#8222;Cloudsystem&ldquo; von Mailchimp.
@@ -1192,8 +1412,10 @@ export default function Datenschutz() {
           und schonen auf diese Weise unseren Speicherplatz. Zudem wird der
           Pflegeaufwand deutlich geringer.
         </p>
+        <br />
 
-        <p>Welche Daten werden von MailChimp gespeichert?</p>
+        <p>Welche Daten werden von MailChimp gespeichert? </p>
+        <br />
 
         <p>
           Die Rocket Science Group LLC (MailChimp) unterh&auml;lt
@@ -1207,12 +1429,14 @@ export default function Datenschutz() {
           speichert MailChimp Ihre E-Mail-Adresse, Ihren Namen, die physische
           Adresse und demografische Informationen, wie Sprache oder Standort.
         </p>
+        <br />
 
         <p>
           Diese Informationen werden verwendet, um Ihnen E-Mails zu senden und
           bestimmte andere MailChimp-Funktionen (wie z.B. Auswertung der
           Newsletter) zu erm&ouml;glichen.
         </p>
+        <br />
 
         <p>
           MailChimp teilt Informationen auch mit Drittanbietern, um bessere
@@ -1221,6 +1445,7 @@ export default function Datenschutz() {
           seiner Kunden besser zu verstehen, damit relevantere Inhalte und
           zielgerichtete Werbung bereitgestellt werden k&ouml;nnen.
         </p>
+        <br />
 
         <p>
           Durch sogenannte &#8222;Web Beacons&ldquo; (das sind kleine Grafiken
@@ -1232,6 +1457,7 @@ export default function Datenschutz() {
           unser Angebot viel besser an Ihre W&uuml;nsche anpassen und unser
           Service verbessern.
         </p>
+        <br />
 
         <p>
           MailChimp darf zudem diese Daten auch zur Verbesserung des eigenen
@@ -1239,16 +1465,20 @@ export default function Datenschutz() {
           technisch optimiert werden oder der Standort (das Land) der
           Empf&auml;nger bestimmt werden.
         </p>
+        <br />
 
         <p>
           Die folgenden Cookies k&ouml;nnen von Mailchimp gesetzt werden. Dabei
           handelt es sich nicht um eine vollst&auml;ndige Cookie-Liste, sondern
           vielmehr um eine exemplarische Auswahl:
         </p>
+        <br />
 
-        <p>Name: AVESTA_ENVIRONMENT</p>
+        <p>Name: AVESTA_ENVIRONMENT </p>
+        <br />
 
-        <p>Wert: Prod</p>
+        <p>Wert: Prod </p>
+        <br />
 
         <p>
           Verwendungszweck: Dieses Cookie ist notwendig, um die
@@ -1256,29 +1486,37 @@ export default function Datenschutz() {
           gesetzt, wenn ein User sich f&uuml;r eine Newsletter-Mailing-Liste
           registriert.
         </p>
+        <br />
 
-        <p>Ablaufdatum: nach Sitzungsende</p>
+        <p>Ablaufdatum: nach Sitzungsende </p>
+        <br />
 
-        <p>Name: ak_bmsc</p>
+        <p>Name: ak_bmsc </p>
+        <br />
 
         <p>
           Wert: F1766FA98C9BB9DE4A39F70A9E5EEAB55F6517348A7000001111678638-3
         </p>
+        <br />
 
         <p>
           Verwendungszweck: Das Cookie wird verwendet, um einen Menschen von
           einem Bot unterscheiden zu k&ouml;nnen. So k&ouml;nnen sichere
           Berichte &uuml;ber die Nutzung einer Website erstellt werden.
         </p>
+        <br />
 
-        <p>Ablaufdatum: nach 2 Stunden</p>
+        <p>Ablaufdatum: nach 2 Stunden </p>
+        <br />
 
-        <p>Name: bm_sv</p>
+        <p>Name: bm_sv </p>
+        <br />
 
         <p>
           Wert:
           A5A322305B4401C2451FC22FFF547486~FEsKGvX8eovCwTeFTzb8//I3ak2Au&#8230;
         </p>
+        <br />
 
         <p>
           Verwendungszweck: Das Cookie ist von MasterPass Digital Wallet (ein
@@ -1286,19 +1524,25 @@ export default function Datenschutz() {
           virtuellen Zahlungsvorgang sicher und einfach anbieten zu k&ouml;nnen.
           Daf&uuml;r wird der User auf der Website anonym identifiziert.
         </p>
+        <br />
 
-        <p>Ablaufdatum: nach 2 Stunden</p>
+        <p>Ablaufdatum: nach 2 Stunden </p>
+        <br />
 
-        <p>Name: _abck</p>
+        <p>Name: _abck </p>
+        <br />
 
-        <p>Wert: 8D545C8CCA4C3A50579014C449B045111678638-9</p>
+        <p>Wert: 8D545C8CCA4C3A50579014C449B045111678638-9 </p>
+        <br />
 
         <p>
           Verwendungszweck: Wir konnten &uuml;ber den Zweck dieses Cookies keine
           n&auml;heren Informationen in Erfahrung bringen
         </p>
+        <br />
 
-        <p>Ablaufdatum: nach einem Jahr</p>
+        <p>Ablaufdatum: nach einem Jahr </p>
+        <br />
 
         <p>
           Manchmal kann es vorkommen, dass Sie unseren Newsletter zur besseren
@@ -1315,13 +1559,16 @@ export default function Datenschutz() {
           https://mailchimp.com/legal/cookies/) erfahren Sie genau, wie und
           warum das Unternehmen Cookies verwendet.
         </p>
+        <br />
 
-        <p>Wie lange und wo werden die Daten gespeichert?</p>
+        <p>Wie lange und wo werden die Daten gespeichert? </p>
+        <br />
 
         <p>
           Da MailChimp ein amerikanisches Unternehmen ist, werden alle
           gesammelten Daten auch auf amerikanischen Servern gespeichert.
         </p>
+        <br />
 
         <p>
           Grunds&auml;tzlich bleiben die Daten auf den Servern von Mailchimp
@@ -1336,11 +1583,13 @@ export default function Datenschutz() {
           Zeit, um Ihren Kontakt von allen verbundenen Integrationen zu
           l&ouml;schen.
         </p>
+        <br />
 
         <p>
           Wie kann ich meine Daten l&ouml;schen bzw. die Datenspeicherung
           verhindern?
         </p>
+        <br />
 
         <p>
           Sie k&ouml;nnen Ihre Zustimmung f&uuml;r den Erhalt unseres
@@ -1349,6 +1598,7 @@ export default function Datenschutz() {
           auf den Abmeldelink abgemeldet haben, werden Ihre Daten bei MailChimp
           gel&ouml;scht.
         </p>
+        <br />
 
         <p>
           Falls Sie &uuml;ber einen Link in unserem Newsletter auf eine Website
@@ -1356,25 +1606,32 @@ export default function Datenschutz() {
           k&ouml;nnen Sie diese Cookies jederzeit l&ouml;schen oder
           deaktivieren.
         </p>
+        <br />
 
         <p>
           Je nach Browser funktioniert das Deaktivieren bzw. L&ouml;schen etwas
           anders. Die folgenden Anleitungen zeigen, wie Sie Cookies in Ihrem
           Browser verwalten:
         </p>
+        <br />
 
-        <p>Chrome: Cookies in Chrome l&ouml;schen, aktivieren und verwalten</p>
+        <p>Chrome: Cookies in Chrome l&ouml;schen, aktivieren und verwalten </p>
+        <br />
 
-        <p>Safari: Verwalten von Cookies und Websitedaten mit Safari</p>
+        <p>Safari: Verwalten von Cookies und Websitedaten mit Safari </p>
+        <br />
 
         <p>
           Firefox: Cookies l&ouml;schen, um Daten zu entfernen, die Websites auf
           Ihrem Computer abgelegt haben
         </p>
+        <br />
 
-        <p>Internet Explorer: L&ouml;schen und Verwalten von Cookies</p>
+        <p>Internet Explorer: L&ouml;schen und Verwalten von Cookies </p>
+        <br />
 
-        <p>Microsoft Edge: L&ouml;schen und Verwalten von Cookies</p>
+        <p>Microsoft Edge: L&ouml;schen und Verwalten von Cookies </p>
+        <br />
 
         <p>
           Falls Sie grunds&auml;tzlich keine Cookies haben wollen, k&ouml;nnen
@@ -1382,6 +1639,7 @@ export default function Datenschutz() {
           ein Cookie gesetzt werden soll. So k&ouml;nnen Sie bei jedem einzelnen
           Cookie entscheiden, ob Sie es erlauben oder nicht.
         </p>
+        <br />
 
         <p>
           MailChimp ist aktiver Teilnehmer beim EU-U.S. Privacy Shield Framework
@@ -1393,8 +1651,10 @@ export default function Datenschutz() {
           bei MailChimp (Privacy) k&ouml;nnen Sie auf
           https://mailchimp.com/legal/privacy/ nachlesen.
         </p>
+        <br />
 
-        <p>MailChimp Auftragsdatenverarbeitung Vertrag</p>
+        <p>MailChimp Auftragsdatenverarbeitung Vertrag </p>
+        <br />
 
         <p>
           Wir haben mit MailChimp einen Vertrag &uuml;ber die
@@ -1404,16 +1664,19 @@ export default function Datenschutz() {
           Datenschutzbestimmungen h&auml;lt und Ihre pers&ouml;nlichen Daten
           nicht an Dritte weitergibt.
         </p>
+        <br />
 
         <p>
           Mehr Informationen zu diesem Vertrag finden Sie auf
           https://mailchimp.com/legal/data-processing-addendum/.
         </p>
+        <br />
 
         <p>
           Google Ads (Google AdWords) Conversion-Tracking
           Datenschutzerkl&auml;rung
         </p>
+        <br />
 
         <p>
           Wir verwenden als Online-Marketing-Ma&szlig;nahme Google Ads
@@ -1430,8 +1693,10 @@ export default function Datenschutz() {
           Conversion-Tracking benutzen, welche Daten dabei gespeichert werden
           und wie Sie diese Datenspeicherung verhindern.
         </p>
+        <br />
 
-        <p>Was ist Google Ads Conversion-Tracking?</p>
+        <p>Was ist Google Ads Conversion-Tracking? </p>
+        <br />
 
         <p>
           Google Ads (fr&uuml;her Google AdWords) ist das hauseigene
@@ -1443,6 +1708,7 @@ export default function Datenschutz() {
           den Kosten-Nutzen-Faktor unserer Werbeaktionen gewinnen. Darum
           verwenden wir das Conversion-Tracking-Tool von Google Ads.
         </p>
+        <br />
 
         <p>
           Doch was ist eine Conversion eigentlich? Eine Conversion entsteht,
@@ -1456,11 +1722,13 @@ export default function Datenschutz() {
           in Anspruch genommen werden oder ob sich User f&uuml;r unseren
           Newsletter angemeldet haben.
         </p>
+        <br />
 
         <p>
           Warum verwenden wir Google Ads Conversion-Tracking auf unserer
           Webseite?
         </p>
+        <br />
 
         <p>
           Wir setzen Google Ads ein, um auch auf anderen Webseiten auf unser
@@ -1478,10 +1746,12 @@ export default function Datenschutz() {
           interessanter gestalten und unser Werbeangebot noch individueller an
           Ihre Bed&uuml;rfnisse anpassen.
         </p>
+        <br />
 
         <p>
           Welche Daten werden bei Google Ads Conversion-Tracking gespeichert?
         </p>
+        <br />
 
         <p>
           Wir haben ein Conversion-Tracking-Tag oder Code-Snippet auf unserer
@@ -1492,37 +1762,49 @@ export default function Datenschutz() {
           Cookies sind kleine Textdateien, die Informationen auf Ihrem Computer
           speichern.
         </p>
+        <br />
 
         <p>
           Hier die Daten der wichtigsten Cookies f&uuml;r das
           Conversion-Tracking von Google:
         </p>
+        <br />
 
-        <p>Name: Conversion</p>
+        <p>Name: Conversion </p>
+        <br />
 
-        <p>Wert: EhMI_aySuoyv4gIVled3Ch0llweVGAEgt-mr6aXd7dYlSAGQ111678638-3</p>
+        <p>
+          Wert: EhMI_aySuoyv4gIVled3Ch0llweVGAEgt-mr6aXd7dYlSAGQ111678638-3{" "}
+        </p>
+        <br />
 
         <p>
           Verwendungszweck: Dieses Cookie speichert jede Conversion, die Sie auf
           unserer Seite machen, nachdem Sie &uuml;ber eine Google Ad zu uns
           gekommen sind.
         </p>
+        <br />
 
-        <p>Ablaufdatum: nach 3 Monaten</p>
+        <p>Ablaufdatum: nach 3 Monaten </p>
+        <br />
 
-        <p>Name: _gac</p>
+        <p>Name: _gac </p>
+        <br />
 
         <p>
           Wert:
           1.1558695989.EAIaIQobChMIiOmEgYO04gIVj5AYCh2CBAPrEAAYASAAEgIYQfD_BwE
         </p>
+        <br />
 
         <p>
           Verwendungszweck: Dies ist ein klassisches Google Analytics-Cookie und
           dient dem Erfassen verschiedener Handlungen auf unserer Webseite.
         </p>
+        <br />
 
-        <p>Ablaufdatum: nach 3 Monaten</p>
+        <p>Ablaufdatum: nach 3 Monaten </p>
+        <br />
 
         <p>
           Anmerkung: Das Cookie _gac scheint nur in Verbindung mit Google
@@ -1530,6 +1812,7 @@ export default function Datenschutz() {
           Anspruch auf Vollst&auml;ndigkeit, da Google f&uuml;r analytische
           Auswertung immer wieder auch andere Cookies verwendet.
         </p>
+        <br />
 
         <p>
           Sobald Sie eine Aktion auf unserer Webseite abschlie&szlig;en, erkennt
@@ -1556,8 +1839,10 @@ export default function Datenschutz() {
           User, die unsere Anzeige angeklickt haben und wir sehen, welche
           Werbema&szlig;nahmen gut ankamen.
         </p>
+        <br />
 
-        <p>Wie lange und wo werden die Daten gespeichert?</p>
+        <p>Wie lange und wo werden die Daten gespeichert? </p>
+        <br />
 
         <p>
           An dieser Stelle wollen wir darauf hinweisen, dass wir keinen Einfluss
@@ -1569,11 +1854,13 @@ export default function Datenschutz() {
           (das in Verbindung mit Google Analytics zum Einsatz kommt) haben ein
           Ablaufdatum von 3 Monaten.
         </p>
+        <br />
 
         <p>
           Wie kann ich meine Daten l&ouml;schen bzw. die Datenspeicherung
           verhindern?
         </p>
+        <br />
 
         <p>
           Sie haben die M&ouml;glichkeit am Conversion-Tracking von Google Ads
@@ -1585,19 +1872,25 @@ export default function Datenschutz() {
           ver&auml;ndern. Bei jedem Browser funktioniert dies etwas anders. Hier
           finden Sie die Anleitung, wie Sie Cookies in Ihrem Browser verwalten:
         </p>
+        <br />
 
-        <p>Chrome: Cookies in Chrome l&ouml;schen, aktivieren und verwalten</p>
+        <p>Chrome: Cookies in Chrome l&ouml;schen, aktivieren und verwalten </p>
+        <br />
 
-        <p>Safari: Verwalten von Cookies und Websitedaten mit Safari</p>
+        <p>Safari: Verwalten von Cookies und Websitedaten mit Safari </p>
+        <br />
 
         <p>
           Firefox: Cookies l&ouml;schen, um Daten zu entfernen, die Websites auf
           Ihrem Computer abgelegt haben
         </p>
+        <br />
 
-        <p>Internet Explorer: L&ouml;schen und Verwalten von Cookies</p>
+        <p>Internet Explorer: L&ouml;schen und Verwalten von Cookies </p>
+        <br />
 
-        <p>Microsoft Edge: L&ouml;schen und Verwalten von Cookies</p>
+        <p>Microsoft Edge: L&ouml;schen und Verwalten von Cookies </p>
+        <br />
 
         <p>
           Falls Sie grunds&auml;tzlich keine Cookies haben wollen, k&ouml;nnen
@@ -1610,6 +1903,7 @@ export default function Datenschutz() {
           das Deaktivieren dieser Cookies nicht die Werbeanzeigen verhindern,
           sondern nur die personalisierte Werbung.
         </p>
+        <br />
 
         <p>
           Durch die Zertifizierung f&uuml;r das amerikanische-europ&auml;ische
@@ -1620,13 +1914,16 @@ export default function Datenschutz() {
           allgemeine Datenschutzerkl&auml;rung von Google:
           https://policies.google.com/privacy?hl=de.
         </p>
+        <br />
 
-        <p>Eingebettete Social Media Elemente Datenschutzerkl&auml;rung</p>
+        <p>Eingebettete Social Media Elemente Datenschutzerkl&auml;rung </p>
+        <br />
 
         <p>
           Wir binden auf unserer Webseite Elemente von Social Media Diensten ein
           um Bilder, Videos und Texte anzuzeigen.
         </p>
+        <br />
 
         <p>
           Durch den Besuch von Seiten die diese Elemente darstellen, werden
@@ -1634,32 +1931,39 @@ export default function Datenschutz() {
           &uuml;bertragen und dort gespeichert. Wir haben keinen Zugriff auf
           diese Daten.
         </p>
+        <br />
 
         <p>
           Die folgenden Links f&uuml;hren Sie zu den Seiten der jeweiligen
           Social Media Dienste wo erkl&auml;rt wird, wie diese mit Ihren Daten
           umgehen:
         </p>
+        <br />
 
         <p>
           &bull; Instagram-Datenschutzrichtlinie:
           https://help.instagram.com/519522125107875
         </p>
+        <br />
 
         <p>
           &bull; F&uuml;r YouTube gilt die Google Datenschutzerkl&auml;rung:
           https://policies.google.com/privacy?hl=de
         </p>
+        <br />
 
         <p>
           &bull; Facebook-Datenrichtline: https://www.facebook.com/about/privacy
         </p>
+        <br />
 
         <p>
           &bull; Twitter Datenschutzrichtlinie: https://twitter.com/de/privacy
         </p>
+        <br />
 
-        <p>Cookiebot Datenschutzerkl&auml;rung</p>
+        <p>Cookiebot Datenschutzerkl&auml;rung </p>
+        <br />
 
         <p>
           Wir verwenden auf unserer Website Funktionen des Anbieters Cookiebot.
@@ -1673,8 +1977,10 @@ export default function Datenschutz() {
           nutzen, welche Daten &uuml;bertragen werden und wie Sie diese
           Daten&uuml;bertragung verhindern k&ouml;nnen.
         </p>
+        <br />
 
-        <p>Was ist Cookiebot?</p>
+        <p>Was ist Cookiebot? </p>
+        <br />
 
         <p>
           Cookiebot ist ein Software-Produkt des Unternehmens Cybot. Die
@@ -1683,8 +1989,10 @@ export default function Datenschutz() {
           wertet die Technologie hinter Cookiebot alle Cookies und
           Tracking-Ma&szlig;nahmen auf unserer Website.
         </p>
+        <br />
 
-        <p>Warum verwenden wir Cookiebot auf unserer Webseite?</p>
+        <p>Warum verwenden wir Cookiebot auf unserer Webseite? </p>
+        <br />
 
         <p>
           Datenschutz nehmen wir sehr ernst. Wir wollen Ihnen ganz genau zeigen,
@@ -1696,54 +2004,70 @@ export default function Datenschutz() {
           einen aktuellen und datenschutzkonformen Cookie-Hinweis und
           entscheiden selbst, welche Cookies Sie zulassen und welche nicht.
         </p>
+        <br />
 
-        <p>Welche Daten werden von Cookiebot gespeichert?</p>
+        <p>Welche Daten werden von Cookiebot gespeichert? </p>
+        <br />
 
         <p>
           Wenn Sie Cookies zulassen, werden folgende Daten an Cybot
           &uuml;bertragen, gespeichert und verarbeitet.
         </p>
+        <br />
 
         <p>
           &bull; IP-Adresse (in anonymisierter Form, die letzten 3 Ziffern
           werden auf 0 gesetzt)
         </p>
+        <br />
 
-        <p>&bull; Datum und Uhrzeit Ihres Einverst&auml;ndnisses</p>
+        <p>&bull; Datum und Uhrzeit Ihres Einverst&auml;ndnisses </p>
+        <br />
 
-        <p>&bull; unsere Website-URL</p>
+        <p>&bull; unsere Website-URL </p>
+        <br />
 
-        <p>&bull; technische Browserdaten</p>
+        <p>&bull; technische Browserdaten </p>
+        <br />
 
-        <p>&bull; verschl&uuml;sselter, anonymer Key</p>
+        <p>&bull; verschl&uuml;sselter, anonymer Key </p>
+        <br />
 
         <p>
           &bull; die Cookies, die Sie zugelassen haben (als Zustimmungsnachweis)
         </p>
+        <br />
 
         <p>
           Folgenden Cookies werden von Cookiebot gesetzt, wenn Sie der
           Verwendung von Cookies zugestimmt haben:
         </p>
+        <br />
 
-        <p>Name: CookieConsent</p>
+        <p>Name: CookieConsent </p>
+        <br />
 
-        <p>Wert: stamp:&rsquo;P7to4eNgIHvJvDerjKneBsmJQd9111678638-2</p>
+        <p>Wert: stamp:&rsquo;P7to4eNgIHvJvDerjKneBsmJQd9111678638-2 </p>
+        <br />
 
         <p>
           Verwendungszweck: In diesem Cookie wird Ihr Zustimmungsstatus,
           gespeichert. Dadurch kann unsere Website auch bei zuk&uuml;nftigen
           Besuchen den aktuellen Status lesen und befolgen.
         </p>
+        <br />
 
-        <p>Ablaufdatum: nach einem Jahr</p>
+        <p>Ablaufdatum: nach einem Jahr </p>
+        <br />
 
-        <p>Name: CookieConsentBulkTicket</p>
+        <p>Name: CookieConsentBulkTicket </p>
+        <br />
 
         <p>
           Wert:
           kDSPWpA%2fjhljZKClPqsncfR8SveTnNWhys5NojaxdFYBPjZ2PaDnUw%3d%3111678638-6
         </p>
+        <br />
 
         <p>
           Verwendungszweck: Dieses Cookie wird gesetzt, wenn Sie alle Cookies
@@ -1751,8 +2075,10 @@ export default function Datenschutz() {
           haben. Das Cookie speichert dann eine eigene, zuf&auml;llige und
           eindeutige ID.
         </p>
+        <br />
 
-        <p>Ablaufdatum: nach einem Jahr</p>
+        <p>Ablaufdatum: nach einem Jahr </p>
+        <br />
 
         <p>
           Anmerkung: Bitte bedenken Sie, dass es sich hier um eine beispielhafte
@@ -1761,6 +2087,7 @@ export default function Datenschutz() {
           https://www.cookiebot.com/de/cookie-declaration/ sehen Sie, welche
           weiteren Cookies eingesetzt werden k&ouml;nnen.
         </p>
+        <br />
 
         <p>
           Laut der Datenschutzerkl&auml;rung von Cybot verkauft das Unternehmen
@@ -1769,8 +2096,10 @@ export default function Datenschutz() {
           helfen, die eigenen betriebswirtschaftlichen Ziele zu erreichen. Daten
           werden auch dann weitergegeben, wenn dies rechtlich erforderlich ist.
         </p>
+        <br />
 
-        <p>Wie lange und wo werden die Daten gespeichert?</p>
+        <p>Wie lange und wo werden die Daten gespeichert? </p>
+        <br />
 
         <p>
           Alle erhobenen Daten werden ausschlie&szlig;lich innerhalb der
@@ -1783,11 +2112,13 @@ export default function Datenschutz() {
           (Cookie-Zustimmung) bzw. unmittelbar nach K&uuml;ndigung des
           Cookiebot-Services gel&ouml;scht.
         </p>
+        <br />
 
         <p>
           Wie kann ich meine Daten l&ouml;schen bzw. die Datenspeicherung
           verhindern?
         </p>
+        <br />
 
         <p>
           Sie haben jederzeit das Recht auf Ihre personenbezogenen Daten
@@ -1799,19 +2130,25 @@ export default function Datenschutz() {
           Browser funktioniert die Cookie-Verwaltung etwas anders. Hier finden
           Sie die Anleitungen zu den momentan bekanntesten Browsern:
         </p>
+        <br />
 
-        <p>Chrome: Cookies in Chrome l&ouml;schen, aktivieren und verwalten</p>
+        <p>Chrome: Cookies in Chrome l&ouml;schen, aktivieren und verwalten </p>
+        <br />
 
-        <p>Safari: Verwalten von Cookies und Websitedaten mit Safari</p>
+        <p>Safari: Verwalten von Cookies und Websitedaten mit Safari </p>
+        <br />
 
         <p>
           Firefox: Cookies l&ouml;schen, um Daten zu entfernen, die Websites auf
           Ihrem Computer abgelegt haben
         </p>
+        <br />
 
-        <p>Internet Explorer: L&ouml;schen und Verwalten von Cookies</p>
+        <p>Internet Explorer: L&ouml;schen und Verwalten von Cookies </p>
+        <br />
 
-        <p>Microsoft Edge: L&ouml;schen und Verwalten von Cookies</p>
+        <p>Microsoft Edge: L&ouml;schen und Verwalten von Cookies </p>
+        <br />
 
         <p>
           Wenn Sie mehr &uuml;ber die Datenschutzrichtlinien von
@@ -1819,8 +2156,10 @@ export default function Datenschutz() {
           erfahren wollen, empfehlen wir Ihnen die Datenschutzrichtlinien unter
           https://www.cookiebot.com/de/privacy-policy/ durchzulesen.
         </p>
+        <br />
 
-        <p>WooCommerce Datenschutzerkl&auml;rung</p>
+        <p>WooCommerce Datenschutzerkl&auml;rung </p>
+        <br />
 
         <p>
           Wir haben auf unserer Website das Open-Source Shopsystem WooCommerce
@@ -1833,8 +2172,10 @@ export default function Datenschutz() {
           handelt, wie das Netzwerk diese Daten verwendet und wie Sie die
           Datenspeicherung verwalten bzw. unterbinden k&ouml;nnen.
         </p>
+        <br />
 
-        <p>Was ist WooCommerce?</p>
+        <p>Was ist WooCommerce? </p>
+        <br />
 
         <p>
           WooCommerce ist ein Onlineshop-System, das seit 2011 Teil des
@@ -1843,8 +2184,10 @@ export default function Datenschutz() {
           quelloffene eCommerce-Plattform, die auf WordPress basiert und auch
           als WordPress-Plugin in unsere Website eingebunden wurde.
         </p>
+        <br />
 
-        <p>Warum verwenden wir WooCommerce auf unserer Webseite?</p>
+        <p>Warum verwenden wir WooCommerce auf unserer Webseite? </p>
+        <br />
 
         <p>
           Wir nutzen diese praktische Onlineshop-L&ouml;sung, um Ihnen unserer
@@ -1856,8 +2199,10 @@ export default function Datenschutz() {
           gutes Plugin gefunden, das unseren Anspr&uuml;chen an einen Onlineshop
           erf&uuml;llt.
         </p>
+        <br />
 
-        <p>Welche Daten werden von WooCommerce gespeichert?</p>
+        <p>Welche Daten werden von WooCommerce gespeichert? </p>
+        <br />
 
         <p>
           Informationen, die Sie aktiv in ein Textfeld in unserem Onlineshop
@@ -1869,19 +2214,25 @@ export default function Datenschutz() {
           Automattic kann diese Informationen in weiterer Folge auch f&uuml;r
           eigene Marketing-Kampagnen n&uuml;tzen.
         </p>
+        <br />
 
         <p>
           Zudem gibt es auch noch Informationen, die Automattic automatisch in
           sogenannten Serverlogfiles von Ihnen sammelt:
         </p>
+        <br />
 
-        <p>&bull; IP-Adresse</p>
+        <p>&bull; IP-Adresse </p>
+        <br />
 
-        <p>&bull; Browserinformationen</p>
+        <p>&bull; Browserinformationen </p>
+        <br />
 
-        <p>&bull; Voreingestellte Spracheinstellung</p>
+        <p>&bull; Voreingestellte Spracheinstellung </p>
+        <br />
 
-        <p>&bull; Datum und Uhrzeit des Webzugriffs</p>
+        <p>&bull; Datum und Uhrzeit des Webzugriffs </p>
+        <br />
 
         <p>
           WooCommerce setzt in Ihrem Browser auch Cookies und verwendet
@@ -1894,51 +2245,66 @@ export default function Datenschutz() {
           Warenkorb bleibt, wenn Sie unsere Website verlassen und zu einem
           sp&auml;teren Zeitpunkt wiederkommen.
         </p>
+        <br />
 
         <p>
           Hier zeigen wir Ihnen eine beispielhafte Liste m&ouml;glicher Cookies,
           die von WooCommerce gesetzt werden k&ouml;nnen:
         </p>
+        <br />
 
-        <p>Name: woocommerce_items_in_cart</p>
+        <p>Name: woocommerce_items_in_cart </p>
+        <br />
 
-        <p>Wert: 1</p>
+        <p>Wert: 1 </p>
+        <br />
 
         <p>
           Verwendungszweck: Das Cookie hilft WooCommerce festzustellen, wann
           sich der Inhalt im Warenkorb ver&auml;ndert.
         </p>
+        <br />
 
-        <p>Ablaufdatum: nach Sitzungsende</p>
+        <p>Ablaufdatum: nach Sitzungsende </p>
+        <br />
 
-        <p>Name: woocommerce_cart_hash</p>
+        <p>Name: woocommerce_cart_hash </p>
+        <br />
 
-        <p>Wert: 447c84f810834056ab37cfe5ed27f204111678638-7</p>
+        <p>Wert: 447c84f810834056ab37cfe5ed27f204111678638-7 </p>
+        <br />
 
         <p>
           Verwendungszweck: Auch dieses Cookie wird daf&uuml;r eingesetzt, um
           die Ver&auml;nderungen in Ihrem Warenkorb zu erkennen und zu
           speichern.
         </p>
+        <br />
 
-        <p>Ablaufdatum: nach Sitzungsende</p>
+        <p>Ablaufdatum: nach Sitzungsende </p>
+        <br />
 
-        <p>Name: wp_woocommerce_session_d9e29d251cf8a108a6482d9fe2ef34b6</p>
+        <p>Name: wp_woocommerce_session_d9e29d251cf8a108a6482d9fe2ef34b6 </p>
+        <br />
 
         <p>
           Wert:
           1146%7C%7C1589034207%7C%7C95f8053ce0cea135bbce671043e740111678638-4aa
         </p>
+        <br />
 
         <p>
           Verwendungszweck: Dieses Cookie enth&auml;lt eine eindeutige Kennung
           f&uuml;r Sie, damit die Warenkorbdaten in der Datenbank auch gefunden
           werden k&ouml;nnen.
         </p>
+        <br />
 
-        <p>Ablaufdatum: nach 2 Tagen</p>
+        <p>Ablaufdatum: nach 2 Tagen </p>
+        <br />
 
-        <p>Wie lange und wo werden die Daten gespeichert?</p>
+        <p>Wie lange und wo werden die Daten gespeichert? </p>
+        <br />
 
         <p>
           Sofern es keine gesetzliche Verpflichtung gibt, Daten f&uuml;r einen
@@ -1952,11 +2318,13 @@ export default function Datenschutz() {
           m&ouml;gliche Probleme zu beheben. Die Daten werden auf amerikanischen
           Servern von Automattic gespeichert.
         </p>
+        <br />
 
         <p>
           Wie kann ich meine Daten l&ouml;schen bzw. die Datenspeicherung
           verhindern?
         </p>
+        <br />
 
         <p>
           Sie haben jederzeit das Recht auf Ihre personenbezogenen Daten
@@ -1964,6 +2332,7 @@ export default function Datenschutz() {
           erheben. Sie k&ouml;nnen auch jederzeit bei einer staatlichen
           Aufsichtsbeh&ouml;rde eine Beschwerde einreichen.
         </p>
+        <br />
 
         <p>
           In Ihrem Browser haben Sie auch die M&ouml;glichkeit, Cookies
@@ -1975,19 +2344,25 @@ export default function Datenschutz() {
           Folgenden sehen Sie Links zu den Anleitungen der g&auml;ngigsten
           Browser:
         </p>
+        <br />
 
-        <p>Chrome: Cookies in Chrome l&ouml;schen, aktivieren und verwalten</p>
+        <p>Chrome: Cookies in Chrome l&ouml;schen, aktivieren und verwalten </p>
+        <br />
 
-        <p>Safari: Verwalten von Cookies und Websitedaten mit Safari</p>
+        <p>Safari: Verwalten von Cookies und Websitedaten mit Safari </p>
+        <br />
 
         <p>
           Firefox: Cookies l&ouml;schen, um Daten zu entfernen, die Websites auf
           Ihrem Computer abgelegt haben
         </p>
+        <br />
 
-        <p>Internet Explorer: L&ouml;schen und Verwalten von Cookies</p>
+        <p>Internet Explorer: L&ouml;schen und Verwalten von Cookies </p>
+        <br />
 
-        <p>Microsoft Edge: L&ouml;schen und Verwalten von Cookies</p>
+        <p>Microsoft Edge: L&ouml;schen und Verwalten von Cookies </p>
+        <br />
 
         <p>
           Automattic ist aktiver Teilnehmer beim EU-U.S. Privacy Shield
@@ -1996,6 +2371,7 @@ export default function Datenschutz() {
           Sie auf
           https://www.privacyshield.gov/participant?id=a2zt0000000CbqcAAC.
         </p>
+        <br />
 
         <p>
           Mehr Details zur Datenschutzrichtlinie und welche Daten auf welche Art
@@ -2003,8 +2379,10 @@ export default function Datenschutz() {
           https://automattic.com/privacy/ und allgemeine Informationen zu
           WooCommerce auf https://woocommerce.com/.
         </p>
+        <br />
 
-        <p>Klarna Checkout Datenschutzerkl&auml;rung</p>
+        <p>Klarna Checkout Datenschutzerkl&auml;rung </p>
+        <br />
 
         <p>
           Wir verwenden auf unserer Website das Online-Zahlungssystem Klarna
@@ -2016,8 +2394,10 @@ export default function Datenschutz() {
           Ihnen einen &Uuml;berblick &uuml;ber die Datenverarbeitung durch
           Klarna geben.
         </p>
+        <br />
 
-        <p>Was ist Klarna Checkout?</p>
+        <p>Was ist Klarna Checkout? </p>
+        <br />
 
         <p>
           Klarna Checkout ist ein Zahlungssystem f&uuml;r Bestellungen in einem
@@ -2030,8 +2410,10 @@ export default function Datenschutz() {
           bereits nach Eingabe der E-Mail-Adresse und Postleitzahl den
           bestehenden Kunden.
         </p>
+        <br />
 
-        <p>Warum verwenden wir Klarna Checkout f&uuml;r unsere Webseite?</p>
+        <p>Warum verwenden wir Klarna Checkout f&uuml;r unsere Webseite? </p>
+        <br />
 
         <p>
           Unser Ziel mit unserer Website und unserem eingebundenen Onlineshop
@@ -2041,8 +2423,10 @@ export default function Datenschutz() {
           Bestellungen. Um das zu gew&auml;hrleisten, nutzen wir das
           Zahlungssystem Klarna Checkout.
         </p>
+        <br />
 
-        <p>Welche Daten werden von Klarna Checkout gespeichert?</p>
+        <p>Welche Daten werden von Klarna Checkout gespeichert? </p>
+        <br />
 
         <p>
           Sobald Sie sich f&uuml;r den Zahlungsdienst Klarna entscheiden und
@@ -2055,6 +2439,7 @@ export default function Datenschutz() {
           gespeichert. Diese Daten werden auch dann gespeichert, wenn Sie noch
           keine Bestellung abgeschlossen haben.
         </p>
+        <br />
 
         <p>
           Wenn Sie ein Produkt oder eine Dienstleistung &uuml;ber unseren Shop
@@ -2065,22 +2450,26 @@ export default function Datenschutz() {
           Daten (sowie allgemeine Produktinformationen) durch Klarna gespeichert
           und verarbeitet werden:
         </p>
+        <br />
 
         <p>
           &bull; Kontaktinformationen: Namen, Geburtsdatum, nationale
           Ausweisnummer, Titel, Rechnungs- und Lieferadresse, E-Mail-Adresse,
           Telefonnummer, Nationalit&auml;t oder Gehalt.
         </p>
+        <br />
 
         <p>
           &bull; Zahlungsinformationen wie Kreditkartendaten oder Ihre
           Kontonummer
         </p>
+        <br />
 
         <p>
           &bull; Produktinformationen wie Sendungsnummer, Art des Artikels und
           Preis des Produkts
         </p>
+        <br />
 
         <p>
           Zudem gibt es auch noch Daten, die optional erhoben werden
@@ -2088,6 +2477,7 @@ export default function Datenschutz() {
           politische, religi&ouml;se oder weltanschauliche &Uuml;berzeugungen
           oder diverse Gesundheitsdaten.
         </p>
+        <br />
 
         <p>
           Klarna kann auch selbst oder &uuml;ber Dritte (wie beispielsweise
@@ -2100,6 +2490,7 @@ export default function Datenschutz() {
           auch Dienstleister wie etwa Softwareanbieter, Datenspeicheranbieter
           oder uns als H&auml;ndler weitergeben.
         </p>
+        <br />
 
         <p>
           Wenn Daten automatisch in ein Formular eingetragen werden, dann sind
@@ -2114,16 +2505,22 @@ export default function Datenschutz() {
           kommen Sie auf unsere Dankesseite. Dort wird von sofort.com folgendes
           Cookie gesetzt:
         </p>
+        <br />
 
-        <p>Name: SOFUEB</p>
+        <p>Name: SOFUEB </p>
+        <br />
 
-        <p>Wert: e8cipp378mdscn9e17kajlfhv7111678638-4</p>
+        <p>Wert: e8cipp378mdscn9e17kajlfhv7111678638-4 </p>
+        <br />
 
-        <p>Verwendungszweck: Dieses Cookie speichert Ihre Session-ID.</p>
+        <p>Verwendungszweck: Dieses Cookie speichert Ihre Session-ID. </p>
+        <br />
 
-        <p>Ablaufdatum: nach Beenden der Browsersitzung</p>
+        <p>Ablaufdatum: nach Beenden der Browsersitzung </p>
+        <br />
 
-        <p>Wie lange und wo werden die Daten gespeichert?</p>
+        <p>Wie lange und wo werden die Daten gespeichert? </p>
+        <br />
 
         <p>
           Klarna ist bem&uuml;ht Ihre Daten nur innerhalb der EU bzw. des
@@ -2136,11 +2533,13 @@ export default function Datenschutz() {
           immer solange gespeichert, wie Klarna sie f&uuml;r den
           Verarbeitungszweck ben&ouml;tigt.
         </p>
+        <br />
 
         <p>
           Wie kann ich meine Daten l&ouml;schen bzw. die Datenspeicherung
           verhindern?
         </p>
+        <br />
 
         <p>
           Sie k&ouml;nnen Ihre Einwilligung, dass Klarna personenbezogene Daten
@@ -2152,6 +2551,7 @@ export default function Datenschutz() {
           Datenschutzanfrage&ldquo; k&ouml;nnen Sie ebenfalls mit Klarna direkt
           in Kontakt treten.
         </p>
+        <br />
 
         <p>
           Cookies, die Klarna f&uuml;r ihre Funktionen m&ouml;glicherweise
@@ -2160,19 +2560,25 @@ export default function Datenschutz() {
           dies auf unterschiedliche Art und Weise. Die folgenden Anleitungen
           zeigen, wie Sie Cookies in Ihrem Browser verwalten:
         </p>
+        <br />
 
-        <p>Chrome: Cookies in Chrome l&ouml;schen, aktivieren und verwalten</p>
+        <p>Chrome: Cookies in Chrome l&ouml;schen, aktivieren und verwalten </p>
+        <br />
 
-        <p>Safari: Verwalten von Cookies und Websitedaten mit Safari</p>
+        <p>Safari: Verwalten von Cookies und Websitedaten mit Safari </p>
+        <br />
 
         <p>
           Firefox: Cookies l&ouml;schen, um Daten zu entfernen, die Websites auf
           Ihrem Computer abgelegt haben
         </p>
+        <br />
 
-        <p>Internet Explorer: L&ouml;schen und Verwalten von Cookies</p>
+        <p>Internet Explorer: L&ouml;schen und Verwalten von Cookies </p>
+        <br />
 
-        <p>Microsoft Edge: L&ouml;schen und Verwalten von Cookies</p>
+        <p>Microsoft Edge: L&ouml;schen und Verwalten von Cookies </p>
+        <br />
 
         <p>
           Wir hoffen Ihnen einen guten &Uuml;berblick &uuml;ber die
@@ -2181,8 +2587,10 @@ export default function Datenschutz() {
           Ihnen die Klarna-Datenschutzerkl&auml;rung unter
           https://cdn.klarna.com/1.0/shared/content/legal/terms/0/de_at/privacy.
         </p>
+        <br />
 
-        <p>Sofort&uuml;berweisung Datenschutzerkl&auml;rung</p>
+        <p>Sofort&uuml;berweisung Datenschutzerkl&auml;rung </p>
+        <br />
 
         <p>
           Wir bieten auf unserer Website die Zahlungsmethode
@@ -2191,6 +2599,7 @@ export default function Datenschutz() {
           schwedischen Unternehmen Klarna, hat aber ihren Firmensitz in
           Deutschland, Theresienh&ouml;he 12, 80339 M&uuml;nchen.
         </p>
+        <br />
 
         <p>
           Entscheiden Sie sich f&uuml;r diese Zahlungsmethode werden unter
@@ -2199,8 +2608,10 @@ export default function Datenschutz() {
           Datenschutztext geben wir Ihnen einen &Uuml;berblick &uuml;ber die
           Datenverarbeitung durch die Sofort GmbH.
         </p>
+        <br />
 
-        <p>Was ist eine &#8222;Sofort&uuml;berweisung&ldquo;?</p>
+        <p>Was ist eine &#8222;Sofort&uuml;berweisung&ldquo;? </p>
+        <br />
 
         <p>
           Bei der Sofort&uuml;berweisung handelt es sich um ein
@@ -2212,11 +2623,13 @@ export default function Datenschutz() {
           Online-Banking-Konto mit PIN und TAN hat. Nur noch wenige Banken
           unterst&uuml;tzen diese Zahlungsmethode noch nicht.
         </p>
+        <br />
 
         <p>
           Warum verwenden wir &#8222;Sofort&uuml;berweisung&ldquo; auf unserer
           Website?
         </p>
+        <br />
 
         <p>
           Unser Ziel mit unserer Website und unserem eingebundenen Onlineshop
@@ -2226,11 +2639,13 @@ export default function Datenschutz() {
           Bestellungen. Um das zu gew&auml;hrleisten, nutzen wir
           &#8222;Sofort&uuml;berweisung&ldquo; als Zahlungssystem.
         </p>
+        <br />
 
         <p>
           Welche Daten werden von &#8222;Sofort&uuml;berweisung&ldquo;
           gespeichert?
         </p>
+        <br />
 
         <p>
           Wenn Sie &uuml;ber den Sofort/Klarna-Dienst eine
@@ -2239,6 +2654,7 @@ export default function Datenschutz() {
           des Unternehmens gespeichert. Diese Informationen erhalten auch wir
           &uuml;ber die Zahlungsbest&auml;tigung.
         </p>
+        <br />
 
         <p>
           Im Rahmen der Kontodeckungspr&uuml;fung &uuml;berpr&uuml;ft die Sofort
@@ -2251,6 +2667,7 @@ export default function Datenschutz() {
           Ihre IP-Adresse erhoben und gespeichert. Bei SEPA-&Uuml;berweisungen
           wird auch BIC und IBAN gespeichert.
         </p>
+        <br />
 
         <p>
           Laut dem Unternehmen werden sonst keine weiteren personenbezogenen
@@ -2259,6 +2676,7 @@ export default function Datenschutz() {
           Sicherheitscodses oder PIN/TAN) erhoben, gespeichert oder an Dritte
           weitergegeben.
         </p>
+        <br />
 
         <p>
           Sofort&uuml;berweisung nutzt auch Cookies, um den eigenen Dienst
@@ -2267,27 +2685,37 @@ export default function Datenschutz() {
           erfolgreichen Zahlung werden Sie auf unsere Dankesseite
           weitergeleitet. Hier werden folgende drei Cookies gesetzt:
         </p>
+        <br />
 
-        <p>Name: SOFUEB</p>
+        <p>Name: SOFUEB </p>
+        <br />
 
-        <p>Wert: e8cipp378mdscn9e17kajlfhv7111678638-5</p>
+        <p>Wert: e8cipp378mdscn9e17kajlfhv7111678638-5 </p>
+        <br />
 
-        <p>Verwendungszweck: Dieses Cookie speichert Ihre Session-ID.</p>
+        <p>Verwendungszweck: Dieses Cookie speichert Ihre Session-ID. </p>
+        <br />
 
-        <p>Ablaufdatum: nach Beenden der Browsersitzung</p>
+        <p>Ablaufdatum: nach Beenden der Browsersitzung </p>
+        <br />
 
-        <p>Name: User[user_cookie_rules] Wert: 1</p>
+        <p>Name: User[user_cookie_rules] Wert: 1 </p>
+        <br />
 
         <p>
           Verwendungszweck: Dieses Cookie speichert Ihre Zustimmung zur
           Verwendung von Cookies.
         </p>
+        <br />
 
-        <p>Ablaufdatum: nach 10 Jahren</p>
+        <p>Ablaufdatum: nach 10 Jahren </p>
+        <br />
 
-        <p>Name: _ga</p>
+        <p>Name: _ga </p>
+        <br />
 
-        <p>Wert: GA1.2.69759879.1589470706</p>
+        <p>Wert: GA1.2.69759879.1589470706 </p>
+        <br />
 
         <p>
           Verwendungszweck: Standardm&auml;&szlig;ig verwendet analytics.js das
@@ -2295,22 +2723,27 @@ export default function Datenschutz() {
           zur Unterscheidung der Webseitenbesucher. Hier handelt es sich um ein
           Cookie von Google Analytics.
         </p>
+        <br />
 
-        <p>Ablaufdatum: nach 2 Jahren</p>
+        <p>Ablaufdatum: nach 2 Jahren </p>
+        <br />
 
         <p>
           Anmerkung: Die hier angef&uuml;hrten Cookies erheben keinen Anspruch
           auch Vollst&auml;ndigkeit. Es kann immer sein, dass
           Sofort&uuml;berweisung auch andere Cookies verwendet.
         </p>
+        <br />
 
-        <p>Wie lange und wo werden die Daten gespeichert?</p>
+        <p>Wie lange und wo werden die Daten gespeichert? </p>
+        <br />
 
         <p>
           Alle erhobenen Daten werden innerhalb der rechtlichen
           Aufbewahrungspflicht gespeichert. Diese Pflicht kann zwischen drei und
           zehn Jahren dauern.
         </p>
+        <br />
 
         <p>
           Klarna/Sofort GmbH versucht Daten nur innerhalb der EU bzw. des
@@ -2320,11 +2753,13 @@ export default function Datenschutz() {
           Angemessenheitsentscheidung der EU stehen oder das
           US-Privacy-Shield-Zertifikat besitzen.
         </p>
+        <br />
 
         <p>
           Wie kann ich meine Daten l&ouml;schen oder die Datenspeicherung
           verhindern?
         </p>
+        <br />
 
         <p>
           Sie k&ouml;nnen Ihre Einwilligung, dass Klarna personenbezogene Daten
@@ -2333,6 +2768,7 @@ export default function Datenschutz() {
           Daten. Daf&uuml;r k&ouml;nnen Sie einfach das Datenschutzteam des
           Unternehmens per E-Mail an datenschutz@sofort.com kontaktieren.
         </p>
+        <br />
 
         <p>
           M&ouml;gliche Cookies, die Sofort&uuml;berweisung verwendet,
@@ -2341,19 +2777,25 @@ export default function Datenschutz() {
           das auf unterschiedliche Weise. Die folgenden Anleitungen zeigen wie
           Sie Cookies in den g&auml;ngigsten Browsern verwalten:
         </p>
+        <br />
 
-        <p>Chrome: Cookies in Chrome l&ouml;schen, aktivieren und verwalten</p>
+        <p>Chrome: Cookies in Chrome l&ouml;schen, aktivieren und verwalten </p>
+        <br />
 
-        <p>Safari: Verwalten von Cookies und Websitedaten mit Safari</p>
+        <p>Safari: Verwalten von Cookies und Websitedaten mit Safari </p>
+        <br />
 
         <p>
           Firefox: Cookies l&ouml;schen, um Daten zu entfernen, die Websites auf
           Ihrem Computer abgelegt haben
         </p>
+        <br />
 
-        <p>Internet Explorer: L&ouml;schen und Verwalten von Cookies</p>
+        <p>Internet Explorer: L&ouml;schen und Verwalten von Cookies </p>
+        <br />
 
-        <p>Microsoft Edge: L&ouml;schen und Verwalten von Cookies</p>
+        <p>Microsoft Edge: L&ouml;schen und Verwalten von Cookies </p>
+        <br />
 
         <p>
           Wenn Sie mehr &uuml;ber die Datenverarbeitung durch die
@@ -2361,8 +2803,10 @@ export default function Datenschutz() {
           erfahren wollen, empfehlen wir Ihnen die Datenschutzerkl&auml;rung
           unter https://www.sofort.de/datenschutz.html.
         </p>
+        <br />
 
-        <p>Stripe Datenschutzerkl&auml;rung</p>
+        <p>Stripe Datenschutzerkl&auml;rung </p>
+        <br />
 
         <p>
           Wir verwenden auf unserer Website ein Zahlungstool des amerikanischen
@@ -2377,8 +2821,10 @@ export default function Datenschutz() {
           &uuml;ber diese Datenverarbeitung und Speicherung durch Stripe und
           erkl&auml;ren, warum wir Stripe auf unserer Website verwenden.
         </p>
+        <br />
 
-        <p>Was ist Stripe?</p>
+        <p>Was ist Stripe? </p>
+        <br />
 
         <p>
           Das Technologieunternehmen Stripe bietet Zahlungsl&ouml;sungen
@@ -2389,8 +2835,10 @@ export default function Datenschutz() {
           unsere Website bzw. den Shop verlassen m&uuml;ssen und die
           Zahlungsabwicklung sehr schnell erfolgt.
         </p>
+        <br />
 
-        <p>Warum verwenden wir Stripe f&uuml;r unsere Website?</p>
+        <p>Warum verwenden wir Stripe f&uuml;r unsere Website? </p>
+        <br />
 
         <p>
           Wir wollen nat&uuml;rlich mit unserer Website und unserem
@@ -2402,8 +2850,10 @@ export default function Datenschutz() {
           Stripe einen Partner gefunden, der eine sichere und schnelle
           Zahlungsabwicklung gew&auml;hrleistet.
         </p>
+        <br />
 
-        <p>Welche Daten werden von Stripe gespeichert?</p>
+        <p>Welche Daten werden von Stripe gespeichert? </p>
+        <br />
 
         <p>
           Wenn Sie sich f&uuml;r Stripe als Zahlungsart entscheiden, werden auch
@@ -2420,6 +2870,7 @@ export default function Datenschutz() {
           zu Ihrem Ger&auml;t (wie IP-Adresse) Name, Adresse, Telefonnummer und
           Ihr Land erfassen.
         </p>
+        <br />
 
         <p>
           Stripe verkauft keine Ihrer Daten an unabh&auml;ngige Dritte, wie etwa
@@ -2431,10 +2882,13 @@ export default function Datenschutz() {
           Cookies. Hier finden Sie eine Auswahl an Cookies, die Stripe
           w&auml;hrend des Zahlungsprozesses setzen kann:
         </p>
+        <br />
 
-        <p>Name: m</p>
+        <p>Name: m </p>
+        <br />
 
-        <p>Wert: edd716e9-d28b-46f7-8a55-e05f1779e84e040456111678638-5</p>
+        <p>Wert: edd716e9-d28b-46f7-8a55-e05f1779e84e040456111678638-5 </p>
+        <br />
 
         <p>
           Verwendungszweck: Dieses Cookie erscheint, wenn Sie die
@@ -2442,34 +2896,45 @@ export default function Datenschutz() {
           &uuml;ber einen PC, ein Tablet oder ein Smartphone auf unsere Website
           zugreifen.
         </p>
+        <br />
 
-        <p>Ablaufdatum: nach 2 Jahren</p>
+        <p>Ablaufdatum: nach 2 Jahren </p>
+        <br />
 
-        <p>Name: __stripe_mid</p>
+        <p>Name: __stripe_mid </p>
+        <br />
 
-        <p>Wert: fc30f52c-b006-4722-af61-a7419a5b8819875de9111678638-1</p>
+        <p>Wert: fc30f52c-b006-4722-af61-a7419a5b8819875de9111678638-1 </p>
+        <br />
 
         <p>
           Verwendungszweck: Um eine Kreditkartentransaktion durchf&uuml;hren zu
           k&ouml;nnen, wird dieses Cookie ben&ouml;tigt. Dazu speichert das
           Cookie Ihre Sitzungs-ID.
         </p>
+        <br />
 
-        <p>Ablaufdatum: nach einem Jahr</p>
+        <p>Ablaufdatum: nach einem Jahr </p>
+        <br />
 
-        <p>Name: __stripe_sid</p>
+        <p>Name: __stripe_sid </p>
+        <br />
 
-        <p>Wert: 6fee719a-c67c-4ed2-b583-6a9a50895b122753fe</p>
+        <p>Wert: 6fee719a-c67c-4ed2-b583-6a9a50895b122753fe </p>
+        <br />
 
         <p>
           Verwendungszweck: Auch dieses Cookie speichert Ihre ID und wird
           f&uuml;r den Zahlungsprozess auf unserer Website durch Stripe
           verwendet.
         </p>
+        <br />
 
-        <p>Ablaufdatum: nach Ablauf der Sitzung</p>
+        <p>Ablaufdatum: nach Ablauf der Sitzung </p>
+        <br />
 
-        <p>Wie lange und wo werden die Daten gespeichert?</p>
+        <p>Wie lange und wo werden die Daten gespeichert? </p>
+        <br />
 
         <p>
           Personenbezogene Daten werden grunds&auml;tzlich f&uuml;r die Dauer
@@ -2483,11 +2948,13 @@ export default function Datenschutz() {
           So k&ouml;nnen auch Daten au&szlig;erhalb Ihres Landes, zum Beispiel
           in den USA gespeichert werden.
         </p>
+        <br />
 
         <p>
           Wie kann ich meine Daten l&ouml;schen bzw. die Datenspeicherung
           verhindern?
         </p>
+        <br />
 
         <p>
           Stripe ist nach wie vor Teilnehmer des EU-U.S. Privacy Shield
@@ -2498,6 +2965,7 @@ export default function Datenschutz() {
           dieses Abkommen, handelt aber noch nach den Prinzipien des Privacy
           Shields.
         </p>
+        <br />
 
         <p>
           Sie haben immer das Recht auf Auskunft, Berichtigung und L&ouml;schung
@@ -2505,6 +2973,7 @@ export default function Datenschutz() {
           jederzeit das Stripe-Team &uuml;ber
           https://support.stripe.com/contact/email kontaktieren.
         </p>
+        <br />
 
         <p>
           Cookies, die Stripe f&uuml;r ihre Funktionen verwenden, k&ouml;nnen
@@ -2514,19 +2983,25 @@ export default function Datenschutz() {
           eventuell der Zahlungsvorgang nicht mehr funktioniert. Die folgenden
           Anleitungen zeigen, wie Sie Cookies in Ihrem Browser verwalten:
         </p>
+        <br />
 
-        <p>Chrome: Cookies in Chrome l&ouml;schen, aktivieren und verwalten</p>
+        <p>Chrome: Cookies in Chrome l&ouml;schen, aktivieren und verwalten </p>
+        <br />
 
-        <p>Safari: Verwalten von Cookies und Websitedaten mit Safari</p>
+        <p>Safari: Verwalten von Cookies und Websitedaten mit Safari </p>
+        <br />
 
         <p>
           Firefox: Cookies l&ouml;schen, um Daten zu entfernen, die Websites auf
           Ihrem Computer abgelegt haben
         </p>
+        <br />
 
-        <p>Internet Explorer: L&ouml;schen und Verwalten von Cookies</p>
+        <p>Internet Explorer: L&ouml;schen und Verwalten von Cookies </p>
+        <br />
 
-        <p>Microsoft Edge: L&ouml;schen und Verwalten von Cookies</p>
+        <p>Microsoft Edge: L&ouml;schen und Verwalten von Cookies </p>
+        <br />
 
         <p>
           Wir haben Ihnen nun einen allgemeinen &Uuml;berblick &uuml;ber die
@@ -2535,10 +3010,13 @@ export default function Datenschutz() {
           die ausf&uuml;hrliche Stripe-Datenschutzerkl&auml;rung unter
           https://stripe.com/at/privacy als gute Quelle.
         </p>
+        <br />
 
-        <p>Alle Texte sind urheberrechtlich gesch&uuml;tzt.</p>
+        <p>Alle Texte sind urheberrechtlich gesch&uuml;tzt. </p>
+        <br />
 
-        <p>Quelle: Erstellt mit dem Datenschutz Generator von AdSimple</p>
+        <p>Quelle: Erstellt mit dem Datenschutz Generator von AdSimple </p>
+        <br />
       </div>
       <Footer />
     </div>

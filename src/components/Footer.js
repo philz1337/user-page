@@ -89,13 +89,14 @@ export default function Footer() {
           <p>
             {" "}
             <NavLink
-              to="/datenschutz"
+              to="/agb"
               className="cursor-pointer hover:text-green-500"
               href="#"
             >
-              Datenschutz
+              AGB
             </NavLink>
           </p>
+
           <p>
             {" "}
             <NavLink
@@ -110,18 +111,27 @@ export default function Footer() {
           <p>
             {" "}
             <NavLink
-              to="/agb"
+              to="/widerruf"
               className="cursor-pointer hover:text-green-500"
               href="#"
             >
-              AGB
+              Widerruf
+            </NavLink>
+          </p>
+
+          <p>
+            {" "}
+            <NavLink
+              to="/datenschutz"
+              className="cursor-pointer hover:text-green-500"
+              href="#"
+            >
+              Datenschutz
             </NavLink>
           </p>
         </div>
         <div>
-          <h1 className="text-xl text-gray-400 lg:mt-0 mt-7">
-            Bald erhältlich
-          </h1>
+          <h1 className="text-xl text-gray-400 lg:mt-0 mt-7">Bald auch im:</h1>
           <img src="/img/appStore.png" className="h-27 mt-3" alt="" />
         </div>
       </div>
