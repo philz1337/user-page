@@ -19,12 +19,8 @@ export default function SaleProcess() {
                 Es reicht ein Foto und eine Angabe für Marke und ein Stichwort.
               </p>
             </div>
-            <div className="flex justify-end">
-              <img
-                src="/img/foto-machen.png"
-                className="ml-3 mt-6 h-30 w-30"
-                alt=""
-              />
+            <div>
+              <img src="/img/foto-machen.png" className="w-40" alt="" />
             </div>
           </div>
           <div className="grid grid-cols-2 mb-5">
@@ -35,12 +31,8 @@ export default function SaleProcess() {
                 du einverstanden, sendest du die Artikel kostenfrei zu uns.
               </p>
             </div>
-            <div className="flex justify-end">
-              <img
-                src="/img/einsenden.png"
-                className="ml-3 mt-6 h-30 w-30"
-                alt=""
-              />
+            <div>
+              <img src="/img/einsenden.png" className="w-40 mt-5" alt="" />
             </div>
           </div>
           <div className="grid grid-cols-2 mb-5">
@@ -52,12 +44,8 @@ export default function SaleProcess() {
                 kostenfrei zurück.
               </p>
             </div>
-            <div className="flex justify-end">
-              <img
-                src="/img/geld-erhalten.png"
-                className="ml-3 mt-6 h-30 w-30"
-                alt=""
-              />
+            <div>
+              <img src="/img/geld-erhalten.png" className="w-40 mt-5" alt="" />
             </div>
           </div>
           <div className="flex justify-center mt-10">
