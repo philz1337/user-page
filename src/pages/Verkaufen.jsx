@@ -3,6 +3,7 @@ import ImageUploading from "react-images-uploading"
 
 import Footer from "../components/Footer"
 import Nav from "../components/Nav"
+import ArticleUpload from "../components/Article_Upload"
 
 import { ReactComponent as IconPlus } from "./plus.svg"
 import { ReactComponent as IconX } from "./x.svg"
@@ -199,6 +200,14 @@ export default function Verkaufen() {
                   className="w-full p-3 bg-gray-100 outline-none mt-1 rounded-md"
                 />
               </div>
+
+              {false && (
+                <ArticleUpload
+                  images={images}
+                  onChange={onChange}
+                  maxNumber={maxNumber}
+                />
+              )}
 
               <div className="grid grid-cols-2 gap-3 mt-6">
                 <button className="hover:shadow-md w-full hover:shadow-gray-400 transition-all bg-primary py-3 text-white rounded-full mr-10">
