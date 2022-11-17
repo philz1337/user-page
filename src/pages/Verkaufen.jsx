@@ -19,13 +19,13 @@ export default function Verkaufen() {
 
   return (
     <>
-      <div className="flex flex-col items-center">
+      <div className="flex flex-col items-center ">
         <Nav />
-        <div className="w-10/12 lg:w-9/12 sm:grid sm:grid-cols-2 ">
+        <div className="w-10/12 lg:w-9/12 sm:grid ">
           <h1 className="text-2xl lg:text-3xl font-semibold text-center mt-5 mb-6 lg:mb-5">
             Verkaufen
           </h1>
-          <div className="lg:border rounded-2xl">
+          <div className="lg:border rounded-2xl lg:p-5">
             <h1 className="text-xl font-semibold">Dein erster Artikel</h1>
             <p className="mt-4 text-sm font-medium text-gray-600">Foto</p>
 
