@@ -13,7 +13,7 @@ import { useForm } from "react-hook-form"
 
 const KEY_P = process.env.REACT_APP_KEY_P
 
-const sendFormtoDB = async (data) => {
+const sendFormtoDB = async (data, images) => {
   const options = {
     method: "POST",
     url: "https://api.airtable.com/v0/appEpNZcaV5uiHvi6/Sandbox",
@@ -26,6 +26,12 @@ const sendFormtoDB = async (data) => {
             Nachname: data.lastname,
             "1. Artikel: Artikelbezeichnung": data.title,
             "1. Marke": data.brand,
+            "1. Artikel: Fotos hochladen": [
+              {
+                url: "link",
+                filename: "33823_3_xl.jpg",
+              },
+            ],
           },
         },
       ],
@@ -49,14 +55,6 @@ export default function Verkaufen() {
     setImages(imageList)
   }
 
-  const gucki = async (e) => {
-    console.log("hallo")
-    alert("A name was submitted: ")
-
-    console.log("Airtable API wird angesprochen")
-    sendFormtoDB()
-  }
-
   const {
     register,
     handleSubmit,
@@ -66,7 +64,7 @@ export default function Verkaufen() {
   const onSubmit = (data) => {
     console.log(data)
     console.log("errors", errors)
-    sendFormtoDB(data)
+    sendFormtoDB(data, images)
   }
 
   return (
@@ -79,64 +77,66 @@ export default function Verkaufen() {
           </h1>
           <div className="lg:border rounded-2xl lg:p-5">
             <h1 className="text-xl font-semibold">Dein erster Artikel</h1>
-            <p className="mt-4 text-sm font-medium text-gray-600">Foto</p>
 
-            <div className="grid place-items-center">
-              <div className="App">
-                <ImageUploading
-                  multiple
-                  value={images}
-                  onChange={onChange}
-                  maxNumber={maxNumber}
-                  dataURLKey="data_url"
-                >
-                  {({
-                    imageList,
-                    onImageUpload,
-                    onImageRemoveAll,
-                    onImageUpdate,
-                    onImageRemove,
-                    isDragging,
-                    dragProps,
-                  }) => (
-                    // write your building UI
-                    <div>
-                      {!imageList[0] && (
-                        <button
-                          onClick={onImageUpload}
-                          {...dragProps}
-                          className="hover:shadow-md hover:shadow-gray-400 transition-all bg-primary rounded-2xl text-white grid place-items-center h-32 w-32"
-                        >
-                          <IconPlus
-                            stroke="#FFFFFF"
-                            className="h-24 w-24 "
-                            alt=""
-                          />
-                        </button>
-                      )}
-                      {imageList[0] && (
-                        <div className="relative h-32 w-32 border-2 hover:shadow-md hover:shadow-gray-400 hover:border-primary bg-gray-100 rounded-2xl">
-                          <img
-                            src={imageList[0]["data_url"]}
-                            alt=""
-                            className="w-full h-full object-contain absolute z-10 rounded-2xl"
-                          />
-                          <div className="grid place-content-end p-0.5">
-                            <button
-                              onClick={() => onImageRemove(0)}
-                              className="hover:shadow-md hover:shadow-gray-400 transition-all bg-gray-100 rounded-full text-gray-600 grid place-items-center h-6 w-6 z-20"
-                            >
-                              <IconX className="h-5 w-5 " alt="" />
-                            </button>
-                          </div>
-                        </div>
-                      )}
-                    </div>
-                  )}
-                </ImageUploading>
-              </div>
-            </div>
             <form onSubmit={handleSubmit(onSubmit)}>
+              <p className="mt-4 text-sm font-medium text-gray-600">Foto</p>
+
+              <div className="grid place-items-center">
+                <div className="App">
+                  <ImageUploading
+                    multiple
+                    value={images}
+                    onChange={onChange}
+                    maxNumber={maxNumber}
+                    dataURLKey="data_url"
+                  >
+                    {({
+                      imageList,
+                      onImageUpload,
+                      onImageRemoveAll,
+                      onImageUpdate,
+                      onImageRemove,
+                      isDragging,
+                      dragProps,
+                    }) => (
+                      // write your building UI
+                      <div>
+                        {!imageList[0] && (
+                          <button
+                            onClick={onImageUpload}
+                            {...dragProps}
+                            className="hover:shadow-md hover:shadow-gray-400 transition-all bg-primary rounded-2xl text-white grid place-items-center h-32 w-32"
+                          >
+                            <IconPlus
+                              stroke="#FFFFFF"
+                              className="h-24 w-24 "
+                              alt=""
+                            />
+                          </button>
+                        )}
+                        {imageList[0] && (
+                          <div className="relative h-32 w-32 border-2 hover:shadow-md hover:shadow-gray-400 hover:border-primary bg-gray-100 rounded-2xl">
+                            <img
+                              src={imageList[0]["data_url"]}
+                              alt=""
+                              className="w-full h-full object-contain absolute z-10 rounded-2xl"
+                            />
+                            <div className="grid place-content-end p-0.5">
+                              <button
+                                onClick={() => onImageRemove(0)}
+                                className="hover:shadow-md hover:shadow-gray-400 transition-all bg-gray-100 rounded-full text-gray-600 grid place-items-center h-6 w-6 z-20"
+                              >
+                                <IconX className="h-5 w-5 " alt="" />
+                              </button>
+                            </div>
+                          </div>
+                        )}
+                      </div>
+                    )}
+                  </ImageUploading>
+                </div>
+              </div>
+
               <p className="mt-4 text-sm font-medium text-gray-600">Marke</p>
               <input
                 type="text"
