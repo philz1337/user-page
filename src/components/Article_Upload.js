@@ -3,18 +3,16 @@ import ImageUploading from "react-images-uploading"
 import { ReactComponent as IconPlus } from "../pages/plus.svg"
 import { ReactComponent as IconX } from "../pages/x.svg"
 
-import { useForm } from "react-hook-form"
-
-export default function ArticleUpload(images, onChange, maxNumber) {
-  const {
-    register,
-    handleSubmit,
-    formState: { errors },
-  } = useForm()
-
+export default function ArticleUpload({
+  number,
+  register,
+  images,
+  onChange,
+  maxNumber,
+}) {
   return (
-    <div className="mt-10">
-      <h1 className="text-xl font-semibold">2. Artikel</h1>
+    <div className="mt-20">
+      <h1 className="text-xl font-semibold">{number}. Artikel</h1>
       <p className="mt-4 text-sm font-medium text-gray-600">Foto</p>
 
       <div className="grid place-items-center">
@@ -72,9 +70,7 @@ export default function ArticleUpload(images, onChange, maxNumber) {
       <p className="mt-4 text-sm font-medium text-gray-600">Marke</p>
       <input
         type="text"
-        {...register("brand2", {
-          required: true,
-          min: 1,
+        {...register("brand" + number, {
           maxLength: 50,
         })}
         placeholder="Adidas"
@@ -86,7 +82,9 @@ export default function ArticleUpload(images, onChange, maxNumber) {
       <input
         type="text"
         placeholder="Winterjacke"
-        {...register("title", { required: true, maxLength: 100 })}
+        {...register("title" + number, {
+          maxLength: 100,
+        })}
         className="w-full p-3 bg-gray-100 outline-none mt-1 rounded-md"
       />
     </div>

@@ -52,11 +52,13 @@ export default function Verkaufen() {
   const maxNumber = 69
 
   const onChange = (imageList, addUpdateIndex) => {
-    console.log(imageList, addUpdateIndex)
+    console.log("Bilder", imageList, addUpdateIndex)
     setImages(imageList)
+    console.log(watch("title"))
   }
 
   const {
+    watch,
     register,
     handleSubmit,
     formState: { errors },
@@ -66,6 +68,12 @@ export default function Verkaufen() {
     console.log(data)
     console.log("errors", errors)
     sendFormtoDB(data, images)
+  }
+
+  let articles_loop = []
+
+  for (let i = 1; i <= 20; i++) {
+    articles_loop.push(i)
   }
 
   return (
@@ -141,7 +149,7 @@ export default function Verkaufen() {
               <p className="mt-4 text-sm font-medium text-gray-600">Marke</p>
               <input
                 type="text"
-                {...register("brand", {
+                {...register("brand1", {
                   required: true,
                   min: 1,
                   maxLength: 50,
@@ -155,7 +163,7 @@ export default function Verkaufen() {
               <input
                 type="text"
                 placeholder="Winterjacke"
-                {...register("title", { required: true, maxLength: 100 })}
+                {...register("title1", { required: true, maxLength: 100 })}
                 className="w-full p-3 bg-gray-100 outline-none mt-1 rounded-md"
               />
               <div className="pt-10">
@@ -197,29 +205,40 @@ export default function Verkaufen() {
                     required: true,
                     pattern: /^\S+@\S+$/i,
                   })}
-                  className="w-full p-3 bg-gray-100 outline-none mt-1 rounded-md"
+                  className={
+                    errors.email
+                      ? "w-full p-3 bg-gray-100 outline-none mt-1 rounded-md border-2 border-red-600"
+                      : "w-full p-3 bg-gray-100 outline-none mt-1 rounded-md"
+                  }
                 />
               </div>
 
-              {false && (
-                <ArticleUpload
-                  images={images}
-                  onChange={onChange}
-                  maxNumber={maxNumber}
-                />
+              {errors.email && (
+                <span className="text-sm font-medium text-red-600">
+                  Mit der E-Mail Adresse scheint etwas nicht zu stimmen.
+                </span>
               )}
 
-              <div className="grid grid-cols-2 gap-3 mt-6">
-                <button className="hover:shadow-md w-full hover:shadow-gray-400 transition-all bg-primary py-3 text-white rounded-full mr-10">
-                  Weitere Artikel
-                </button>
-                <button
-                  type="submit"
-                  className="hover:shadow-md w-full hover:shadow-gray-400 transition-all bg-primary py-3 text-white rounded-full mr-10"
-                >
-                  Abschicken
-                </button>
-              </div>
+              {articles_loop.map((num) => (
+                <div>
+                  {watch("title" + num) && watch("brand" + num) && (
+                    <ArticleUpload
+                      number={num + 1}
+                      register={register}
+                      images={images}
+                      onChange={onChange}
+                      maxNumber={maxNumber}
+                    />
+                  )}
+                </div>
+              ))}
+
+              <button
+                type="submit"
+                className="hover:shadow-md w-full hover:shadow-gray-400 transition-all bg-primary py-3 text-white rounded-full mr-10 mt-20"
+              >
+                Artikel hochladen
+              </button>
             </form>
           </div>
 
