@@ -72,7 +72,7 @@ export default function Verkaufen() {
 
   let articles_loop = []
 
-  for (let i = 1; i <= 20; i++) {
+  for (let i = 1; i <= 20 - 1; i++) {
     articles_loop.push(i)
   }
 
