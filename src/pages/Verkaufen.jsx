@@ -62,12 +62,14 @@ export default function Verkaufen() {
     return () => subscription.unsubscribe()
   }, [watch])
 
-  const onSubmit = (data) => {
+  const onSubmit = async (data) => {
     console.log()
     console.log("errors", errors)
     let datanew = new FormData()
     datanew.append("file", data.picture1[0])
-    sendDatatoServer(datanew)
+
+    const server_links = await sendDatatoServer(datanew)
+    await sendFormtoDB(data, server_links)
   }
 
   const sendDatatoServer = async (data) => {
@@ -76,8 +78,8 @@ export default function Verkaufen() {
         // receive two parameter endpoint url ,form data
       })
       .then((res) => {
-        // then print response status
-        console.log(res.statusText)
+        console.log("Bild wurde hochgeladen unter dem Link: ", res.data.path)
+        return res.data.path
       })
   }
 

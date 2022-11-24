@@ -10,7 +10,9 @@ var storage = multer.diskStorage({
     cb(null, "upload")
   },
   filename: function (req, file, cb) {
-    cb(null, Date.now() + "-" + file.originalname)
+    let filename_xy = "kopf" + Date.now() + "-" + file.originalname
+    cb(null, filename_xy)
+    console.log(filename_xy)
   },
 })
 
