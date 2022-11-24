@@ -65,11 +65,24 @@ export default function Verkaufen() {
   } = useForm()
 
   const onSubmit = (data) => {
-    console.log(data)
     console.log("errors", errors)
-    sendFormtoDB(data, images)
+    let datanew = new FormData()
+    datanew.append("file", data.picture1[0])
+    sendDatatoServer(datanew)
   }
 
+  const sendDatatoServer = async (data) => {
+    axios
+      .post("http://localhost:8000/upload", data, {
+        // receive two parameter endpoint url ,form data
+      })
+      .then((res) => {
+        // then print response status
+        console.log(res.statusText)
+      })
+  }
+
+  // DAs muss vermutlich woanders hin wo es nur am anfang gemacht wird
   let articles_loop = []
 
   for (let i = 1; i <= 20 - 1; i++) {
@@ -89,11 +102,11 @@ export default function Verkaufen() {
 
             <form onSubmit={handleSubmit(onSubmit)}>
               <p className="mt-4 text-sm font-medium text-gray-600">Foto</p>
-
               <div className="grid place-items-center">
                 <div className="App">
                   <ImageUploading
                     multiple
+                    {...register("picture1")}
                     value={images}
                     onChange={onChange}
                     maxNumber={maxNumber}
