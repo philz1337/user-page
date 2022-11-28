@@ -10,13 +10,13 @@ var storage = multer.diskStorage({
     cb(null, "upload")
   },
   filename: function (req, file, cb) {
-    let filename_xy = "kopf" + Date.now() + "-" + file.originalname
+    let filename_xy = Date.now() + "-" + file.originalname
     cb(null, filename_xy)
     console.log(filename_xy)
   },
 })
 
-var upload = multer({ storage: storage }).single("file")
+var upload = multer({ storage: storage }).array("file")
 
 app.post("/upload", function (req, res) {
   console.log("Hier kam etwas an")
@@ -26,10 +26,10 @@ app.post("/upload", function (req, res) {
     } else if (err) {
       return res.status(500).json(err)
     }
-    return res.status(200).send(req.file)
+    return res.status(200).send(req.files)
   })
 })
 
-app.listen(8000, function () {
-  console.log("App running on port 8000")
+app.listen(3000, function () {
+  console.log("App running on port 3000")
 })

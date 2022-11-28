@@ -13,7 +13,8 @@ import { useForm } from "react-hook-form"
 
 const KEY_P = process.env.REACT_APP_KEY_P
 
-const sendFormtoDB = async (data, images) => {
+const sendFormtoDB = async (data, server_links) => {
+  console.log(server_links)
   const options = {
     method: "POST",
     url: "https://api.airtable.com/v0/appEpNZcaV5uiHvi6/Sandbox",
@@ -24,14 +25,18 @@ const sendFormtoDB = async (data, images) => {
             "E-Mail": data.email,
             Vorname: data.firstname,
             Nachname: data.lastname,
-            "1. Artikel: Artikelbezeichnung": data.title,
-            "1. Marke": data.brand,
+            "bild1 text": server_links[0].path,
+            "1. Artikel: Artikelbezeichnung": data.title1,
+            "1. Marke": data.brand1,
             "1. Artikel: Fotos hochladen": [
               {
                 url: "link",
                 filename: "33823_3_xl.jpg",
               },
             ],
+            "bild2 text": server_links[1].path,
+            "2. Artikel: Artikelbezeichnung": data.title2,
+            "2. Marke": data.brand2,
           },
         },
       ],
@@ -63,23 +68,49 @@ export default function Verkaufen() {
   }, [watch])
 
   const onSubmit = async (data) => {
-    console.log()
-    console.log("errors", errors)
-    let datanew = new FormData()
-    datanew.append("file", data.picture1[0])
-
-    const server_links = await sendDatatoServer(datanew)
-    await sendFormtoDB(data, server_links)
+    const server_links = await sendDatatoServer(data)
+    // Warum wird hier nicht gewartet bis die Daten da sind?
   }
 
   const sendDatatoServer = async (data) => {
+    let datanew = new FormData()
+
+    try {
+      datanew.append("file", data.picture1[0])
+      datanew.append("file", data.picture2[0])
+      datanew.append("file", data.picture3[0])
+      datanew.append("file", data.picture4[0])
+      datanew.append("file", data.picture5[0])
+      datanew.append("file", data.picture6[0])
+      datanew.append("file", data.picture7[0])
+      datanew.append("file", data.picture8[0])
+      datanew.append("file", data.picture9[0])
+      datanew.append("file", data.picture10[0])
+      datanew.append("file", data.picture11[0])
+      datanew.append("file", data.picture12[0])
+      datanew.append("file", data.picture13[0])
+      datanew.append("file", data.picture14[0])
+      datanew.append("file", data.picture15[0])
+      datanew.append("file", data.picture16[0])
+      datanew.append("file", data.picture17[0])
+      datanew.append("file", data.picture18[0])
+      datanew.append("file", data.picture19[0])
+      datanew.append("file", data.picture20[0])
+    } catch (e) {
+      console.log("Es waren nicht alle 20 Bilder")
+    }
+
+    console.log("hier stehen die Files drin", datanew.getAll("file"))
+
     axios
-      .post("http://localhost:8000/upload", data, {
+      .post("http://localhost:8000/upload", datanew, {
         // receive two parameter endpoint url ,form data
       })
       .then((res) => {
-        console.log("Bild wurde hochgeladen unter dem Link: ", res.data.path)
-        return res.data.path
+        console.log("Bild wurde hochgeladen unter dem Link: ", res.data)
+
+        sendFormtoDB(data, res.data)
+        return res.data
       })
   }
 
@@ -162,7 +193,7 @@ export default function Verkaufen() {
 
               {articles_loop.map((num) => (
                 <div>
-                  {watch("title" + num) && watch("brand" + num) && (
+                  {watch("brand" + num) && (
                     <ArticleUpload
                       number={num + 1}
                       register={register}
