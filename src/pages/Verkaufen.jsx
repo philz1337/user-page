@@ -102,16 +102,21 @@ export default function Verkaufen() {
 
     console.log("hier stehen die Files drin", datanew.getAll("file"))
 
-    axios
-      .post("http://localhost:8000/upload", datanew, {
-        // receive two parameter endpoint url ,form data
-      })
-      .then((res) => {
-        console.log("Bild wurde hochgeladen unter dem Link: ", res.data)
+    axios.post("https://backend.uber.space/upload", datanew, {}).then((res) => {
+      console.log("Backend wurde angesprochen, das ist die Antwort", res)
+      return res
+    })
 
-        sendFormtoDB(data, res.data)
-        return res.data
-      })
+    // axios
+    //   .post("https://backend.uber.space/upload", datanew, {
+    //     // receive two parameter endpoint url ,form data
+    //   })
+    //   .then((res) => {
+    //     console.log("Bild wurde hochgeladen unter dem Link: ", res.data)
+
+    //     sendFormtoDB(data, res.data)
+    //     return res.data
+    //   })
   }
 
   // Hallo Vinzenz. Glaubst du Elon Musk würde mich dafür befördern?
