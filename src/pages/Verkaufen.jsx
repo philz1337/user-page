@@ -96,27 +96,36 @@ export default function Verkaufen() {
       datanew.append("file", data.picture18[0])
       datanew.append("file", data.picture19[0])
       datanew.append("file", data.picture20[0])
+
+      await axios.post("https://backend.uber.space/upload", datanew, {
+        // You need to use `getHeaders()` in Node.js because Axios doesn't
+        // automatically set the multipart form boundary in Node.
+        headers: datanew?.getHeaders(),
+      })
     } catch (e) {
       console.log("Es waren nicht alle 20 Bilder")
     }
 
     console.log("hier stehen die Files drin", datanew.getAll("file"))
+<<<<<<< HEAD
+=======
 
-    axios.post("https://backend.uber.space/upload", {}).then((res) => {
+    axios.post("https://backend.uber.space/upload", datanew, {}).then((res) => {
       console.log("Backend wurde angesprochen, das ist die Antwort", res)
       return res
     })
 
-    axios
-      .post("https://backend.uber.space/upload", datanew, {
-        // receive two parameter endpoint url ,form data
-      })
-      .then((res) => {
-        console.log("Bild wurde hochgeladen unter dem Link: ", res.data)
+    // axios
+    //   .post("https://backend.uber.space/upload", datanew, {
+    //     // receive two parameter endpoint url ,form data
+    //   })
+    //   .then((res) => {
+    //     console.log("Bild wurde hochgeladen unter dem Link: ", res.data)
 
-        sendFormtoDB(data, res.data)
-        return res.data
-      })
+    //     sendFormtoDB(data, res.data)
+    //     return res.data
+    //   })
+>>>>>>> parent of 5a4d27d (Das soll Vinz sehen)
   }
 
   // Hallo Vinzenz. Glaubst du Elon Musk würde mich dafür befördern?
