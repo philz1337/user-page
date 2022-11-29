@@ -1,6 +1,8 @@
 var express = require("express")
 var app = express()
 var multer = require("multer")
+const fs = require("fs")
+const path = require("path")
 
 // Add headers before the routes are defined
 app.use(function (req, res, next) {
@@ -29,16 +31,15 @@ var storage = multer.diskStorage({
     cb(null, "upload")
   },
   filename: function (req, file, cb) {
-    let filename_xy = Date.now() + "-" + file.originalname
-    cb(null, filename_xy)
-    console.log(filename_xy)
+    cb(null, Date.now() + "-" + file.originalname)
   },
 })
 
 var upload = multer({ storage: storage }).array("file")
 
 app.post("/upload", function (req, res) {
-  console.log("Hier kam etwas an")
+  console.log("Hier kam etwas an", req, res)
+
   upload(req, res, function (err) {
     if (err instanceof multer.MulterError) {
       return res.status(500).json(err)
@@ -47,6 +48,20 @@ app.post("/upload", function (req, res) {
     }
     return res.status(200).send(req.files)
   })
+})
+
+app.get("/debug", function (req, res) {
+  console.log("Hier kam etwas an", req, res)
+
+  // fs.mkdir(path.join(__dirname, "upload"), (err) => {
+  //   if (err) {
+  //     return console.error(err)
+  //   }
+
+  //   console.log("Directory created successfully!")
+  // })
+
+  res.status(200).send("GET request to the homepage")
 })
 
 app.listen(3000, function () {
