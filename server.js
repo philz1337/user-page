@@ -26,7 +26,7 @@ app.use(function (req, res, next) {
 
 var storage = multer.diskStorage({
   destination: function (req, file, cb) {
-    cb(null, "upload")
+    cb(null, "../html/upload")
   },
   filename: function (req, file, cb) {
     let filename_xy = Date.now() + "-" + file.originalname
