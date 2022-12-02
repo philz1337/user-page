@@ -1,8 +1,8 @@
 import React from "react"
 
-import { ReactComponent as IconMarken } from "./brand.svg"
-import { ReactComponent as IconZustand } from "./condition.svg"
-import { ReactComponent as IconFunktion } from "./function.svg"
+import { ReactComponent as IconMarken } from "../svg/brand.svg"
+import { ReactComponent as IconZustand } from "../svg/condition.svg"
+import { ReactComponent as IconFunktion } from "../svg/function.svg"
 
 export default function Conditions() {
   return (

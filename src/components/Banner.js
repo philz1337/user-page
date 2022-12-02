@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom"
 
-import { ReactComponent as LogoWorld } from "./world.svg"
+import { ReactComponent as LogoWorld } from "../svg/world.svg"
 
 export default function Banner() {
   return (

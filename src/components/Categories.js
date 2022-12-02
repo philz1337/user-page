@@ -1,8 +1,8 @@
 import React from "react"
 
-import { ReactComponent as Cats } from "./cat.svg"
-import { ReactComponent as Easy } from "./smile.svg"
-import { ReactComponent as Free } from "./free.svg"
+import { ReactComponent as Cats } from "../svg//cat.svg"
+import { ReactComponent as Easy } from "../svg/smile.svg"
+import { ReactComponent as Free } from "../svg/free.svg"
 
 export default function Categories() {
   return (
