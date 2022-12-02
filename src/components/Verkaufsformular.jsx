@@ -7,7 +7,11 @@ import { useForm } from "react-hook-form"
 
 const KEY_P = process.env.REACT_APP_KEY_P
 
-export default function Verkaufsformular({ setLoading, setSubmitted }) {
+export default function Verkaufsformular({
+  setLoading,
+  setSubmitted,
+  setSuccess,
+}) {
   const {
     watch,
     reset,
@@ -273,7 +277,11 @@ export default function Verkaufsformular({ setLoading, setSubmitted }) {
     }
 
     const results = await axios.request(options)
-
+    if (results.status === 200) {
+      setSuccess(true)
+    } else {
+      setSuccess(false)
+    }
     console.log("RESULTS", results)
 
     setLoading(false)
@@ -366,6 +374,15 @@ export default function Verkaufsformular({ setLoading, setSubmitted }) {
                 )}
               </div>
             ))}
+
+            {watch("picture1")?.length !== 1 && (
+              <div className="bg-secondary p-4 border-1 rounded-md mt-8">
+                <p className="text-sm font-medium">
+                  Info: Hier erscheinen weitere Artikel sobald ein Artikel
+                  vollständig ausgefüllt wurde.
+                </p>
+              </div>
+            )}
 
             <button
               type="submit"

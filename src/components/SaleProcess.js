@@ -27,7 +27,7 @@ export default function SaleProcess() {
             <div className="mt-5">
               <h1 className="text-lg font-semibold">2. Einsenden</h1>
               <p className="text-sm mt-1">
-                Du erhälst innerhalb von 24 Stunden ein Festpreisangebot. Bist
+                Du erhältst innerhalb von 24 Stunden ein Festpreisangebot. Bist
                 du einverstanden, sendest du die Artikel kostenfrei zu uns.
               </p>
             </div>
@@ -40,7 +40,7 @@ export default function SaleProcess() {
               <h1 className="text-lg font-semibold">3. Geld erhalten</h1>
               <p className="text-sm mt-1">
                 Wir prüfen deine Artikel und zahlen dir den vereinbarten Betrag
-                aus. Entspricht etwas nicht unseren Bedingungen erhälst du es
+                aus. Entspricht etwas nicht unseren Bedingungen, erhältst du es
                 kostenfrei zurück.
               </p>
             </div>

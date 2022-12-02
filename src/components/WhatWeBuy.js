@@ -39,7 +39,7 @@ export default function WhatWeBuy() {
           <Item
             title="Weiteres"
             img="/img/siiapb-1 6.png"
-            des="Babyausstattung, Sportartikel und zubehör, Deko, Beauty u.v.m. "
+            des="Babyausstattung, Sportartikel und Zubehör, Deko, Beauty u.v.m. "
           />
         </div>
       </div>

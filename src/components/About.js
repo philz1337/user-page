@@ -11,23 +11,23 @@ export default function About() {
         <div>
           <p className="text-sm lg:text-base">
             {" "}
-            “Als Vater und in einer Vollzeit Stelle habe ich nie die Zeit & Lust
-            gefunden meine ungenutzten Dinge zu verkaufen. Dadurch ist die Idee
+            “Als Vater in einer Vollzeitstelle habe ich nie die Zeit & Lust
+            gefunden, meine ungenutzten Dinge zu verkaufen. Dadurch ist die Idee
             von Okasi entstanden. Die Sachen kommen wieder in den Kreislauf und
             wir können somit nachhaltiger handeln.” <br />
             <span className="italic"> -Philipp Berben, Gründer von Okasi</span>
           </p>
           <div className="hidden lg:block">
             <p className="mt-5 text-sm lg:text-base">
-              2022 ist Okasi enstanden, wir sind somit noch ein kleines Start-Up
+              Okasi ist 2022 enstanden, wir sind somit noch ein kleines Start-Up
               mit drei Mitarbeitern. Wir sind überzeugt von der Nachhaltigkeit
               unserer extrem einfachen Verkaufslösung.
             </p>
             <p className="mt-5 text-sm lg:text-base">
-              Der Transport und die Logistik zu uns und zum neuen Kunden wird
-              CO2 kompensiert. Dies setzen wir durch die Unterstützung von
-              Klimaschutzprojekten wie z.B. Wasserkraft in Honduras und Biomasse
-              in Vietnam und Nepal um. <br />
+              Transport und Logistik zu uns und zum neuen Kunden werden
+              CO2-kompensiert. Dies setzen wir durch die Unterstützung von
+              Klimaschutzprojekten, wie z.B. Wasserkraft in Honduras und
+              Biomasse in Vietnam und Nepal, um. <br />
               Der Ausgleich ist nach dem „Greenhouse Gas Protocol – Product Life
               Cycle Accounting and Reporting Standard“ verifiziert.
             </p>

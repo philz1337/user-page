@@ -14,8 +14,8 @@ export default function Categories() {
             <div className="pl-2">Sehr viele Kategorien</div>
           </div>
           <p className="text-sm mt-3">
-            Wir kaufen alles auf einmal: Kleidung, Technik, Haushaltsartikel,
-            Beauty, Deko, Fashion, Schuhe, und vieles mehr.
+            Wir kaufen alles, was es auch sei: Kleidung, Technik,
+            Haushaltsartikel, Beauty, Deko, Fashion, Schuhe und vieles mehr.
           </p>
         </div>
 
@@ -36,7 +36,7 @@ export default function Categories() {
             <div className="pl-2">Sehr einfach</div>
           </div>
           <p className="text-sm mt-3">
-            Festpreisangebot innerhalb von 24 Stunden. Du entscheidest ob du
+            Festpreisangebot innerhalb von 24 Stunden. Du entscheidest, ob du
             einverstanden bist. Einfacher geht es nicht :)
           </p>
         </div>
@@ -47,7 +47,7 @@ export default function Categories() {
             <div className="pl-2">100% kostenlos</div>
           </div>
           <p className="text-sm mt-3">
-            Der Versand zu uns sowie der gesamte Ankaufservice ist 100%
+            Der Versand zu uns wie auch der gesamte Ankaufservice ist 100%
             kostenfrei.
           </p>
         </div>
