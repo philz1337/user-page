@@ -313,8 +313,9 @@ export default function Verkaufsformular({
             <div className="pb-10">
               <p className="text-lg font-medium">Kontaktdaten</p>
 
-              <div className="grid grid-cols-2 gap-3 mt-2">
-                <div class="relative">
+              {/* Das geht irgendwie nicht */}
+              <div className="flex">
+                <div class="relative mr-3">
                   <input
                     type="text"
                     id="firstname"
@@ -353,10 +354,9 @@ export default function Verkaufsformular({
                 </div>
               </div>
 
-              <div class="relative mt-3">
+              <div class="relative mt-2">
                 <input
                   type="text"
-                  id="email"
                   class="w-full outline-none mt-1 rounded-xl border focus:border-primary px-4 pb-2.5 pt-6 peer"
                   {...register("email", {
                     required: true,
@@ -364,10 +364,7 @@ export default function Verkaufsformular({
                   })}
                   placeholder=" "
                 />
-                <label
-                  for="email"
-                  class="absolute text-base text-gray-400 duration-300 transform -translate-y-4 scale-75 top-7 z-10 origin-[0] left-4  peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1 peer-focus:scale-75 peer-focus:-translate-y-4"
-                >
+                <label class="absolute text-base text-gray-400 duration-300 transform -translate-y-4 scale-75 top-7 z-10 origin-[0] left-4  peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1 peer-focus:scale-75 peer-focus:-translate-y-4">
                   E-Mail
                 </label>
               </div>
