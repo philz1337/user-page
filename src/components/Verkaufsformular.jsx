@@ -310,64 +310,77 @@ export default function Verkaufsformular({
               reset={reset}
             />
 
-            <div className=" pb-10">
-              <p className="text-lg font-medium">
-                Wohin senden wir das Angebot?
-              </p>
+            <div className="pb-10">
+              <p className="text-lg font-medium">Kontaktdaten</p>
 
               <div className="grid grid-cols-2 gap-3 mt-2">
-                <div>
-                  <p className="text-sm font-medium text-gray-600">Vorname</p>
+                <div class="relative">
                   <input
                     type="text"
-                    className={
-                      errors.firstname
-                        ? "w-full p-3 outline-none mt-1 rounded-xl border border-red-600"
-                        : "w-full p-3 outline-none mt-1 rounded-xl border focus:border-primary"
-                    }
+                    id="firstname"
+                    class="w-full outline-none mt-1 rounded-xl border focus:border-primary px-4 pb-2.5 pt-6 peer"
                     {...register("firstname", {
                       required: true,
                       maxLength: 80,
                     })}
+                    placeholder=" "
                   />
+                  <label
+                    for="firstname"
+                    class="absolute text-base text-gray-400 duration-300 transform -translate-y-4 scale-75 top-7 z-10 origin-[0] left-4  peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1 peer-focus:scale-75 peer-focus:-translate-y-4"
+                  >
+                    Vorname
+                  </label>
                 </div>
 
-                <div>
-                  <p className="text-sm font-medium text-gray-600">Nachname</p>
+                <div class="relative">
                   <input
                     type="text"
-                    className={
-                      errors.lastname
-                        ? "w-full p-3 outline-none mt-1 rounded-xl border border-red-600"
-                        : "w-full p-3 outline-none mt-1 rounded-xl border focus:border-primary"
-                    }
+                    id="lastname"
+                    class="w-full outline-none mt-1 rounded-xl border focus:border-primary px-4 pb-2.5 pt-6 peer"
                     {...register("lastname", {
                       required: true,
                       maxLength: 80,
                     })}
+                    placeholder=" "
                   />
+                  <label
+                    for="lastname"
+                    class="absolute text-base text-gray-400 duration-300 transform -translate-y-4 scale-75 top-7 z-10 origin-[0] left-4  peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1 peer-focus:scale-75 peer-focus:-translate-y-4"
+                  >
+                    Nachname
+                  </label>
                 </div>
               </div>
 
-              <p className="mt-4 text-sm font-medium text-gray-600">E-Mail</p>
-              <input
-                type="text"
-                {...register("email", {
-                  required: true,
-                  pattern: /^\S+@\S+$/i,
-                })}
-                className={
-                  errors.email
-                    ? "w-full p-3 outline-none mt-1 rounded-xl border border-red-600"
-                    : "w-full p-3 outline-none mt-1 rounded-xl border focus:border-primary"
-                }
-              />
+              <div class="relative mt-3">
+                <input
+                  type="text"
+                  id="email"
+                  class="w-full outline-none mt-1 rounded-xl border focus:border-primary px-4 pb-2.5 pt-6 peer"
+                  {...register("email", {
+                    required: true,
+                    pattern: /^\S+@\S+$/i,
+                  })}
+                  placeholder=" "
+                />
+                <label
+                  for="email"
+                  class="absolute text-base text-gray-400 duration-300 transform -translate-y-4 scale-75 top-7 z-10 origin-[0] left-4  peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1 peer-focus:scale-75 peer-focus:-translate-y-4"
+                >
+                  E-Mail
+                </label>
+              </div>
 
               {errors.email && (
                 <span className="text-sm font-medium text-red-600">
                   Mit der E-Mail Adresse scheint etwas nicht zu stimmen.
                 </span>
               )}
+              <p id="floating_helper_text" class="text-xs text-gray-800 mt-3">
+                Wir benötigen diese Angaben um dir das Angebot per Mail zu
+                senden.
+              </p>
             </div>
 
             {articles_loop.map((num) => (
@@ -384,17 +397,31 @@ export default function Verkaufsformular({
             ))}
 
             {watch("picture1")?.length !== 1 && (
-              <div className="bg-secondary p-4 border-1 rounded-xl mt-8">
-                <p className="text-sm font-medium">
-                  Info: Sobald ein Artikel vollständig ausgefüllt wurde,
-                  erscheinen hier weitere Artikel.
-                </p>
+              <div class="flex p-4 mb-4 text-sm bg-secondary rounded-xl mt-5">
+                <svg
+                  aria-hidden="true"
+                  class="flex-shrink-0 inline w-5 h-5 mr-3"
+                  fill="currentColor"
+                  viewBox="0 0 20 20"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z"
+                    clip-rule="evenodd"
+                  ></path>
+                </svg>
+                <span class="sr-only">Info</span>
+                <div>
+                  Sobald ein Artikel vollständig ausgefüllt wurde, erscheinen
+                  hier weitere Artikel.
+                </div>
               </div>
             )}
 
             <button
               type="submit"
-              className="hover:shadow-md w-full hover:shadow-gray-400 transition-all bg-primary py-3 text-white rounded-xl mr-10 mt-20"
+              className="hover:shadow-md w-full h-14 hover:shadow-gray-400 transition-all bg-primary py-3 text-white rounded-xl mr-10 mt-10 mb-10"
             >
               Artikel hochladen
             </button>

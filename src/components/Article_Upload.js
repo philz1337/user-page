@@ -4,11 +4,9 @@ import { ReactComponent as IconPlus } from "../svg/plus.svg"
 
 export default function ArticleUpload({ number, register, watch, reset }) {
   return (
-    <div className="mb-20 mt-10">
-      <h1 className="text-xl font-semibold">{number}. Artikel</h1>
-      <p className="mt-4 text-sm font-medium text-gray-600">Foto</p>
-
-      <div className="grid place-items-center">
+    <div className="mb-20 mt-6">
+      <h1 className="text-lg font-medium">{number}. Artikel</h1>
+      <div className="grid place-items-center mt-3">
         {watch("picture" + number) && watch("picture" + number).length ? (
           <div className="relative h-32 w-32 border-2 hover:shadow-md hover:shadow-gray-400 hover:border-primary bg-gray-100 rounded-2xl">
             <input
@@ -33,27 +31,45 @@ export default function ArticleUpload({ number, register, watch, reset }) {
           </button>
         )}
       </div>
+      <div class="relative mt-3">
+        <input
+          type="text"
+          id="brand"
+          class="w-full outline-none mt-1 rounded-xl border focus:border-primary px-4 pb-2.5 pt-6 peer"
+          {...register("brand" + number, {
+            maxLength: 50,
+          })}
+          placeholder=" "
+        />
+        <label
+          for="brand"
+          class="absolute text-base text-gray-400 duration-300 transform -translate-y-4 scale-75 top-7 z-10 origin-[0] left-4  peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1 peer-focus:scale-75 peer-focus:-translate-y-4"
+        >
+          Marke
+        </label>
+      </div>
 
-      <p className="mt-4 text-sm font-medium text-gray-600">Marke</p>
-      <input
-        type="text"
-        {...register("brand" + number, {
-          maxLength: 50,
-        })}
-        placeholder="Adidas"
-        className="w-full p-3 outline-none mt-1 rounded-xl border focus:border-primary"
-      />
-      <p className="mt-4 text-sm font-medium text-gray-600">
-        Artikelbezeichnung
-      </p>
-      <input
-        type="text"
-        placeholder="Winterjacke"
-        {...register("title" + number, {
-          maxLength: 100,
-        })}
-        className="w-full p-3 outline-none mt-1 rounded-xl border focus:border-primary"
-      />
+      <div class="relative mt-3">
+        <input
+          type="text"
+          id="title"
+          class="w-full outline-none mt-1 rounded-xl border focus:border-primary px-4 pb-2.5 pt-6 peer"
+          {...register("title" + number, {
+            maxLength: 100,
+          })}
+          placeholder=" "
+        />
+        <label
+          for="title"
+          class="absolute text-base text-gray-400 duration-300 transform -translate-y-4 scale-75 top-7 z-10 origin-[0] left-4  peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1 peer-focus:scale-75 peer-focus:-translate-y-4"
+        >
+          Artikelbezeichnung
+        </label>
+      </div>
+      {/* <p id="floating_helper_text" class="text-xs text-gray-800 mt-3">
+        Es reicht ein Stichwort wie: Jacke, Jeans, T-Shirt, Pullover. Bei z.B.
+        Elektronik bitte eine Modellbezeichnung angeben.
+      </p> */}
     </div>
   )
 }
