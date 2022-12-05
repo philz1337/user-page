@@ -11,10 +11,6 @@ export default function Verkaufen() {
   const [issubmitted, setSubmitted] = React.useState(false)
   const [isSuccess, setSuccess] = React.useState(false)
 
-  const refreshPage = () => {
-    window.location.reload()
-  }
-
   return (
     <>
       <div className="flex flex-col items-center">
@@ -27,7 +23,7 @@ export default function Verkaufen() {
             ) : (
               <>
                 {isSuccess ? (
-                  <VerkaufErfolg refreshPage={refreshPage} />
+                  <VerkaufErfolg />
                 ) : (
                   <div className="w-10/12 lg:w-9/12 sm:grid">
                     <h1 className="text-2xl lg:text-3xl font-semibold text-center mt-5 mb-6 lg:mb-5 text-red-600">

@@ -1,9 +1,13 @@
 import React from "react"
 
-export default function VerkaufErfolg(refreshPage) {
+export default function VerkaufErfolg() {
   React.useEffect(() => {
     window.scrollTo(0, 0)
   }, [])
+
+  const refreshPage = () => {
+    window.location.reload()
+  }
 
   return (
     <div className="w-10/12 lg:w-9/12 sm:grid ">

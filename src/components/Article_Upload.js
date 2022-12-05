@@ -1,7 +1,6 @@
 import React from "react"
 
-import { ReactComponent as IconPlus } from "../pages/plus.svg"
-import { ReactComponent as IconX } from "../pages/x.svg"
+import { ReactComponent as IconPlus } from "../svg/plus.svg"
 
 export default function ArticleUpload({ number, register, watch, reset }) {
   return (
@@ -42,7 +41,7 @@ export default function ArticleUpload({ number, register, watch, reset }) {
           maxLength: 50,
         })}
         placeholder="Adidas"
-        className="w-full p-3 bg-gray-100 outline-none mt-1 rounded-md"
+        className="w-full p-3 outline-none mt-1 rounded-xl border focus:border-primary"
       />
       <p className="mt-4 text-sm font-medium text-gray-600">
         Artikelbezeichnung
@@ -53,7 +52,7 @@ export default function ArticleUpload({ number, register, watch, reset }) {
         {...register("title" + number, {
           maxLength: 100,
         })}
-        className="w-full p-3 bg-gray-100 outline-none mt-1 rounded-md"
+        className="w-full p-3 outline-none mt-1 rounded-xl border focus:border-primary"
       />
     </div>
   )

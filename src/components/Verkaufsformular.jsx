@@ -94,7 +94,7 @@ export default function Verkaufsformular({
               "1. Marke": data.brand1,
               "1. Artikel: Fotos hochladen": [
                 {
-                  url: path + server_links[0].filename,
+                  url: path + server_links[0]?.filename,
                   filename: "picture.jpg",
                 },
               ],
@@ -320,7 +320,11 @@ export default function Verkaufsformular({
                   <p className="text-sm font-medium text-gray-600">Vorname</p>
                   <input
                     type="text"
-                    className="w-full p-3 bg-gray-100 outline-none mt-1 rounded-md"
+                    className={
+                      errors.firstname
+                        ? "w-full p-3 outline-none mt-1 rounded-xl border border-red-600"
+                        : "w-full p-3 outline-none mt-1 rounded-xl border focus:border-primary"
+                    }
                     {...register("firstname", {
                       required: true,
                       maxLength: 80,
@@ -332,7 +336,11 @@ export default function Verkaufsformular({
                   <p className="text-sm font-medium text-gray-600">Nachname</p>
                   <input
                     type="text"
-                    className="w-full p-3 bg-gray-100 outline-none mt-1 rounded-md"
+                    className={
+                      errors.lastname
+                        ? "w-full p-3 outline-none mt-1 rounded-xl border border-red-600"
+                        : "w-full p-3 outline-none mt-1 rounded-xl border focus:border-primary"
+                    }
                     {...register("lastname", {
                       required: true,
                       maxLength: 80,
@@ -350,17 +358,17 @@ export default function Verkaufsformular({
                 })}
                 className={
                   errors.email
-                    ? "w-full p-3 bg-gray-100 outline-none mt-1 rounded-md border-2 border-red-600"
-                    : "w-full p-3 bg-gray-100 outline-none mt-1 rounded-md"
+                    ? "w-full p-3 outline-none mt-1 rounded-xl border border-red-600"
+                    : "w-full p-3 outline-none mt-1 rounded-xl border focus:border-primary"
                 }
               />
-            </div>
 
-            {errors.email && (
-              <span className="text-sm font-medium text-red-600">
-                Mit der E-Mail Adresse scheint etwas nicht zu stimmen.
-              </span>
-            )}
+              {errors.email && (
+                <span className="text-sm font-medium text-red-600">
+                  Mit der E-Mail Adresse scheint etwas nicht zu stimmen.
+                </span>
+              )}
+            </div>
 
             {articles_loop.map((num) => (
               <div>
@@ -376,17 +384,17 @@ export default function Verkaufsformular({
             ))}
 
             {watch("picture1")?.length !== 1 && (
-              <div className="bg-secondary p-4 border-1 rounded-md mt-8">
+              <div className="bg-secondary p-4 border-1 rounded-xl mt-8">
                 <p className="text-sm font-medium">
-                  Info: Hier erscheinen weitere Artikel sobald ein Artikel
-                  vollständig ausgefüllt wurde.
+                  Info: Sobald ein Artikel vollständig ausgefüllt wurde,
+                  erscheinen hier weitere Artikel.
                 </p>
               </div>
             )}
 
             <button
               type="submit"
-              className="hover:shadow-md w-full hover:shadow-gray-400 transition-all bg-primary py-3 text-white rounded-full mr-10 mt-20"
+              className="hover:shadow-md w-full hover:shadow-gray-400 transition-all bg-primary py-3 text-white rounded-xl mr-10 mt-20"
             >
               Artikel hochladen
             </button>
