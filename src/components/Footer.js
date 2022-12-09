@@ -131,7 +131,7 @@ export default function Footer() {
           </p>
         </div>
         <div>
-          <h1 className="text-xl text-gray-400 lg:mt-0 mt-7">Bald auch im:</h1>
+          <h1 className="text-xl text-gray-400 lg:mt-0 mt-7">Bald auch:</h1>
           <img src="/img/appStore.png" className="h-27 mt-3" alt="" />
         </div>
       </div>
