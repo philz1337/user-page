@@ -314,44 +314,43 @@ export default function Verkaufsformular({
               <p className="text-lg font-medium">Kontaktdaten</p>
 
               {/* Das geht irgendwie nicht */}
-              <div className="flex">
-                <div class="relative mr-3">
-                  <input
-                    type="text"
-                    id="firstname"
-                    class="w-full outline-none mt-1 rounded-xl border focus:border-primary px-4 pb-2.5 pt-6 peer"
-                    {...register("firstname", {
-                      required: true,
-                      maxLength: 80,
-                    })}
-                    placeholder=" "
-                  />
-                  <label
-                    for="firstname"
-                    class="absolute text-base text-gray-400 duration-300 transform -translate-y-4 scale-75 top-7 z-10 origin-[0] left-4  peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1 peer-focus:scale-75 peer-focus:-translate-y-4"
-                  >
-                    Vorname
-                  </label>
-                </div>
 
-                <div class="relative">
-                  <input
-                    type="text"
-                    id="lastname"
-                    class="w-full outline-none mt-1 rounded-xl border focus:border-primary px-4 pb-2.5 pt-6 peer"
-                    {...register("lastname", {
-                      required: true,
-                      maxLength: 80,
-                    })}
-                    placeholder=" "
-                  />
-                  <label
-                    for="lastname"
-                    class="absolute text-base text-gray-400 duration-300 transform -translate-y-4 scale-75 top-7 z-10 origin-[0] left-4  peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1 peer-focus:scale-75 peer-focus:-translate-y-4"
-                  >
-                    Nachname
-                  </label>
-                </div>
+              <div class="relative mt-2">
+                <input
+                  type="text"
+                  id="firstname"
+                  class="w-full outline-none mt-1 rounded-xl border focus:border-primary px-4 pb-2.5 pt-6 peer"
+                  {...register("firstname", {
+                    required: true,
+                    maxLength: 80,
+                  })}
+                  placeholder=" "
+                />
+                <label
+                  for="firstname"
+                  class="absolute text-base text-gray-400 duration-300 transform -translate-y-4 scale-75 top-7 z-10 origin-[0] left-4  peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1 peer-focus:scale-75 peer-focus:-translate-y-4"
+                >
+                  Vorname
+                </label>
+              </div>
+
+              <div class="relative mt-2">
+                <input
+                  type="text"
+                  id="lastname"
+                  class="w-full outline-none mt-1 rounded-xl border focus:border-primary px-4 pb-2.5 pt-6 peer"
+                  {...register("lastname", {
+                    required: true,
+                    maxLength: 80,
+                  })}
+                  placeholder=" "
+                />
+                <label
+                  for="lastname"
+                  class="absolute text-base text-gray-400 duration-300 transform -translate-y-4 scale-75 top-7 z-10 origin-[0] left-4  peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1 peer-focus:scale-75 peer-focus:-translate-y-4"
+                >
+                  Nachname
+                </label>
               </div>
 
               <div class="relative mt-2">

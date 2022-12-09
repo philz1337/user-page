@@ -17,7 +17,7 @@ export default function FAQs() {
               className="relative inline-block text-left w-full"
             >
               <div>
-                <Menu.Button className="w-full p-3 px-5 flex items-center justify-between border-b">
+                <Menu.Button className="w-full p-3 px-5 flex items-center text-left justify-between border-b">
                   <div className="w-full">{item.question}</div>
                   <ChevronDownIcon className="h-5" />
                 </Menu.Button>
