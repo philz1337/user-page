@@ -45,10 +45,12 @@ export default function Dropdown() {
             <NavLink to="/" className="navOption" href="#">
               Startseite
             </NavLink>
-            <Link onClick={onScrollProcess} smooth className="navOption">
-              Ablauf
-            </Link>
-            <Link onClick={onScrollBuy} smooth className="navOption">
+            <Menu.Item>
+              <Link onClick={onScrollProcess} smooth className="navOption">
+                Ablauf
+              </Link>
+            </Menu.Item>
+            <Link onClick={onScrollBuy} smooth end className="navOption">
               Kategorien
             </Link>
             <NavLink to="/kontakt" className="navOption" href="#">

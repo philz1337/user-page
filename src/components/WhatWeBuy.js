@@ -2,48 +2,48 @@ import React from "react"
 
 export default function WhatWeBuy() {
   return (
-    <div
-      id="whatWeBuy"
-      className="w-full flex items-center justify-center mt-20 bg-secondary"
-    >
-      <div className="w-10/12 lg:w-9/12 w-full pt-10 pb-10 lg:pt-16 lg:pb-16">
-        <h1 className="text-center font-semibold text-2xl lg:text-3xl">
-          Was wir ankaufen
-        </h1>
-        <div className="grid grid-cols-2 lg:grid-cols-5 gap-7 lg:gap-12 mt-10">
-          <Item
-            title="Kleidung"
-            img="/img/siiapb-1 1.png"
-            des="Hemden, Pullover, T-Shirts, Blusen, Jacken, Schuhe, Stiefel etc."
-          />
-          <Item
-            title="Technik"
-            img="/img/siiapb-1 2.png"
-            des="Handys, Tablets, Kameras, Fitness Tracker, Lautsprecher etc."
-          />
-          <Item
-            title="Küche"
-            img="/img/siiapb-1 3.png"
-            des="Geschirr, Porzellan, Keramik, Töpfe, Pfannen etc."
-          />
-          <Item
-            title="Accessoires"
-            img="/img/siiapb-1 4.png"
-            des="Schmuck, Uhren, Handtaschen, Portmonnaie, Brillen etc."
-          />
-          <Item
-            title="Spielzeug"
-            img="/img/siiapb-1 7.png"
-            des="Holzspielzeug, LEGO, Playmobil, Puppen, Gesellschaftsspiele etc."
-          />
-          <Item
-            title="Weiteres"
-            img="/img/siiapb-1 6.png"
-            des="Babyausstattung, Sportartikel und Zubehör, Deko, Beauty u.v.m. "
-          />
+    <>
+      <div id="whatWeBuy"></div>
+      <div className="w-full flex items-center justify-center mt-20 bg-secondary">
+        <div className="w-10/12 lg:w-9/12 w-full pt-10 pb-10 lg:pt-16 lg:pb-16">
+          <h1 className="text-center font-semibold text-2xl lg:text-3xl">
+            Was wir ankaufen
+          </h1>
+          <div className="grid grid-cols-2 lg:grid-cols-5 gap-7 lg:gap-12 mt-10">
+            <Item
+              title="Kleidung"
+              img="/img/siiapb-1 1.png"
+              des="Hemden, Pullover, T-Shirts, Blusen, Jacken, Schuhe, Stiefel etc."
+            />
+            <Item
+              title="Technik"
+              img="/img/siiapb-1 2.png"
+              des="Handys, Tablets, Kameras, Fitness Tracker, Lautsprecher etc."
+            />
+            <Item
+              title="Küche"
+              img="/img/siiapb-1 3.png"
+              des="Geschirr, Porzellan, Keramik, Töpfe, Pfannen etc."
+            />
+            <Item
+              title="Accessoires"
+              img="/img/siiapb-1 4.png"
+              des="Schmuck, Uhren, Handtaschen, Portmonnaie, Brillen etc."
+            />
+            <Item
+              title="Spielzeug"
+              img="/img/siiapb-1 7.png"
+              des="Holzspielzeug, LEGO, Playmobil, Puppen, Gesellschaftsspiele etc."
+            />
+            <Item
+              title="Weiteres"
+              img="/img/siiapb-1 6.png"
+              des="Babyausstattung, Sportartikel und Zubehör, Deko, Beauty u.v.m. "
+            />
+          </div>
         </div>
       </div>
-    </div>
+    </>
   )
 }
 
