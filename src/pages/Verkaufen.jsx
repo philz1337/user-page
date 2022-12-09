@@ -23,7 +23,11 @@ export default function Verkaufen() {
             ) : (
               <>
                 {isSuccess ? (
-                  <VerkaufErfolg />
+                  <VerkaufErfolg
+                    setLoading={setLoading}
+                    setSubmitted={setSubmitted}
+                    setSuccess={setSuccess}
+                  />
                 ) : (
                   <div className="w-10/12 lg:w-9/12 sm:grid">
                     <h1 className="text-2xl lg:text-3xl font-semibold text-center mt-5 mb-6 lg:mb-5 text-red-600">

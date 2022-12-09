@@ -24,7 +24,7 @@ export default function Dropdown() {
   }
 
   return (
-    <Menu as="div" className="relative inline-block text-left">
+    <Menu as="div" className="relative inline-block text-left outline-none">
       <div className="flex items-center justify-center">
         <Menu.Button>
           <Bars3Icon className="text-green-600 h-7 w-7" aria-hidden="true" />
@@ -40,7 +40,7 @@ export default function Dropdown() {
         leaveFrom="transform opacity-100 scale-100"
         leaveTo="transform opacity-0 scale-95"
       >
-        <Menu.Items className="absolute right-0 z-50 mt-2 origin-top-right rounded-md shadow-xl shadow-gray-300 bg-white">
+        <Menu.Items className="absolute right-0 z-50 mt-2 origin-top-right rounded-md shadow-xl shadow-gray-300 bg-white outline-none">
           <div className="p-3 flex flex-col items-center h-full w-60 z-50 bg-white">
             <NavLink to="/" className="navOption" href="#">
               Startseite

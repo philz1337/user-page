@@ -2,7 +2,7 @@ import React from "react"
 
 import { ReactComponent as IconPlus } from "../svg/plus.svg"
 
-export default function ArticleUpload({ number, register, watch, reset }) {
+export default function ArticleUpload({ number, register, watch }) {
   return (
     <div className="mb-14 mt-6">
       <h1 className="text-lg font-medium">{number}. Artikel</h1>

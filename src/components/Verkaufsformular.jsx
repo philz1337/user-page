@@ -14,7 +14,7 @@ export default function Verkaufsformular({
 }) {
   const {
     watch,
-    reset,
+
     register,
     handleSubmit,
     formState: { errors },
@@ -303,12 +303,7 @@ export default function Verkaufsformular({
 
         <div className="lg:border rounded-2xl lg:p-5">
           <form onSubmit={handleSubmit(onSubmit)}>
-            <ArticleUpload
-              number={1}
-              register={register}
-              watch={watch}
-              reset={reset}
-            />
+            <ArticleUpload number={1} register={register} watch={watch} />
 
             <div className="pb-10">
               <p className="text-lg font-medium">Kontaktdaten</p>
@@ -386,7 +381,6 @@ export default function Verkaufsformular({
                     number={num + 1}
                     register={register}
                     watch={watch}
-                    reset={reset}
                   />
                 )}
               </div>

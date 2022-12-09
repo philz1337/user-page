@@ -28,7 +28,6 @@ export default function Home() {
 
       <CookieConsent
         enableDeclineButton
-        flipButtons
         location="bottom"
         buttonText="Annehmen"
         declineButtonText="Ablehnen"
@@ -36,15 +35,16 @@ export default function Home() {
         style={{ background: "#2B373B" }}
         declineButtonStyle={{
           color: "white",
-          background: "#bfbfbf",
+          background: "#2B373B",
           fontSize: "15px",
           borderRadius: "10px",
+          border: "1px",
           fontWeight: "lighter",
         }}
         buttonStyle={{
           color: "white",
           background: "#03a84e",
-          fontSize: "20px",
+          fontSize: "15px",
           borderRadius: "10px",
           fontWeight: "normal",
         }}

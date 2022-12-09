@@ -1,12 +1,18 @@
 import React from "react"
 
-export default function VerkaufErfolg() {
+export default function VerkaufErfolg({
+  setLoading,
+  setSubmitted,
+  setSuccess,
+}) {
   React.useEffect(() => {
     window.scrollTo(0, 0)
   }, [])
 
-  const refreshPage = () => {
-    window.location.reload()
+  const mehrVerkaufen = () => {
+    setLoading(false)
+    setSubmitted(false)
+    setSuccess(false)
   }
 
   return (
@@ -32,7 +38,7 @@ export default function VerkaufErfolg() {
           <br />
 
           <button
-            onClick={refreshPage}
+            onClick={mehrVerkaufen}
             className="hover:shadow-md w-60 hover:shadow-gray-400 transition-all bg-primary text-center py-2 text-white rounded-full"
           >
             Mehr Artikel verkaufen
