@@ -81,7 +81,7 @@ export default function Verkaufsformular({
     const path = "https://backend.uber.space/files/"
     const options = {
       method: "POST",
-      url: "https://api.airtable.com/v0/appEpNZcaV5uiHvi6/Sandbox",
+      url: "https://api.airtable.com/v0/appEpNZcaV5uiHvi6/tblomwKHPoGrTFDA7",
       data: {
         records: [
           {
@@ -411,7 +411,7 @@ export default function Verkaufsformular({
 
             <button
               type="submit"
-              className="hover:shadow-md w-full h-14 hover:shadow-gray-400 transition-all bg-primary py-3 text-white rounded-xl mr-10 mt-10 mb-10"
+              className="hover:shadow-md w-full h-14 hover:shadow-gray-400 transition-all bg-primary py-3 text-white rounded-xl mt-10 mb-10"
             >
               Artikel hochladen
             </button>

@@ -32,7 +32,7 @@ export default function Banner() {
           </button>
         </Link>
         <p className="text-xs lg:text-sm ml-3">
-          Über 6.000 zufriedene <br /> Kunden, die uns weiterempfehlen
+          Über 6.000 zufriedene <br /> Kunden, die uns weiter&shy;empfehlen
         </p>
       </div>
     </div>

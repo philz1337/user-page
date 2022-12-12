@@ -20,7 +20,8 @@ export default function Conditions() {
             <p className="text-sm mt-3">
               Wir kaufen nur Artikel mit Marke oder einer hohen Qualität an. Der
               Wert deines Artikels sollte, etwa zweimal Portokosten entsprechen,
-              um dafür von uns einen Preis zu erhalten.
+              um dafür von uns einen Preis zu erhalten. Fälschungen kaufen wir
+              nicht an.
             </p>
           </div>
           <div>
@@ -31,7 +32,9 @@ export default function Conditions() {
             <p className="text-sm mt-3">
               Der Artikel muss sauber und mindestens in einem sehr guten Zustand
               sein. Das bedeutet, keine Flecken, Löcher oder grobe
-              Gebrauchsspuren aufweisen.
+              Gebrauchsspuren aufweisen. Der Zustand sollte etwas so sein, dass
+              man den Artikel noch mit gutem Gewissen einer nahestehenden Person
+              schenken würde.
             </p>
           </div>
           <div>
@@ -41,7 +44,7 @@ export default function Conditions() {
             </div>
             <p className="text-sm mt-3">
               Alles sollte natürlich einwandfrei funktionieren und vollständig
-              sein. Plagiate und Fälschungen kaufen wir nicht an.
+              sein.
             </p>
           </div>
         </div>
