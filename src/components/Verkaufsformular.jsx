@@ -348,6 +348,24 @@ export default function Verkaufsformular({
                 </label>
               </div>
 
+              {/* <div class="relative mt-2">
+                <select
+                  {...register("Quelle")}
+                  // class="w-full outline-none mt-1 rounded-xl border focus:border-primary px-4 pb-2.5 pt-6 peer"
+                  class="block w-full px-4 py-3 text-base text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500"
+                >
+                  <option selected>
+                    Wie bist du auf uns aufmerksam geworden?
+                  </option>
+                  <option value="Google">Google</option>
+                  <option value="Podcast">Podcast</option>
+                  <option value="Ebay">Ebay</option>
+                  <option value="Empfehlung">Empfehlung</option>
+                  <option value="Stammkunde">Stammkunde</option>
+                  <option value="Sonstige">Sonstige</option>
+                </select>
+              </div> */}
+
               <div class="relative mt-2">
                 <input
                   type="text"
